@@ -100,39 +100,75 @@ def save(df: pd.DataFrame, path: Path) -> dict | None:
     return out
 
 
-def fetch_ranking() -> list[dict]:
-    """株探の「本日活況銘柄（約定回数）」から、株価100円以上3,000円未満の個別株を拾う。"""
-    url = "https://kabutan.jp/warning/?mode=2_9"
-    try:
-        r = requests.get(url, headers=UA, timeout=30)
-        r.raise_for_status()
-        tables = pd.read_html(io.StringIO(r.text))
-    except Exception as e:  # noqa: BLE001
-        errors.append(f"ranking: {e}")
-        return []
-    table = next((t for t in tables if any("約定" in str(c) for c in t.columns)), None)
-    if table is None:
-        errors.append("ranking: 約定回数の表が見つかりませんでした")
-        return []
-    table.columns = [str(c[-1] if isinstance(c, tuple) else c) for c in table.columns]
-    code_col = next(c for c in table.columns if "コード" in c)
-    name_col = next(c for c in table.columns if "銘柄" in c)
-    price_col = next(c for c in table.columns if "株価" in c)
-    tick_col = next(c for c in table.columns if "約定" in c)
+RANKING_URLS = [
+    # 松井証券 Tick回数ランキング（市場全体・上位100）
+    "https://finance.matsui.co.jp/ranking-tick/index",
+    "https://finance.matsui.co.jp/ranking-tick/index?page=2",
+    # 株探 本日活況銘柄（予備）
+    "https://kabutan.jp/warning/?mode=2_9",
+]
+
+
+def _num(text) -> float:
+    m = re.search(r"-?[\d,]+(?:\.\d+)?", str(text))
+    if not m:
+        raise ValueError(text)
+    return float(m.group(0).replace(",", ""))
+
+
+def _parse_ranking_table(t: pd.DataFrame) -> list[dict]:
+    t.columns = [str(c[-1] if isinstance(c, tuple) else c) for c in t.columns]
+    name_col = next(c for c in t.columns if "銘柄" in c)
+    price_col = next(c for c in t.columns if "現在値" in c or "株価" in c)
+    tick_col = next(c for c in t.columns if "約定" in c)
+    code_col = next((c for c in t.columns if "コード" in c and c != name_col), None)
+    code_re = re.compile(r"(?<![0-9A-Z])([0-9]{3}[0-9A-Z])(?![0-9A-Z])")
     rows = []
-    for _, row in table.iterrows():
-        code = str(row[code_col]).strip()
+    for _, row in t.iterrows():
+        name_cell = str(row[name_col])
+        src = str(row[code_col]) if code_col else name_cell
+        m = code_re.search(src)
+        if not m:
+            continue
+        code = m.group(1)
+        if not code_col:  # 「フジクラ 5803 東P」のように銘柄名の中にコードがある形式
+            name_cell = name_cell[:m.start()].strip()
         try:
-            price = float(str(row[price_col]).replace(",", ""))
-            ticks = int(float(str(row[tick_col]).replace(",", "")))
+            price, ticks = _num(row[price_col]), int(_num(row[tick_col]))
         except ValueError:
             continue
+        rows.append({"code": code, "name": name_cell, "price": price, "ticks": ticks})
+    return rows
+
+
+def fetch_ranking() -> list[dict]:
+    """約定回数（ティック回数）ランキングから、株価100円以上3,000円未満の個別株を拾う。"""
+    collected: list[dict] = []
+    for url in RANKING_URLS:
+        try:
+            r = requests.get(url, headers=UA, timeout=30)
+            r.raise_for_status()
+            tables = pd.read_html(io.StringIO(r.text))
+            table = next((t for t in tables if any("約定" in str(c) for c in t.columns)), None)
+            if table is None:
+                raise ValueError("約定回数の表が見つかりませんでした")
+            collected += _parse_ranking_table(table)
+        except Exception as e:  # noqa: BLE001
+            errors.append(f"ranking {url}: {e}")
+        if collected and "kabutan" not in url and url.endswith("page=2"):
+            break  # 松井証券で取れたら株探は見に行かない
+        time.sleep(1)
+    seen, rows = set(), []
+    for row in sorted(collected, key=lambda r: -r["ticks"]):
+        if row["code"] in seen:
+            continue
+        seen.add(row["code"])
+        code, price = row["code"], row["price"]
+        name = row["name"]
         # ETF・ETNを除いて個別株だけ残す（コード帯と名前の両方で判定）
-        name = str(row[name_col])
         is_etf = (code.isdigit() and (1300 <= int(code) <= 1699 or 2500 <= int(code) <= 2599)) \
             or any(w in name for w in ("ETF", "ＥＴＦ", "ETN", "ＥＴＮ", "レバ", "ベア", "ブル", "インバ"))
-        rows.append({"code": code, "name": str(row[name_col]).strip(), "price": price,
-                     "ticks": ticks, "eligible": (100 <= price < 3000) and not is_etf})
+        rows.append({**row, "eligible": (100 <= price < 3000) and not is_etf})
     return rows
 
 
