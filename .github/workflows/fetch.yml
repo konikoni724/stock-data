@@ -1,0 +1,47 @@
+name: 株価データの取得
+
+on:
+  schedule:
+    # 時刻はUTC。日本時間は+9時間。GitHubの混雑で数分〜十数分遅れることがある
+    - cron: "35 22 * * 0-4"   # 平日 7:35 JST（寄り付き前レポート用）
+    - cron: "32 2 * * 1-5"    # 平日 11:32 JST（前引けレポート用）
+    - cron: "38 6 * * 1-5"    # 平日 15:38 JST（大引けレポート用）
+    - cron: "20 7 * * 1-5"    # 平日 16:20 JST（大引けの取り直し）
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-prices
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: ライブラリのインストール
+        run: pip install --quiet "yfinance>=0.2.50" pandas requests lxml
+
+      - name: 株価を取得
+        run: python scripts/fetch_prices.py
+
+      - name: 変更を保存
+        if: always()
+        run: |
+          git config user.name "stock-data-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "変更なし"
+          else
+            git commit -m "株価データ更新 $(TZ=Asia/Tokyo date '+%Y-%m-%d %H:%M')"
+            git push
+          fi
