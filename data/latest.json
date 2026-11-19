@@ -1,5 +1,5 @@
 {
-  "updated_at_jst": "2026-11-19 16:53",
+  "updated_at_jst": "2026-11-19 16:56",
   "stocks": {
     "5803": {
       "date": "2026-11-19",
@@ -80,6 +80,56 @@
       "volume": 33631300.0,
       "prev_close": 3251.0,
       "source_list": "watch"
+    },
+    "3436": {
+      "date": "2026-11-19",
+      "close": 2035.0,
+      "open": 2029.5,
+      "high": 2092.0,
+      "low": 1958.0,
+      "volume": 13119800.0,
+      "prev_close": 2014.5,
+      "source_list": "ranking"
+    },
+    "5706": {
+      "date": "2026-11-19",
+      "close": 1292.0,
+      "open": 1324.0,
+      "high": 1331.0,
+      "low": 1254.0,
+      "volume": 20333000.0,
+      "prev_close": 1354.0,
+      "source_list": "ranking"
+    },
+    "8766": {
+      "date": "2026-11-19",
+      "close": 566.0,
+      "open": 575.0999755859375,
+      "high": 579.0,
+      "low": 566.0,
+      "volume": 56669700.0,
+      "prev_close": 581.2999877929688,
+      "source_list": "ranking"
+    },
+    "7012": {
+      "date": "2026-11-19",
+      "close": 1673.0,
+      "open": 1669.0,
+      "high": 1678.0,
+      "low": 1645.5,
+      "volume": 17410200.0,
+      "prev_close": 1705.0,
+      "source_list": "ranking"
+    },
+    "6315": {
+      "date": "2026-11-19",
+      "close": 2394.0,
+      "open": 2171.0,
+      "high": 2423.0,
+      "low": 2157.0,
+      "volume": 7560700.0,
+      "prev_close": 2198.0,
+      "source_list": "ranking"
     }
   },
   "market": {
@@ -94,7 +144,7 @@
     },
     "usdjpy": {
       "date": "2026-11-19",
-      "close": 159.7270050048828,
+      "close": 159.70899963378906,
       "open": 159.2969970703125,
       "high": 159.7480010986328,
       "low": 159.26499938964844,
@@ -120,8 +170,217 @@
       "prev_close": 5.103000164031982
     }
   },
-  "ranking": [],
-  "errors": [
-    "ranking: 405 Client Error: Not Allowed for url: https://kabutan.jp/warning/?mode=2_9"
-  ]
+  "ranking": [
+    {
+      "code": "285A",
+      "name": "キオクシアホールディングス",
+      "price": 8271.0,
+      "ticks": 471156,
+      "eligible": false
+    },
+    {
+      "code": "9984",
+      "name": "ソフトバンクグループ",
+      "price": 3537.0,
+      "ticks": 127628,
+      "eligible": false
+    },
+    {
+      "code": "5803",
+      "name": "フジクラ",
+      "price": 2564.5,
+      "ticks": 126420,
+      "eligible": true
+    },
+    {
+      "code": "6976",
+      "name": "太陽誘電",
+      "price": 6755.0,
+      "ticks": 122466,
+      "eligible": false
+    },
+    {
+      "code": "6857",
+      "name": "アドバンテスト",
+      "price": 27045.0,
+      "ticks": 114188,
+      "eligible": false
+    },
+    {
+      "code": "4062",
+      "name": "イビデン",
+      "price": 5260.0,
+      "ticks": 93204,
+      "eligible": false
+    },
+    {
+      "code": "8035",
+      "name": "東京エレクトロン",
+      "price": 8940.0,
+      "ticks": 79552,
+      "eligible": false
+    },
+    {
+      "code": "6981",
+      "name": "村田製作所",
+      "price": 5161.0,
+      "ticks": 77093,
+      "eligible": false
+    },
+    {
+      "code": "5801",
+      "name": "古河電気工業",
+      "price": 1855.0,
+      "ticks": 75359,
+      "eligible": true
+    },
+    {
+      "code": "5016",
+      "name": "ＪＸ金属",
+      "price": 2012.5,
+      "ticks": 67193,
+      "eligible": true
+    },
+    {
+      "code": "3436",
+      "name": "ＳＵＭＣＯ",
+      "price": 2035.0,
+      "ticks": 52816,
+      "eligible": true
+    },
+    {
+      "code": "6525",
+      "name": "ＫＯＫＵＳＡＩ　ＥＬＥＣＴＲＩＣ",
+      "price": 5502.0,
+      "ticks": 51796,
+      "eligible": false
+    },
+    {
+      "code": "7974",
+      "name": "任天堂",
+      "price": 9306.0,
+      "ticks": 38677,
+      "eligible": false
+    },
+    {
+      "code": "6723",
+      "name": "ルネサスエレクトロニクス",
+      "price": 2608.0,
+      "ticks": 37942,
+      "eligible": true
+    },
+    {
+      "code": "6920",
+      "name": "レーザーテック",
+      "price": 33320.0,
+      "ticks": 35958,
+      "eligible": false
+    },
+    {
+      "code": "7011",
+      "name": "三菱重工業",
+      "price": 2879.0,
+      "ticks": 33121,
+      "eligible": true
+    },
+    {
+      "code": "5802",
+      "name": "住友電気工業",
+      "price": 1341.5,
+      "ticks": 31393,
+      "eligible": true
+    },
+    {
+      "code": "6758",
+      "name": "ソニーグループ",
+      "price": 4365.0,
+      "ticks": 29302,
+      "eligible": false
+    },
+    {
+      "code": "6752",
+      "name": "パナソニック　ホールディングス",
+      "price": 3015.0,
+      "ticks": 28678,
+      "eligible": false
+    },
+    {
+      "code": "5706",
+      "name": "三井金属",
+      "price": 1292.0,
+      "ticks": 28130,
+      "eligible": true
+    },
+    {
+      "code": "8766",
+      "name": "東京海上ホールディングス",
+      "price": 566.0,
+      "ticks": 27510,
+      "eligible": true
+    },
+    {
+      "code": "7012",
+      "name": "川崎重工業",
+      "price": 1673.0,
+      "ticks": 27327,
+      "eligible": true
+    },
+    {
+      "code": "6315",
+      "name": "ＴＯＷＡ",
+      "price": 2394.0,
+      "ticks": 25535,
+      "eligible": true
+    },
+    {
+      "code": "3042",
+      "name": "セキュアヴェイル",
+      "price": 884.0,
+      "ticks": 24545,
+      "eligible": true
+    },
+    {
+      "code": "7936",
+      "name": "アシックス",
+      "price": 4290.0,
+      "ticks": 23254,
+      "eligible": false
+    },
+    {
+      "code": "6762",
+      "name": "ＴＤＫ",
+      "price": 2273.5,
+      "ticks": 22722,
+      "eligible": true
+    },
+    {
+      "code": "4755",
+      "name": "楽天グループ",
+      "price": 609.4,
+      "ticks": 21851,
+      "eligible": true
+    },
+    {
+      "code": "6526",
+      "name": "ソシオネクスト",
+      "price": 1728.0,
+      "ticks": 21819,
+      "eligible": true
+    },
+    {
+      "code": "7532",
+      "name": "パン・パシフィック・インターナショナルホールディングス",
+      "price": 836.5,
+      "ticks": 20536,
+      "eligible": true
+    },
+    {
+      "code": "7013",
+      "name": "ＩＨＩ",
+      "price": 2313.0,
+      "ticks": 20515,
+      "eligible": true
+    }
+  ],
+  "errors": []
 }
