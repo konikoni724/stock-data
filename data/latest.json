@@ -1,0 +1,127 @@
+{
+  "updated_at_jst": "2026-11-19 16:53",
+  "stocks": {
+    "5803": {
+      "date": "2026-11-19",
+      "close": 2564.5,
+      "open": 2592.0,
+      "high": 2598.5,
+      "low": 2477.0,
+      "volume": 48643500.0,
+      "prev_close": 2605.5,
+      "source_list": "watch"
+    },
+    "5801": {
+      "date": "2026-11-19",
+      "close": 1855.0,
+      "open": 1849.5,
+      "high": 1877.5,
+      "low": 1786.0,
+      "volume": 28136100.0,
+      "prev_close": 1889.5,
+      "source_list": "watch"
+    },
+    "5802": {
+      "date": "2026-11-19",
+      "close": 1341.5,
+      "open": 1370.0,
+      "high": 1370.0,
+      "low": 1302.0,
+      "volume": 25232400.0,
+      "prev_close": 1365.0,
+      "source_list": "watch"
+    },
+    "5016": {
+      "date": "2026-11-19",
+      "close": 2012.5,
+      "open": 2038.5,
+      "high": 2052.5,
+      "low": 1962.5,
+      "volume": 33995700.0,
+      "prev_close": 2145.5,
+      "source_list": "watch"
+    },
+    "6723": {
+      "date": "2026-11-19",
+      "close": 2608.0,
+      "open": 2589.5,
+      "high": 2635.0,
+      "low": 2533.0,
+      "volume": 11119200.0,
+      "prev_close": 2618.0,
+      "source_list": "watch"
+    },
+    "7011": {
+      "date": "2026-11-19",
+      "close": 2879.0,
+      "open": 2840.0,
+      "high": 2902.0,
+      "low": 2816.0,
+      "volume": 20609900.0,
+      "prev_close": 2874.5,
+      "source_list": "watch"
+    },
+    "7532": {
+      "date": "2026-11-19",
+      "close": 836.5,
+      "open": 818.7999877929688,
+      "high": 838.7999877929688,
+      "low": 814.2999877929688,
+      "volume": 16365400.0,
+      "prev_close": 811.5,
+      "source_list": "watch"
+    },
+    "8306": {
+      "date": "2026-11-19",
+      "close": 3197.0,
+      "open": 3150.0,
+      "high": 3223.0,
+      "low": 3140.0,
+      "volume": 33631300.0,
+      "prev_close": 3251.0,
+      "source_list": "watch"
+    }
+  },
+  "market": {
+    "nikkei225": {
+      "date": "2026-11-19",
+      "close": 59444.2109375,
+      "open": 59025.19140625,
+      "high": 59660.609375,
+      "low": 58750.53125,
+      "volume": 0.0,
+      "prev_close": 59024.28125
+    },
+    "usdjpy": {
+      "date": "2026-11-19",
+      "close": 159.7270050048828,
+      "open": 159.2969970703125,
+      "high": 159.7480010986328,
+      "low": 159.26499938964844,
+      "volume": 0.0,
+      "prev_close": 159.50399780273438
+    },
+    "sox": {
+      "date": "2026-11-18",
+      "close": 9652.7998046875,
+      "open": 9788.6298828125,
+      "high": 9828.1904296875,
+      "low": 9493.9296875,
+      "volume": 0.0,
+      "prev_close": 9642.8798828125
+    },
+    "us10y": {
+      "date": "2026-11-18",
+      "close": 5.065999984741211,
+      "open": 5.11299991607666,
+      "high": 5.120999813079834,
+      "low": 5.052000045776367,
+      "volume": 0.0,
+      "prev_close": 5.103000164031982
+    }
+  },
+  "ranking": [],
+  "errors": [
+    "ranking: 405 Client Error: Not Allowed for url: https://kabutan.jp/warning/?mode=2_9"
+  ]
+}
