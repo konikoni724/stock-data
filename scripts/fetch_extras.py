@@ -151,17 +151,115 @@ def calendar() -> dict:
     return {}
 
 
+# ---- 決算短信などのPDFを中身まで読む ----
+FILING_WORDS = ("決算短信", "業績予想", "修正", "配当", "自己株式", "決算説明", "月次")
+
+
+def pdf_text(url: str, max_pages: int = 4, max_chars: int = 7000) -> str:
+    import pdfplumber
+    r = requests.get(url, headers=UA, timeout=60)
+    r.raise_for_status()
+    with pdfplumber.open(io.BytesIO(r.content)) as pdf:
+        texts = []
+        for page in pdf.pages[:max_pages]:
+            texts.append(page.extract_text() or "")
+    text = re.sub(r"[ \t]+", " ", "\n".join(texts))
+    return text[:max_chars]
+
+
+def filings(code: str, items: list[dict], now: datetime) -> list[dict]:
+    out = []
+    for it in items:
+        title, t = it.get("title") or "", it.get("time") or ""
+        if not any(w in title for w in FILING_WORDS):
+            continue
+        try:
+            when = datetime.strptime(t[:19], "%Y-%m-%d %H:%M:%S").replace(tzinfo=JST)
+        except ValueError:
+            continue
+        if now - when > timedelta(days=14):
+            continue
+        url = it.get("url") or ""
+        url = url.split("rd.php?", 1)[-1]
+        try:
+            out.append({"time": t, "title": title, "url": url, "text": pdf_text(url)})
+        except Exception as e:  # noqa: BLE001
+            errors.append(f"{code} filing pdf: {e}")
+        if len(out) >= 3:
+            break
+        time.sleep(1)
+    return out
+
+
+# ---- 需給データ（日本取引所） ----
+JPX = "https://www.jpx.co.jp"
+
+
+def _latest_link(page: str, pattern: str) -> str | None:
+    r = requests.get(JPX + page, headers=UA, timeout=30)
+    r.raise_for_status()
+    links = re.findall(r'href="([^"]*' + pattern + ')"', r.text)
+    return (JPX + links[0]) if links and links[0].startswith("/") else (links[0] if links else None)
+
+
+def jpx_supply(codes: list[str]) -> dict:
+    import pdfplumber
+    out: dict = {}
+    # 日々公表銘柄の信用残（その日に公表対象になっている銘柄だけ載る）
+    try:
+        url = _latest_link("/markets/statistics-equities/margin/01.html", r"_mtall\.pdf")
+        r = requests.get(url, headers=UA, timeout=60)
+        r.raise_for_status()
+        lines = []
+        with pdfplumber.open(io.BytesIO(r.content)) as pdf:
+            for page in pdf.pages:
+                lines += (page.extract_text() or "").splitlines()
+        hits = {c: [ln for ln in lines if re.search(rf"(?<!\d){c}(?!\d)", ln)][:3] for c in codes}
+        out["daily_margin"] = {"source": url, "header": lines[:6],
+                               "rows": {c: v for c, v in hits.items() if v}}
+    except Exception as e:  # noqa: BLE001
+        errors.append(f"jpx daily_margin: {e}")
+    # 逆日歩（品貸料）
+    try:
+        url = JPX + "/markets/statistics-equities/margin/tvdivq0000001rb8-att/Premium_Charges.xlsx"
+        df = pd.read_excel(url, header=None, dtype=str, storage_options=UA)
+        rows = {}
+        for c in codes:
+            m = df[df.apply(lambda r: any(str(v).strip().startswith(c) for v in r.values), axis=1)]
+            if not m.empty:
+                rows[c] = [" | ".join(v for v in r if v and v != "nan") for r in m.astype(str).values.tolist()][:2]
+        out["premium_charges"] = {"source": url, "rows": rows}
+    except Exception as e:  # noqa: BLE001
+        errors.append(f"jpx premium: {e}")
+    # 空売り比率（市場全体）
+    try:
+        url = _latest_link("/markets/statistics-equities/short-selling/index.html", r"-m\.pdf")
+        out["short_selling"] = {"source": url, "text": pdf_text(url, max_pages=1, max_chars=2500)}
+    except Exception as e:  # noqa: BLE001
+        errors.append(f"jpx short_selling: {e}")
+    # 信用取引現在高（市場全体・週次）
+    try:
+        url = _latest_link("/markets/statistics-equities/margin/04.html", r"_mtcurrent\.pdf")
+        out["margin_total_weekly"] = {"source": url, "text": pdf_text(url, max_pages=1, max_chars=2500)}
+    except Exception as e:  # noqa: BLE001
+        errors.append(f"jpx margin_total: {e}")
+    return out
+
+
 def main() -> int:
     now = datetime.now(JST)
     names = names_and_codes()
     out: dict = {"updated_at_jst": now.strftime("%Y-%m-%d %H:%M"), "names": names,
                  "fundamentals": {}, "disclosures": {}, "news": {}, "market_news": {},
-                 "calendar": {}, "errors": []}
+                 "calendar": {}, "filings": {}, "supply": {}, "errors": []}
 
     for code, name in names.items():
         out["fundamentals"][code] = fundamentals(code)
         try:
             out["disclosures"][code] = disclosures(code)
+            f = filings(code, out["disclosures"][code], now)
+            if f:
+                out["filings"][code] = f
         except Exception as e:  # noqa: BLE001
             errors.append(f"{code} disclosures: {e}")
         try:
@@ -182,6 +280,7 @@ def main() -> int:
             errors.append(f"market_news {key}: {e}")
 
     out["calendar"] = calendar()
+    out["supply"] = jpx_supply(list(names))
     out["errors"] = errors
     (DATA / "extras.json").write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
     print(json.dumps({"codes": len(names), "errors": errors}, ensure_ascii=False))

@@ -31,14 +31,14 @@ jobs:
           python-version: "3.12"
 
       - name: ライブラリのインストール
-        run: pip install --quiet "yfinance>=0.2.50" pandas requests lxml html5lib beautifulsoup4
+        run: pip install --quiet "yfinance>=0.2.50" pandas requests lxml html5lib beautifulsoup4 pdfplumber openpyxl
 
       - name: 株価を取得
         run: python scripts/fetch_prices.py
 
       - name: 業績・開示・ニュースを取得
         continue-on-error: true
-        timeout-minutes: 8
+        timeout-minutes: 12
         run: python scripts/fetch_extras.py
 
       - name: 変更を保存
