@@ -143,7 +143,7 @@ def calendar() -> dict:
             rows = []
             for t in big[:3]:
                 t = t.astype(str)
-                rows += [" | ".join(v for v in row if v and v != "nan") for row in t.values.tolist()]
+                rows += [" | ".join(str(v) for v in row if str(v) not in ("", "nan")) for row in t.values.tolist()]
             return {"source": url, "rows": rows[:80]}
         except Exception as e:  # noqa: BLE001
             errors.append(f"calendar {url}: {e}")

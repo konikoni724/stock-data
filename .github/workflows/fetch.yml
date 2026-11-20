@@ -31,7 +31,7 @@ jobs:
           python-version: "3.12"
 
       - name: ライブラリのインストール
-        run: pip install --quiet "yfinance>=0.2.50" pandas requests lxml
+        run: pip install --quiet "yfinance>=0.2.50" pandas requests lxml html5lib beautifulsoup4
 
       - name: 株価を取得
         run: python scripts/fetch_prices.py
