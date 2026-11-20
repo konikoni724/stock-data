@@ -36,6 +36,11 @@ jobs:
       - name: 株価を取得
         run: python scripts/fetch_prices.py
 
+      - name: 業績・開示・ニュースを取得
+        continue-on-error: true
+        timeout-minutes: 8
+        run: python scripts/fetch_extras.py
+
       - name: 変更を保存
         if: always()
         run: |

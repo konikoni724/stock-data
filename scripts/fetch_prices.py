@@ -31,6 +31,7 @@ MARKET_TICKERS = {
     "us10y": "^TNX",
     # 東証グロース市場250指数そのものはYahooに無いため、連動ETF（2516）で値動きを代用
     "growth250_etf": "2516.T",
+    "nikkei_futures": "NIY=F",  # 日経平均先物（CME・円建て）。夜間の動きの目安
 }
 JGB_URL = "https://www.mof.go.jp/jgbs/reference/interest_rate/jgbcm.csv"
 
