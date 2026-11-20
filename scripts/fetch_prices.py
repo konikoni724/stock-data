@@ -29,7 +29,10 @@ MARKET_TICKERS = {
     "usdjpy": "JPY=X",
     "sox": "^SOX",
     "us10y": "^TNX",
+    # 東証グロース市場250指数そのものはYahooに無いため、連動ETF（2516）で値動きを代用
+    "growth250_etf": "2516.T",
 }
+JGB_URL = "https://www.mof.go.jp/jgbs/reference/interest_rate/jgbcm.csv"
 
 errors: list[str] = []
 
@@ -91,12 +94,12 @@ def save(df: pd.DataFrame, path: Path) -> dict | None:
     df.round(2).to_csv(path)
     last = df.iloc[-1]
     prev = df.iloc[-2] if len(df) > 1 else None
-    out = {"date": df.index[-1].strftime("%Y-%m-%d"), "close": float(last["Close"])}
+    out = {"date": df.index[-1].strftime("%Y-%m-%d"), "close": round(float(last["Close"]), 2)}
     for k in ("Open", "High", "Low", "Volume"):
         if k in df.columns:
-            out[k.lower()] = float(last[k])
+            out[k.lower()] = round(float(last[k]), 2)
     if prev is not None:
-        out["prev_close"] = float(prev["Close"])
+        out["prev_close"] = round(float(prev["Close"]), 2)
     return out
 
 
@@ -172,6 +175,33 @@ def fetch_ranking() -> list[dict]:
     return rows
 
 
+def fetch_jgb10y() -> dict | None:
+    """財務省の国債金利（当月分CSV）から日本10年国債利回りを取る。"""
+    r = requests.get(JGB_URL, headers=UA, timeout=30)
+    r.raise_for_status()
+    text = r.content.decode("shift_jis", errors="replace")
+    rows = [line.split(",") for line in text.splitlines() if line.strip()]
+    header = next(row for row in rows if "10年" in row)
+    i10 = header.index("10年")
+    def ok(row):
+        try:
+            return len(row) > i10 and re.match(r"[RH]\d", row[0].strip()) and _num(row[i10]) is not None
+        except ValueError:
+            return False
+    data = [row for row in rows[rows.index(header) + 1:] if ok(row)]
+
+    def to_date(w: str) -> str:  # 和暦「R8.11.19」→「2026-11-19」
+        era, y, m, d = re.match(r"([RH])(\d+)\.(\d+)\.(\d+)", w.strip()).groups()
+        year = int(y) + (2018 if era == "R" else 1988)
+        return f"{year:04d}-{int(m):02d}-{int(d):02d}"
+
+    last = data[-1]
+    out = {"date": to_date(last[0]), "close": _num(last[i10])}
+    if len(data) > 1:
+        out["prev_close"] = _num(data[-2][i10])
+    return out
+
+
 def main() -> int:
     now = datetime.now(JST)
     latest: dict = {"updated_at_jst": now.strftime("%Y-%m-%d %H:%M"), "stocks": {},
@@ -195,6 +225,13 @@ def main() -> int:
                 latest["market"][name] = info
         except Exception as e:  # noqa: BLE001
             errors.append(f"{name}: {e}")
+
+    try:
+        info = fetch_jgb10y()
+        if info:
+            latest["market"]["jgb10y"] = info
+    except Exception as e:  # noqa: BLE001
+        errors.append(f"jgb10y: {e}")
 
     latest["errors"] = errors
     DATA.mkdir(exist_ok=True)

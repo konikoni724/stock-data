@@ -12,7 +12,7 @@ Claude の予約レポート（寄り付き前・前引け後・大引け後）�
 | `data/daily/コード.csv` | 各銘柄の日足（約1年分） |
 | `data/market/*.csv` | 日経平均・ドル円・SOX指数・米10年金利 |
 | `scripts/fetch_prices.py` | 取得プログラム |
-| `.github/workflows/fetch.yml` | 自動実行の設定（平日 7:35／11:50／15:38／16:20 JST） |
+| `.github/workflows/fetch.yml` | 自動実行の設定（レポート係が直前に手動実行＋予備の予約実行） |
 
 ## 手動で動かすには
 GitHub の「Actions」タブ →「株価データの取得」→「Run workflow」。
