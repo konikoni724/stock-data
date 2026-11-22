@@ -1,0 +1,401 @@
+{
+  "generated_at": "2026-11-22T17:25:23+09:00",
+  "run_type": "test",
+  "stocks": [
+    {
+      "code": "5803",
+      "name": "フジクラ",
+      "items": [
+        {
+          "type": "other",
+          "headline": "代表取締役CFOの飯島和人へのインタビュー記事および動画が「JBpress Innovation Review」で公開",
+          "summary": "CFO飯島氏が財務と事業の一体化や大型投資の意思決定を支える仕組みについて語る記事・動画の公開を告知。",
+          "published": "2026-11-20",
+          "source_name": "株式会社フジクラ",
+          "url": "https://www.fujikura.co.jp/news/information/20261120cfojbpress_innovation_review.html",
+          "tone": "中立"
+        }
+      ],
+      "fetch_failed": [
+        "https://jbpress.ismedia.jp/articles/-/98053 （フジクラ公式告知に無料会員登録が必要と明記されているため、記事本文は開いて確認せず）"
+      ]
+    },
+    {
+      "code": "5801",
+      "name": "古河電工",
+      "items": [
+        {
+          "type": "news",
+          "headline": "後場の日経平均は70円安でスタート、JX金属や古河電工などが下落",
+          "summary": "非鉄金属株が下落率上位となる中、古河電工も後場に下落したと報道。",
+          "published": "2026-11-19",
+          "source_name": "株探ニュース（フィスコ）",
+          "url": "https://s.kabutan.jp/news/n202611190679/",
+          "tone": "悪材料"
+        },
+        {
+          "type": "news",
+          "headline": "日経平均 大引け｜3日ぶり急反落、ハイテク株中心に全面安（11月20日）",
+          "summary": "全面安となり、古河電工は東証プライム値下がり率5位。",
+          "published": "2026-11-20",
+          "source_name": "株探ニュース",
+          "url": "https://kabutan.jp/news/marketnews/?b=n202611201373",
+          "tone": "悪材料"
+        }
+      ],
+      "fetch_failed": []
+    },
+    {
+      "code": "5802",
+      "name": "住友電工",
+      "items": [],
+      "fetch_failed": [
+        "https://www.globalbankingandfinance.com/sumitomo-electric-industries-5802-t-falls-2026-11-20/ (本文記事を取得できず、掲載内容の本文確認ができなかったため除外)"
+      ]
+    },
+    {
+      "code": "5016",
+      "name": "JX金属",
+      "items": [
+        {
+          "type": "ir",
+          "headline": "当社テルル化カドミウム亜鉛(CdZnTe)基板が、NASAの最新宇宙望遠鏡向け赤外線検出器に採用",
+          "summary": "同社製CdZnTe基板がNASAのRoman宇宙望遠鏡に搭載されるTeledyne製赤外線検出器に採用されたと発表。",
+          "published": "2026-11-20",
+          "source_name": "JX金属",
+          "url": "https://www.jx-nmm.com/newsrelease/2026/20261120_01.html",
+          "tone": "好材料"
+        },
+        {
+          "type": "analyst",
+          "headline": "【アナリスト評価】ＪＸ金属、レーティングやや強気を据置き、目標株価2,600円に引下げ（日系大手証券）",
+          "summary": "レーティングは「やや強気」で据置き、目標株価は4,400円から2,600円に引下げ。",
+          "published": "2026-11-19",
+          "source_name": "Yahoo!ファイナンス（アイフィスジャパン）",
+          "url": "https://finance.yahoo.co.jp/news/detail/65b2a41c291bc577a13513e51a5e0ff9b34ce262",
+          "tone": "悪材料"
+        }
+      ],
+      "fetch_failed": []
+    },
+    {
+      "code": "6723",
+      "name": "ルネサスエレクトロニクス",
+      "items": [
+        {
+          "type": "news",
+          "headline": "ルネサスがEdgeTech+ 2026で卵を割らずに掴むAIロボットハンドを実演",
+          "summary": "マクニカと共同出展し、RZ/V2Hを用いたロボットハンドの把持制御やRA8シリーズのビジョン・音声AIデモを披露。",
+          "published": "2026-11-19",
+          "source_name": "マイナビニュース TECH+",
+          "url": "https://news.mynavi.jp/techplus/article/20261119-5361285/",
+          "tone": "中立"
+        }
+      ],
+      "fetch_failed": [
+        "https://www.renesas.com/ja/about/newsroom/news/impact-company-business-activities-due-earthquake-amakusa-ashikita-region-kumamoto-prefecture — 公式ニュースの本文を取得できず、内容を検証できなかった。",
+        "https://www.globalbankingandfinance.com/renesas-electronics-6723-t-falls-2026-11-20/ — 記事本文として株価下落に関する記述を確認できず、確認できたのはサイトの一般的な免責説明。"
+      ]
+    },
+    {
+      "code": "7011",
+      "name": "三菱重工業",
+      "items": [
+        {
+          "type": "news",
+          "headline": "H3ロケット打ち上げ、11号機から三菱重工に移管",
+          "summary": "文科相がH3の打ち上げ業務を11号機から三菱重工へ段階的に移す方針を説明。10号機まで3機連続成功。",
+          "published": "2026-11-20",
+          "source_name": "テレビ朝日ニュース",
+          "url": "https://news.tv-asahi.co.jp/news_society/articles/000549347.html",
+          "tone": "好材料"
+        },
+        {
+          "type": "ir",
+          "headline": "H3ロケット11号機の打上げについて",
+          "summary": "情報収集衛星を搭載するH3・F11を2027年1月11日に打ち上げ予定。LE-9 Type1A適用機は今後同社が打ち上げる。",
+          "published": "2026-11-20",
+          "source_name": "三菱重工業",
+          "url": "https://www.mhi.com/jp/news/261120.html",
+          "tone": "好材料"
+        },
+        {
+          "type": "ir",
+          "headline": "ベトナムのオモン第3発電所向けに最新鋭JAC形ガスタービン2台を受注",
+          "summary": "最大115.5万kW級GTCC発電設備向けタービンを受注。2030年完成を目指す発電所の中核を担う。",
+          "published": "2026-11-19",
+          "source_name": "三菱重工業",
+          "url": "https://www.mhi.com/jp/news/26111902.html",
+          "tone": "好材料"
+        }
+      ],
+      "fetch_failed": [
+        "https://www.mhi.com/jp/news（ニュース一覧ページはCookie設定案内のみ表示され、一覧本文を取得できず）",
+        "https://www.mhi.com/jp/news/261119.html（Cookie設定案内のみで発表本文を取得できず）",
+        "https://www.globalbankingandfinance.com/mitsubishi-heavy-industries-7011-t-falls-2026-11-20/（本文はサイト全般の免責事項のみで記事本文・掲載日を確認できず）"
+      ]
+    },
+    {
+      "code": "7532",
+      "name": "パン・パシフィック・インターナショナルHD",
+      "items": [],
+      "fetch_failed": [
+        "https://www.globalbankingandfinance.com/pan-pacific-international-holdings-7532-t-rises-2026-11-19/ （本文を確認できず、ページは免責表示のみ取得）"
+      ]
+    },
+    {
+      "code": "8306",
+      "name": "三菱UFJフィナンシャル・グループ",
+      "items": [
+        {
+          "type": "industry",
+          "headline": "「新たな産業金融を実現する長期デット・ファイナンスの在り方検討会報告書」について",
+          "summary": "全銀協事務局の検討会が報告書を公表。産業・インフラへの資金供給に向け、金融仲介の仕組みや官民連携の必要性を提示。",
+          "published": "2026-11-18",
+          "source_name": "全国銀行協会",
+          "url": "https://www.zenginkyo.or.jp/news/2026/n111801/",
+          "tone": "中立"
+        },
+        {
+          "type": "industry",
+          "headline": "中小企業金融等への取組みに関する申し合わせについて",
+          "summary": "全銀協が中小企業の年末・年度末の資金需要に柔軟に対応し、資金・非資金両面から成長や経営改善を支援するよう申し合わせ。",
+          "published": "2026-11-19",
+          "source_name": "全国銀行協会",
+          "url": "https://www.zenginkyo.or.jp/news/2026/n111901/",
+          "tone": "中立"
+        },
+        {
+          "type": "industry",
+          "headline": "「経営者保証に関するガイドライン」の改定に向けた検討の開始について",
+          "summary": "全銀協・日本商工会議所の研究会が、経営者保証ガイドラインの実効性強化に向け改定検討を開始。改定時期は未定。",
+          "published": "2026-11-19",
+          "source_name": "全国銀行協会",
+          "url": "https://www.zenginkyo.or.jp/news/2026/n111902/",
+          "tone": "中立"
+        }
+      ],
+      "fetch_failed": []
+    },
+    {
+      "code": "8766",
+      "name": "東京海上ホールディングス",
+      "items": [
+        {
+          "type": "ir",
+          "headline": "2026年度第2四半期決算IR資料を掲載",
+          "summary": "11月19日開催の第2四半期決算IR資料を掲載。公式ページは11月20日付の一部資料修正も告知。",
+          "published": "2026-11-19",
+          "source_name": "東京海上ホールディングス",
+          "url": "https://www.tokiomarinehd.com/ir/event/presentation/",
+          "tone": "中立"
+        },
+        {
+          "type": "news",
+          "headline": "東京海上、9月中間利益は7.9％増",
+          "summary": "東京海上HDの中間利益は4,784億円で前年同期比7.9％増。自然災害の保険金支払い増の影響は限定的と報じた。",
+          "published": "2026-11-19",
+          "source_name": "沖縄タイムス（共同通信）",
+          "url": "https://www.okinawatimes.co.jp/articles/-/1970131",
+          "tone": "好材料"
+        },
+        {
+          "type": "industry",
+          "headline": "損保大手3社の2026年9月中間連結決算が出そろう",
+          "summary": "東京海上は増益、MS&ADとSOMPOは減益。3社とも自動車保険料引き上げで保険収益が増加した。",
+          "published": "2026-11-19",
+          "source_name": "沖縄タイムス（共同通信）",
+          "url": "https://www.okinawatimes.co.jp/articles/-/1970131",
+          "tone": "中立"
+        }
+      ],
+      "fetch_failed": []
+    },
+    {
+      "code": "3436",
+      "name": "SUMCO",
+      "items": [
+        {
+          "type": "industry",
+          "headline": "世界シリコンウエハ出荷13.4％増、AI需要の裾野が材料市場に広がる",
+          "summary": "2026年7〜9月期の世界出荷面積は3,756MSIで前年比13.4％増。SUMCO幹部はAI需要のパワー・フォトニクス等への拡大を説明。",
+          "published": "2026-11-19",
+          "source_name": "SEMICON.TODAY",
+          "url": "https://semicon.today/archives/17926",
+          "tone": "好材料"
+        }
+      ],
+      "fetch_failed": []
+    },
+    {
+      "code": "6752",
+      "name": "パナソニックHD",
+      "items": [
+        {
+          "type": "news",
+          "headline": "入退室管理システム「eX-SG」シリーズがAppleウォレットの社員証に対応",
+          "summary": "iPhone／Apple Watchをかざして入退室できる機能に対応。企業向けサービス契約が必要。",
+          "published": "2026-11-18",
+          "source_name": "パナソニック ニュースルーム",
+          "url": "https://news.panasonic.com/jp/press/jn261118-1",
+          "tone": "中立"
+        }
+      ],
+      "fetch_failed": [
+        "https://www.globalbankingandfinance.com/panasonic-holdings-6752-t-falls-2026-11-20/ — 本文本文抽出では記事本文ではなくサイトの一般免責・注意書きのみ確認でき、見出し内容を検証できず採用せず。",
+        "対象期間内のアナリスト評価・適時開示・決算資料・銘柄関連報道について、期間内公開かつ本文を確認できる適格な情報を検索で確認できず。"
+      ]
+    },
+    {
+      "code": "4755",
+      "name": "楽天グループ",
+      "items": [
+        {
+          "type": "news",
+          "headline": "楽天グループ---大幅続落、楽天証券に不正アクセスで顧客情報漏洩",
+          "summary": "楽天証券の不正アクセスで最大447万口座の詳細情報、別の最大1125万口座の顧客コード・ログインIDが漏えいした可能性。楽天G株も売り先行。",
+          "published": "2026-11-18",
+          "source_name": "ザイ・オンライン（ダイヤモンド・ザイ）",
+          "url": "https://diamond.jp/zai/articles/-/1075795",
+          "tone": "悪材料"
+        },
+        {
+          "type": "analyst",
+          "headline": "【アナリスト評価】楽天Ｇ、レーティング中立を据置き、目標株価710円に引下げ",
+          "summary": "米系大手証券は11月19日付で中立評価を維持し、目標株価を800円から710円に引き下げた。",
+          "published": "2026-11-20",
+          "source_name": "アイフィスジャパン（Yahoo!ファイナンス掲載）",
+          "url": "https://finance.yahoo.co.jp/news/detail/b889d82a7cceaa397319c93e08b624b42678576b",
+          "tone": "悪材料"
+        },
+        {
+          "type": "news",
+          "headline": "楽天証券の情報流出で集団訴訟検討…参加希望者が1日で約6000人",
+          "summary": "楽天証券の情報漏えいを巡り弁護士が集団提訴を準備。募集開始から1日で約6000人が参加登録したと報じた。",
+          "published": "2026-11-19",
+          "source_name": "J-CASTニュース（Yahoo!ニュース掲載）",
+          "url": "https://news.yahoo.co.jp/articles/03eef7d1d862cf04093f57a65eb48c88ef38952f",
+          "tone": "悪材料"
+        },
+        {
+          "type": "news",
+          "headline": "楽天証券、金融庁から報告徴求命令を受領",
+          "summary": "楽天証券は顧客情報漏えい問題で金融庁から報告徴求命令を受領。事実解明や原因分析、再発防止策の報告を求められた。",
+          "published": "2026-11-19",
+          "source_name": "読売新聞オンライン",
+          "url": "https://www.yomiuri.co.jp/economy/20261119-GYT1T00390/",
+          "tone": "悪材料"
+        },
+        {
+          "type": "news",
+          "headline": "楽天G株価急落、2年11カ月ぶり安値　楽天証券に報告徴求命令",
+          "summary": "楽天G株は一時559円まで下落し、2023年12月以来の安値。漏えい判明と金融庁の報告徴求命令を巡る懸念が売り材料となった。",
+          "published": "2026-11-20",
+          "source_name": "マネーワールド",
+          "url": "https://moneyworld.jp/news/detail?id=223462",
+          "tone": "悪材料"
+        },
+        {
+          "type": "news",
+          "headline": "楽天証券を集団提訴の動き、登録者2万人超",
+          "summary": "情報漏えい問題で弁護士が集団提訴に向けた準備を進め、11月20日午後2時時点で専用サイトの登録者が2万人を超えた。",
+          "published": "2026-11-20",
+          "source_name": "日テレNEWS NNN",
+          "url": "https://news.ntv.co.jp/category/society/f8f3549bf025450f89384fd37de112e0",
+          "tone": "悪材料"
+        },
+        {
+          "type": "news",
+          "headline": "片山金融相、楽天証券の情報漏えいを「非常に遺憾」と表明",
+          "summary": "金融相は金融庁が19日付で報告徴求命令を発出したと明らかにし、顧客保護と再発防止の徹底を求める考えを示した。",
+          "published": "2026-11-20",
+          "source_name": "ロイター",
+          "url": "https://www.reuters.com/jp/markets/japan/VSQJMBUUQBJEZMKSANGSWDRWP4-2026-11-20/",
+          "tone": "悪材料"
+        }
+      ],
+      "fetch_failed": [
+        "https://www.nikkei.com/article/DGXZQOFL180XS0Y6A111C2000000/ （会員限定で本文全文を確認できず）",
+        "https://www.nikkei.com/article/DGXZQOFL201K80Q6A121C2000000/ （会員限定で本文全文を確認できず）",
+        "https://www.rakuten-sec.co.jp/web/info/info20261119-01.html （本文を取得できず）"
+      ]
+    },
+    {
+      "code": "5706",
+      "name": "三井金属",
+      "items": [
+        {
+          "type": "ir",
+          "headline": "VSP™を支える表面処理技術が「発明協会 東京優秀賞」を受賞",
+          "summary": "高周波基板用電解銅箔VSP™の表面処理技術が受賞。AI・データセンター向け需要拡大を見込み、同社は供給体制強化を表明。",
+          "published": "2026-11-19",
+          "source_name": "三井金属株式会社",
+          "url": "https://www.mitsui-kinzoku.com/news_a/?itemid=2018&dispmid=1073",
+          "tone": "好材料"
+        },
+        {
+          "type": "news",
+          "headline": "三井金属が一時14％超急落で年初来安値、データセンター投資の継続性への不安強まる",
+          "summary": "米ネオクラウド企業株の急落でデータセンター投資懸念が強まり、三井金属株は一時14％超下落。通期営業利益予想には原材料・製錬コストが重荷。",
+          "published": "2026-11-20",
+          "source_name": "株探（MINKABU PRESS）",
+          "url": "https://kabutan.jp/news/marketnews/?b=n202611200785",
+          "tone": "悪材料"
+        },
+        {
+          "type": "news",
+          "headline": "前日に動いた銘柄 part2 スプリックス、ポート、Appier Groupなど",
+          "summary": "AI関連株への売りが広がるなか、三井金属は17日終値1,344.5円、前日比65円安。半導体・AI関連の一角として売り優勢と報じた。",
+          "published": "2026-11-18",
+          "source_name": "株探（フィスコ提供）",
+          "url": "https://kabutan.jp/news/marketnews/?b=n202611180136",
+          "tone": "悪材料"
+        },
+        {
+          "type": "industry",
+          "headline": "製錬大手8社の4～9月期、非鉄価格高騰などで全社最終増益",
+          "summary": "非鉄価格上昇や円安、データセンター関連需要を背景に、製錬大手8社は全社が最終増益。8社合計の純利益は前年同期比2.8倍。",
+          "published": "2026-11-19",
+          "source_name": "ニッキンONLINE",
+          "url": "https://www.nikkinonline.com/article/440072",
+          "tone": "中立"
+        }
+      ],
+      "fetch_failed": []
+    }
+  ],
+  "market": [
+    {
+      "headline": "AI・金利懸念で世界市場が急落、株式から銅・金まで売り広がる",
+      "summary": "AI株と米利上げ懸念で世界株が急落。米10年債利回りは週内17bp低下し、金も安全資産として機能せず下落した。",
+      "published": "2026-11-20",
+      "source_name": "Reuters",
+      "url": "https://www.reuters.com/business/energy/global-markets-selloff-2026-11-20/"
+    },
+    {
+      "headline": "台湾当局、急落銘柄の空売り規制を強化へ",
+      "summary": "台湾株が4.4%下落した後、当局は1日で3.5%以上下落した銘柄の翌営業日の信用・借株空売りを制限すると発表。",
+      "published": "2026-11-19",
+      "source_name": "Reuters",
+      "url": "https://www.reuters.com/markets/europe/global-markets-taiwan-update-1-2026-11-19/"
+    },
+    {
+      "headline": "FOMC、10月27〜28日会合の議事要旨を公表",
+      "summary": "FRBが会合議事要旨を公表。声明の議論内容を確認できる公式記録だが、公開ページ本文は具体的な新方針を示していない。",
+      "published": "2026-11-19",
+      "source_name": "Federal Reserve",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm"
+    },
+    {
+      "headline": "世界的な株安がアジア市場に波及、AI取引の先行きに不安",
+      "summary": "Anthropic上場でもAI株売りは収まらず、アジア株に下落が波及。ドルは19カ月高値近辺、米国債利回りは低下した。",
+      "published": "2026-11-20",
+      "source_name": "Reuters",
+      "url": "https://www.reuters.com/markets/europe/global-markets-view-europe-2026-11-20/"
+    }
+  ],
+  "errors": [
+    "対象期間（2026-11-18〜2026-11-20）内に公開された翌週の主要経済指標・日銀予定について、公開日と本文を確認できる適格な情報源を確認できず、項目を掲載していません。",
+    "FRB公式の11月予定表は対象期間内の公開日を確認できなかったため掲載せず。"
+  ]
+}
