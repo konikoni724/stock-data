@@ -1,5 +1,5 @@
 {
-  "updated_at_jst": "2026-11-24 12:38",
+  "updated_at_jst": "2026-11-24 13:05",
   "names": {
     "5803": "フジクラ",
     "5801": "古河電工",
@@ -11,17 +11,17 @@
     "8306": "三菱UFJフィナンシャル・グループ",
     "8766": "東京海上ホールディングス",
     "4755": "楽天グループ",
-    "7013": "ＩＨＩ",
     "5706": "三井金属",
+    "7013": "ＩＨＩ",
     "6752": "パナソニック ホールディングス"
   },
   "fundamentals": {
     "5803": {
-      "per": 14.9963,
-      "per_forward": 8.0835,
-      "pbr": 5.8477,
+      "per": 14.7452,
+      "per_forward": 7.9481,
+      "pbr": 5.7497,
       "dividend_yield_pct": 2.74,
-      "market_cap": 4054373629952.0,
+      "market_cap": 3986469421056.0,
       "next_earnings": [
         "2027-02-09"
       ],
@@ -59,11 +59,11 @@
       ]
     },
     "5801": {
-      "per": 10.9049,
-      "per_forward": 6.1809,
-      "pbr": 2.8354,
+      "per": 10.6758,
+      "per_forward": 6.0511,
+      "pbr": 2.7759,
       "dividend_yield_pct": 1.36,
-      "market_cap": 1289859891200.0,
+      "market_cap": 1262767833088.0,
       "next_earnings": [
         "2027-02-08"
       ],
@@ -101,11 +101,11 @@
       ]
     },
     "5802": {
-      "per": 13.4091,
-      "per_forward": 6.0557,
-      "pbr": 1.4521,
+      "per": 13.1737,
+      "per_forward": 5.9494,
+      "pbr": 1.4266,
       "dividend_yield_pct": 3.64,
-      "market_cap": 4176490790912.0,
+      "market_cap": 4103164133376.0,
       "next_earnings": [
         "2026-10-30"
       ],
@@ -143,11 +143,11 @@
       ]
     },
     "5016": {
-      "per": 11.5464,
+      "per": 11.3969,
       "per_forward": null,
-      "pbr": 2.6022,
+      "pbr": 2.5685,
       "dividend_yield_pct": 1.92,
-      "market_cap": 1761708212224.0,
+      "market_cap": 1738910203904.0,
       "next_earnings": [
         "2027-02-09"
       ],
@@ -185,11 +185,11 @@
       ]
     },
     "6723": {
-      "per": 8.0504,
-      "per_forward": 9.2813,
-      "pbr": 1.666,
+      "per": 7.9619,
+      "per_forward": 9.1793,
+      "pbr": 1.6477,
       "dividend_yield_pct": 1.15,
-      "market_cap": 4822744432640.0,
+      "market_cap": 4769746780160.0,
       "next_earnings": [
         "2026-10-29"
       ],
@@ -227,11 +227,11 @@
       ]
     },
     "7011": {
-      "per": 31.1367,
-      "per_forward": 30.7705,
-      "pbr": 2.9795,
+      "per": 30.5525,
+      "per_forward": 30.1932,
+      "pbr": 2.9236,
       "dividend_yield_pct": 1.1,
-      "market_cap": 9585272291328.0,
+      "market_cap": 9405433118720.0,
       "next_earnings": [
         "2027-02-03"
       ],
@@ -269,11 +269,11 @@
       ]
     },
     "7532": {
-      "per": 22.5062,
-      "per_forward": 4.6171,
-      "pbr": 3.3364,
+      "per": 22.619,
+      "per_forward": 4.6402,
+      "pbr": 3.3531,
       "dividend_yield_pct": 1.14,
-      "market_cap": 2446808580096.0,
+      "market_cap": 2459071152128.0,
       "next_earnings": [
         "2027-02-11"
       ],
@@ -311,11 +311,11 @@
       ]
     },
     "8306": {
-      "per": 12.9202,
-      "per_forward": 20.7806,
-      "pbr": 1.5563,
+      "per": 12.9243,
+      "per_forward": 20.7872,
+      "pbr": 1.5568,
       "dividend_yield_pct": 3.44,
-      "market_cap": 35486932402176.0,
+      "market_cap": 35498189914112.0,
       "next_earnings": [
         "2027-02-04"
       ],
@@ -353,11 +353,11 @@
       ]
     },
     "8766": {
-      "per": 50.0863,
-      "per_forward": 1.1774,
-      "pbr": 2.0182,
+      "per": 50.3796,
+      "per_forward": 1.1843,
+      "pbr": 2.0301,
       "dividend_yield_pct": 2.71,
-      "market_cap": 16275836239872.0,
+      "market_cap": 16371164381184.0,
       "next_earnings": [
         "2027-02-10"
       ],
@@ -396,10 +396,10 @@
     },
     "4755": {
       "per": null,
-      "per_forward": -71.8265,
-      "pbr": 1.5688,
+      "per_forward": -71.3666,
+      "pbr": 1.5588,
       "dividend_yield_pct": 0.0,
-      "market_cap": 1192673280000.0,
+      "market_cap": 1185036238848.0,
       "next_earnings": [
         "2027-02-12"
       ],
@@ -436,54 +436,12 @@
         }
       ]
     },
-    "7013": {
-      "per": 12.894,
-      "per_forward": 3.9966,
-      "pbr": 3.396,
-      "dividend_yield_pct": 0.99,
-      "market_cap": 2452279263232.0,
-      "next_earnings": [
-        "2026-11-04"
-      ],
-      "quarterly": [
-        {
-          "period_end": "2026-09-30",
-          "revenue": 404770000000.0,
-          "operating_income": 41761000000.0,
-          "net_income": 31476000000.0
-        },
-        {
-          "period_end": "2026-06-30",
-          "revenue": 374548000000.0,
-          "operating_income": 73218000000.0,
-          "net_income": 53518000000.0
-        },
-        {
-          "period_end": "2026-03-31",
-          "revenue": 514063000000.0,
-          "operating_income": 62998000000.0,
-          "net_income": 75978000000.0
-        },
-        {
-          "period_end": "2025-12-31",
-          "revenue": 415688000000.0,
-          "operating_income": 33087000000.0,
-          "net_income": 29102000000.0
-        },
-        {
-          "period_end": "2025-09-30",
-          "revenue": 375860000000.0,
-          "operating_income": 48560000000.0,
-          "net_income": 44311000000.0
-        }
-      ]
-    },
     "5706": {
-      "per": 6.1911,
-      "per_forward": 2.0109,
-      "pbr": 1.5712,
+      "per": 6.0529,
+      "per_forward": 1.966,
+      "pbr": 1.5362,
       "dividend_yield_pct": 3.21,
-      "market_cap": 692001570816.0,
+      "market_cap": 676553818112.0,
       "next_earnings": [
         "2027-02-10"
       ],
@@ -520,12 +478,54 @@
         }
       ]
     },
+    "7013": {
+      "per": 12.7238,
+      "per_forward": 3.9439,
+      "pbr": 3.3512,
+      "dividend_yield_pct": 0.99,
+      "market_cap": 2419921518592.0,
+      "next_earnings": [
+        "2026-11-04"
+      ],
+      "quarterly": [
+        {
+          "period_end": "2026-09-30",
+          "revenue": 404770000000.0,
+          "operating_income": 41761000000.0,
+          "net_income": 31476000000.0
+        },
+        {
+          "period_end": "2026-06-30",
+          "revenue": 374548000000.0,
+          "operating_income": 73218000000.0,
+          "net_income": 53518000000.0
+        },
+        {
+          "period_end": "2026-03-31",
+          "revenue": 514063000000.0,
+          "operating_income": 62998000000.0,
+          "net_income": 75978000000.0
+        },
+        {
+          "period_end": "2025-12-31",
+          "revenue": 415688000000.0,
+          "operating_income": 33087000000.0,
+          "net_income": 29102000000.0
+        },
+        {
+          "period_end": "2025-09-30",
+          "revenue": 375860000000.0,
+          "operating_income": 48560000000.0,
+          "net_income": 44311000000.0
+        }
+      ]
+    },
     "6752": {
-      "per": 21.3956,
-      "per_forward": 17.5866,
-      "pbr": 1.292,
+      "per": 21.2191,
+      "per_forward": 17.4415,
+      "pbr": 1.2814,
       "dividend_yield_pct": 1.75,
-      "market_cap": 6934083141632.0,
+      "market_cap": 6876872835072.0,
       "next_earnings": [
         "2026-10-30"
       ],
@@ -984,48 +984,6 @@
         "url": "https://webapi.yanoshin.jp/rd.php?https://www.release.tdnet.info/inbs/140120260716595177.pdf"
       }
     ],
-    "7013": [
-      {
-        "time": "2026-11-20 15:00:00",
-        "title": "固定資産の譲渡および譲渡益の計上に関するお知らせ",
-        "url": "https://webapi.yanoshin.jp/rd.php?https://www.release.tdnet.info/inbs/140120261119583787.pdf"
-      },
-      {
-        "time": "2026-11-04 13:00:00",
-        "title": "2027年3月期　第2四半期（中間期）決算短信〔IFRS〕（連結）",
-        "url": "https://webapi.yanoshin.jp/rd.php?https://www.release.tdnet.info/inbs/140120261103563368.pdf"
-      },
-      {
-        "time": "2026-11-04 13:00:00",
-        "title": "2026年度 (2027年3月期）第２四半期決算説明資料（IFRS）",
-        "url": "https://webapi.yanoshin.jp/rd.php?https://www.release.tdnet.info/inbs/140120261103563370.pdf"
-      },
-      {
-        "time": "2026-11-04 13:00:00",
-        "title": "期末配当予想の修正（増配）に関するお知らせ",
-        "url": "https://webapi.yanoshin.jp/rd.php?https://www.release.tdnet.info/inbs/140120261104563539.pdf"
-      },
-      {
-        "time": "2026-09-29 09:00:00",
-        "title": "ドイツ子会社Steinmueller Engineering GmbHの持分の譲渡に関するお知らせ",
-        "url": "https://webapi.yanoshin.jp/rd.php?https://www.release.tdnet.info/inbs/140120260918538982.pdf"
-      },
-      {
-        "time": "2026-08-05 13:00:00",
-        "title": "2027年3月期　第1四半期決算短信〔IFRS〕（連結）",
-        "url": "https://webapi.yanoshin.jp/rd.php?https://www.release.tdnet.info/inbs/140120260805509194.pdf"
-      },
-      {
-        "time": "2026-08-05 13:00:00",
-        "title": "2026年度（2027年3月期）第1四半期決算説明資料（IFRS）",
-        "url": "https://webapi.yanoshin.jp/rd.php?https://www.release.tdnet.info/inbs/140120260805509351.pdf"
-      },
-      {
-        "time": "2026-06-12 13:00:00",
-        "title": "固定資産の譲渡および譲渡益の計上に関するお知らせ",
-        "url": "https://webapi.yanoshin.jp/rd.php?https://www.release.tdnet.info/inbs/140120260611568925.pdf"
-      }
-    ],
     "5706": [
       {
         "time": "2026-11-10 15:30:00",
@@ -1066,6 +1024,48 @@
         "time": "2026-08-07 15:30:00",
         "title": "譲渡制限付株式報酬としての新株式の発行の払込完了に関するお知らせ",
         "url": "https://webapi.yanoshin.jp/rd.php?https://www.release.tdnet.info/inbs/140120260804508305.pdf"
+      }
+    ],
+    "7013": [
+      {
+        "time": "2026-11-20 15:00:00",
+        "title": "固定資産の譲渡および譲渡益の計上に関するお知らせ",
+        "url": "https://webapi.yanoshin.jp/rd.php?https://www.release.tdnet.info/inbs/140120261119583787.pdf"
+      },
+      {
+        "time": "2026-11-04 13:00:00",
+        "title": "2027年3月期　第2四半期（中間期）決算短信〔IFRS〕（連結）",
+        "url": "https://webapi.yanoshin.jp/rd.php?https://www.release.tdnet.info/inbs/140120261103563368.pdf"
+      },
+      {
+        "time": "2026-11-04 13:00:00",
+        "title": "2026年度 (2027年3月期）第２四半期決算説明資料（IFRS）",
+        "url": "https://webapi.yanoshin.jp/rd.php?https://www.release.tdnet.info/inbs/140120261103563370.pdf"
+      },
+      {
+        "time": "2026-11-04 13:00:00",
+        "title": "期末配当予想の修正（増配）に関するお知らせ",
+        "url": "https://webapi.yanoshin.jp/rd.php?https://www.release.tdnet.info/inbs/140120261104563539.pdf"
+      },
+      {
+        "time": "2026-09-29 09:00:00",
+        "title": "ドイツ子会社Steinmueller Engineering GmbHの持分の譲渡に関するお知らせ",
+        "url": "https://webapi.yanoshin.jp/rd.php?https://www.release.tdnet.info/inbs/140120260918538982.pdf"
+      },
+      {
+        "time": "2026-08-05 13:00:00",
+        "title": "2027年3月期　第1四半期決算短信〔IFRS〕（連結）",
+        "url": "https://webapi.yanoshin.jp/rd.php?https://www.release.tdnet.info/inbs/140120260805509194.pdf"
+      },
+      {
+        "time": "2026-08-05 13:00:00",
+        "title": "2026年度（2027年3月期）第1四半期決算説明資料（IFRS）",
+        "url": "https://webapi.yanoshin.jp/rd.php?https://www.release.tdnet.info/inbs/140120260805509351.pdf"
+      },
+      {
+        "time": "2026-06-12 13:00:00",
+        "title": "固定資産の譲渡および譲渡益の計上に関するお知らせ",
+        "url": "https://webapi.yanoshin.jp/rd.php?https://www.release.tdnet.info/inbs/140120260611568925.pdf"
       }
     ],
     "6752": [
@@ -1114,6 +1114,12 @@
   "news": {
     "5803": [
       {
+        "title": "本日の【業種】騰落ランキング ＝ 後場寄付 【上昇トップ】非鉄金属 【下落トップ】鉱業 [12:33](株探ニュース) - Yahoo!ファイナンス",
+        "source": "Yahoo!ファイナンス",
+        "published_jst": "2026-11-24 12:48",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONXl6XzlVa2V4ZHMtUDJ5THVpS1Z1WDVnR2hTam9JS3ZHdUd2U1hnZVA5a1habHJmNHBrekw2azZaTWtOU183MHphQjJtWGxBMk9TQ29qV2xhd1Z2Qlh3aDJxdmlQQzU4TGdUQVZJY25mMThOZVUyc3Z1cGxHZkd1ZFZSNE5VYTA?oc=5"
+      },
+      {
         "title": "日経平均は大幅反発、エヌビディアCEO復帰でAI関連株に買い戻し 投稿日時： 2026/11/24 12:26[フィスコ] - みんかぶ",
         "source": "みんかぶ",
         "published_jst": "2026-11-24 12:26",
@@ -1142,44 +1148,6 @@
         "source": "FOREX.com",
         "published_jst": "2026-11-24 09:29",
         "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQUjBNMXVlQUtfRmNqeHVJVncxZWtGUlFScEJHSjZFc1ZjbGNycnJUY29nM244SW9OR0I2a3lQVlBVM0VyT2Y4OGpGWjhaRjdGaE16ODFQVVl3RUFkYnpDd3JNUmp2c1dWTzVYZVYzS1Y5RXNqUjlnaE9OdjJjZy1GemhfTm16Zw?oc=5"
-      },
-      {
-        "title": "本日の【業種】騰落ランキング ＝ 寄付 【上昇トップ】非鉄金属 【下落トップ】鉱業 [09:06](株探ニュース) - Yahoo!ファイナンス",
-        "source": "Yahoo!ファイナンス",
-        "published_jst": "2026-11-24 09:21",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOcGRiWkd1UFVnMS1vNXZEOHp4RW5sSVVaa1VTbVJNX3hkX08xb1dZdXNFZ2puUHAxQkhhSjN6cnA0bkJWakJwRHYtTWFtOXl0d29oY0JpMXJMNFotdDYwMzJUbW56TnktOUZsNGEwcmtoM1U3QVlHWExEUDlxZTlFeWxnZGpKMTA?oc=5"
-      }
-    ],
-    "5801": [
-      {
-        "title": "本日の【業種】騰落ランキング ＝ 前引け 【上昇トップ】非鉄金属 【下落トップ】その他製品 [11:31](株探ニュース) - Yahoo!ファイナンス",
-        "source": "Yahoo!ファイナンス",
-        "published_jst": "2026-11-24 11:47",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOcjBqcDZYZm1uZW14aVBsTmZvMS1YWThfSUFueERNVlVuUURTNXhRSDFSRTduS0llaEk4Um40aXVENjAwZk04TXJ4WGdkUlA1dk1wdGJ5cXl0SjFiVVFkU1padno1S1BLSW01SC1RVXZ5YTRoOVlhdWN0VnoyZGdnMzF1M3VxU2M?oc=5"
-      },
-      {
-        "title": "日経平均は573円高でスタート、村田製や東エレクなどが上昇 - ｄメニューニュース",
-        "source": "ｄメニューニュース",
-        "published_jst": "2026-11-24 09:47",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPcExtTVdXMWEtem40cVdIMmMyd2d0Rmh6dDJoZlJCcURRZ0UwZXl0MjVqcUN6clJOSFZWNVJXX1lmYkVwc3o0ZjN3Sjh5TUZLY3YycEIxMW9taVdTNEx5WFRzSFZnUkxuU2JXNy01bFJyNEMzalVGMllFNURVMm0tOU1nOWZ6bVAtUkFkS9IBjAFBVV95cUxPcExtTVdXMWEtem40cVdIMmMyd2d0Rmh6dDJoZlJCcURRZ0UwZXl0MjVqcUN6clJOSFZWNVJXX1lmYkVwc3o0ZjN3Sjh5TUZLY3YycEIxMW9taVdTNEx5WFRzSFZnUkxuU2JXNy01bFJyNEMzalVGMllFNURVMm0tOU1nOWZ6bVAtUkFkSw?oc=5"
-      },
-      {
-        "title": "業績、株価、賃金、就職… 5年後の業界地図 AI格差で序列激変!? - ダイヤモンド・オンライン",
-        "source": "ダイヤモンド・オンライン",
-        "published_jst": "2026-11-22 08:35",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBpTHh5UXFuY3dJMUlxRzRFb1llUXhEcDRkMjd6Y1JCRmM3aXNxN1J0SEF0QWxZQmJadDFoN3otXzg5LXdiUzYxUmRhaFBsc3BPRmlCOUJLbzZMODMtQVE?oc=5"
-      },
-      {
-        "title": "古河電気工業(株)【5801】：現物信用売買内訳時系列 - Yahoo!ファイナンス",
-        "source": "Yahoo!ファイナンス",
-        "published_jst": "2026-11-21 17:00",
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1QdmVCRnB1R2w2bXBjczNlVXMtUy1FQXB0ckhkMFlsdXJIbVFiZmFqSUV0dUZuTkJKcy0ySE9oUXpMRnRyRGRFcDBsTVhRZS1zRnRwMTZDbmZpMHpqeVFr?oc=5"
-      },
-      {
-        "title": "(株)村田製作所【6981】：株価・株式情報（夜間PTS含む） - Yahoo!ファイナンス",
-        "source": "Yahoo!ファイナンス",
-        "published_jst": "2026-11-21 17:00",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1hNnZTQkgyN0xOVWlMc1hEQ0NyOWZjdDBSRU8zT2dERkZIdjFTWjB0cVhXNFRSQ0RjRXBiR1A0cDY0TzF0ZmFmWGlLcGNyRk1NV1E?oc=5"
       }
     ],
     "5802": [
@@ -1212,12 +1180,6 @@
         "source": "Yahoo!ファイナンス",
         "published_jst": "2026-11-21 17:00",
         "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5GRmR3OEpnTl9oNGpEcnZKdm1HSl9vSDVRbnhFZGZjUjliTW1NV3E0YUNEZFRIaEdNOWkyektoV2FGcXJPbUR5Z1FxbFBycmRxNkxIWWN5STFfTFFvU0tZ?oc=5"
-      },
-      {
-        "title": "(株)村田製作所【6981】：株価・株式情報（夜間PTS含む） - Yahoo!ファイナンス",
-        "source": "Yahoo!ファイナンス",
-        "published_jst": "2026-11-21 17:00",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1hNnZTQkgyN0xOVWlMc1hEQ0NyOWZjdDBSRU8zT2dERkZIdjFTWjB0cVhXNFRSQ0RjRXBiR1A0cDY0TzF0ZmFmWGlLcGNyRk1NV1E?oc=5"
       }
     ],
     "5016": [
@@ -1240,12 +1202,6 @@
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8xZUM3WHd0TV9QLV9uNmhVZl93Y3VPYnplNEozVkUyaHNPU3dZZXo4eTduWUxhU0RudUwxZGhIWUJwanlwVHhuRlp5X2tKcGdQdUlka3pZZHAwZkJDcHQ4cFFyM2N6QWw0RGRVa3dfR0lRZzY2ZDB1RnViQmZka0k?oc=5"
       },
       {
-        "title": "日経平均は573円高でスタート、村田製や東エレクなどが上昇 - ｄメニューニュース",
-        "source": "ｄメニューニュース",
-        "published_jst": "2026-11-24 09:47",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPcExtTVdXMWEtem40cVdIMmMyd2d0Rmh6dDJoZlJCcURRZ0UwZXl0MjVqcUN6clJOSFZWNVJXX1lmYkVwc3o0ZjN3Sjh5TUZLY3YycEIxMW9taVdTNEx5WFRzSFZnUkxuU2JXNy01bFJyNEMzalVGMllFNURVMm0tOU1nOWZ6bVAtUkFkS9IBjAFBVV95cUxPcExtTVdXMWEtem40cVdIMmMyd2d0Rmh6dDJoZlJCcURRZ0UwZXl0MjVqcUN6clJOSFZWNVJXX1lmYkVwc3o0ZjN3Sjh5TUZLY3YycEIxMW9taVdTNEx5WFRzSFZnUkxuU2JXNy01bFJyNEMzalVGMllFNURVMm0tOU1nOWZ6bVAtUkFkSw?oc=5"
-      },
-      {
         "title": "特別気配＞ ワコム、キオクシア、フジクラが買い気配(株探ニュース) - Yahoo!ファイナンス",
         "source": "Yahoo!ファイナンス",
         "published_jst": "2026-11-24 09:04",
@@ -1256,6 +1212,12 @@
         "source": "Yahoo!ファイナンス",
         "published_jst": "2026-11-23 10:58",
         "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBOOTZadzNBTnpvaTVIXzFqdzdWZGdhT21NSUpEWXRxTEY5ZFlwV2w0QVg3SXJlZEdHR3E1Qks1anBQc0dmMkZ6RzZZUXEwVElmRUhHbEZsbS0?oc=5"
+      },
+      {
+        "title": "反騰期待【ＲＳＩ(20％以下)】低PER 29社選出 ＜テクニカル特集＞ 11月20日版(株探ニュース) - Yahoo!ファイナンス",
+        "source": "Yahoo!ファイナンス",
+        "published_jst": "2026-11-22 16:30",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPWGVpX2dRWmtJZU54ZWZ1NS0yXzdhdE1hWGoyeTRvX3NyWGlfSEdtdm9CdlNNcUhTM0R6dGxFakUyeFo0eHd4ekMzZm9aQTFwaTJ1TTVxWW9DSkFSLU93a3RMeERtQnQ0a2RrMjV1cENNX3VtN0ttUnU2Y0FYb3YzaG8xei15Ylk?oc=5"
       }
     ],
     "6723": [
@@ -1338,6 +1300,12 @@
     ],
     "8306": [
       {
+        "title": "みずほＦＧなど銀行株が上昇、ＡＩ投資継続で金利上昇の可能性に期待 - 株探",
+        "source": "株探",
+        "published_jst": "2026-11-24 12:33",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBWaFctU1FTLUdMYWxFQ05WNHFYeDlTRFhGNEJ3cUZWLUh5dUpyRVBoVlRUOFJ4YmhyOWh2aGZkQWRHb3R2SjlJTmxIU3NuRUlNdFFtQnZDRWNEWDNZQV9NOA?oc=5"
+      },
+      {
         "title": "みずほＦＧなど銀行株が上昇、ＡＩ投資継続で金利上昇の可能性に期待◇ - みんかぶ",
         "source": "みんかぶ",
         "published_jst": "2026-11-24 12:33",
@@ -1366,12 +1334,6 @@
         "source": "みんかぶ",
         "published_jst": "2026-11-24 10:47",
         "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBLUktyT3ZuekhyaElSay15YS1TUEdSLVZxOEdRaDk0NDF6MlA0dnVHZkFGTHFyRllsM2tvaF9QcUlaNDg2eHc?oc=5"
-      },
-      {
-        "title": "(NEXT FUNDS)東証銀行業株価指数連動型上場投信【1615】：株価・株式情報（夜間PTS含む） - Yahoo!ファイナンス",
-        "source": "Yahoo!ファイナンス",
-        "published_jst": "2026-11-24 06:32",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5fTDhrZV9KLThoNVp2MzZuTnhHSmxRNGtEcTBkQ1Z1V1FYWjBLZEhSU2xzaVM1ME45VGpmR0M0eUEzVUZuSFRCeGRqTW5DalBVSEE?oc=5"
       }
     ],
     "8766": [
@@ -1388,28 +1350,28 @@
         "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE02Rl9zZHhhMEJzOEpSaDFidWE0SmFQOEtHOW9FMkhMTUxLaFk0WWtIOU9wY3hBR3MwMEIwS3VHVWhJNDNxOGVnU3BPX2VkOUVSbVdVaURrMlhHZw?oc=5"
       },
       {
-        "title": "東京海上･宇宙関連株式ファンド(為替ヘッジなし)【49311189】：基準価格・投資信託情報 - Yahoo!ファイナンス",
-        "source": "Yahoo!ファイナンス",
-        "published_jst": "2026-11-24 10:54",
-        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1nM1RKRURfQk5lNkRseTViaG1CQkphMjV4ZHJrZlg4QVQyV1VDdTJ2S2NOeThsUFFZQWpkckZvRWxBWVBsdllNRWRlT1VJOFNIaVRmYg?oc=5"
-      },
-      {
         "title": "寄付速報＞ 本日の活況銘柄を探る【約定回数】ベスト50 [9時6分現在](株探ニュース) - Yahoo!ファイナンス",
         "source": "Yahoo!ファイナンス",
         "published_jst": "2026-11-24 09:22",
         "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNcmZHYmdvRWNTWnpqQ3Iydl9taW14Y3hiUmE5dlZmR3lTMVp1Q09rT2Qwc1BScl95QUN1REVJVm1SaWFVRDA3aE5iN0ZObjIxTWtybTRfbGFRSjJMMF8zclZaZmplQ05JMkJQWmRndmFkOUNOTFcwQjlSeU82TDV4djAwckhFdDg?oc=5"
       },
       {
-        "title": "素直に評価したい！｢好業績の内需関連｣のアパレル銘柄 - 四季報オンライン",
-        "source": "四季報オンライン",
-        "published_jst": "2026-11-24 06:00",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9OeGhMZGM2akdCQVEtdHZBczZ2d0prcXBveXRDSXlZcTQ1Z0gxUlRzWjFGNmVtYm5adVFzS2xvZl9oVVRjTDBBQnJrZXJYZjVKZzhnR2pTTQ?oc=5"
+        "title": "東京海上･宇宙関連株式ファンド(為替ヘッジなし)【49311189】：基準価格・投資信託情報 - Yahoo!ファイナンス",
+        "source": "Yahoo!ファイナンス",
+        "published_jst": "2026-11-24 07:38",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1nM1RKRURfQk5lNkRseTViaG1CQkphMjV4ZHJrZlg4QVQyV1VDdTJ2S2NOeThsUFFZQWpkckZvRWxBWVBsdllNRWRlT1VJOFNIaVRmYg?oc=5"
       },
       {
         "title": "前週末20日に「買われた株！」総ザライ ―本日につながる期待株は？― - 株探",
         "source": "株探",
         "published_jst": "2026-11-24 05:30",
         "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5rTlVFNGZtV1hqWWZIcHJZQmJmUXg2MllWR2VpLURNTm5iQWxXT01oTVo1Y1BLM0xfTEF3YXVaREE1dmVLWWQwTm9Jamx1TzN0ZFE?oc=5"
+      },
+      {
+        "title": "【8766】東京海上ホールディングス：中間純利益4784億円＆自社株買い2800億円の衝撃！メガ損保独走の稼ぐ力とバークシャー提携の真価｜さささ - note",
+        "source": "note",
+        "published_jst": "2026-11-23 12:33",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB3Wm9RdTFWbGo0X3h3NTM2bDlwV0pMOVlYTU93WThhU1RGallwc0NaZ2NLazJibE1PXzhaUVh0Uk9Bc0FTWE1paC0zSGpHcjk3U1dHMEx5R1hPZw?oc=5"
       }
     ],
     "4755": [
@@ -1450,26 +1412,6 @@
         "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAzTVhNVjdtU2Fob0pqRXE2VVdNWXFYM3NsbG9RVFpqdUc0b0w4bVpmTVNvdjZ2c0NwSjJnQ0dPcWVPRldTYnVWMUVQUW95LU9oZWN4bg?oc=5"
       }
     ],
-    "7013": [
-      {
-        "title": "トップに聞く 川崎重工業 橋本 康彦社長 - 日本経済新聞",
-        "source": "日本経済新聞",
-        "published_jst": "2026-11-24 10:53",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1wZGFpMTduYVEzUDdoVWtiRVNaUEY2YW9CeFI4Ti02b1NUdUZQdVNjTWstdGFQT1FfZ1ZSNVVEQUhBS3ZjTFoxd3AzWkt0d3dVdVhFM1lSRnhBeFRhdVlzVlJtZ3RxYVU3dFVxVjZXMUQ1RHdzWHZHWmhKMzl4UQ?oc=5"
-      },
-      {
-        "title": "三菱重工の株価はなぜ下落？高値から約4割安、AIブームの後もガスタービンで稼げるか - つばめ投資顧問",
-        "source": "つばめ投資顧問",
-        "published_jst": "2026-11-21 18:20",
-        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5BRFZrOWpLOWppdFZwN0hJcGFkYzRGeG5PSndXVkpLRk1wcVZUdVVYeVEyNXlmUnVrajN2YzhwZ1NUYm5vaTV2c1hfbnFMZUU?oc=5"
-      },
-      {
-        "title": "日揮ホールディングス(株)【1963】：株価・株式情報（夜間PTS含む） - Yahoo!ファイナンス",
-        "source": "Yahoo!ファイナンス",
-        "published_jst": "2026-11-21 17:00",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9uWEEyUlExMXdOWk5vWkpZYTlobDh0SFFjZk5HU1d4MjFnSmozenNTYm1weVBoUE1IWUNaM3RpN0FBU1VRY21HbmlTZWxyRTgxQ2c?oc=5"
-      }
-    ],
     "5706": [
       {
         "title": "東京市場寄り付き：日経平均は急反発 三井金属が9％高、エヌビディアCEO復帰で不安後退 日立製作所が大幅反発、宇宙から災害予兆を把握へ - Moomoo",
@@ -1506,6 +1448,26 @@
         "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
         "published_jst": "2026-11-24 07:15",
         "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBlYy00Um84ZFpMYlB5ZzVDTmFjLTlReTdOUHRYc2YwMEpYclBWSURxMTBDR2FlLUFEN1NtT0J2ZUkzRzA4bUk2WVhRcVVZVV8tbjdnZng4LWpIakFWQ2ZNRUctc0ZCWVJvWmxaTGlERC0?oc=5"
+      }
+    ],
+    "7013": [
+      {
+        "title": "トップに聞く 川崎重工業 橋本 康彦社長 - 日本経済新聞",
+        "source": "日本経済新聞",
+        "published_jst": "2026-11-24 10:53",
+        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1wZGFpMTduYVEzUDdoVWtiRVNaUEY2YW9CeFI4Ti02b1NUdUZQdVNjTWstdGFQT1FfZ1ZSNVVEQUhBS3ZjTFoxd3AzWkt0d3dVdVhFM1lSRnhBeFRhdVlzVlJtZ3RxYVU3dFVxVjZXMUQ1RHdzWHZHWmhKMzl4UQ?oc=5"
+      },
+      {
+        "title": "三菱重工の株価はなぜ下落？高値から約4割安、AIブームの後もガスタービンで稼げるか - つばめ投資顧問",
+        "source": "つばめ投資顧問",
+        "published_jst": "2026-11-21 18:20",
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5BRFZrOWpLOWppdFZwN0hJcGFkYzRGeG5PSndXVkpLRk1wcVZUdVVYeVEyNXlmUnVrajN2YzhwZ1NUYm5vaTV2c1hfbnFMZUU?oc=5"
+      },
+      {
+        "title": "日揮ホールディングス(株)【1963】：株価・株式情報（夜間PTS含む） - Yahoo!ファイナンス",
+        "source": "Yahoo!ファイナンス",
+        "published_jst": "2026-11-21 17:00",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9uWEEyUlExMXdOWk5vWkpZYTlobDh0SFFjZk5HU1d4MjFnSmozenNTYm1weVBoUE1IWUNaM3RpN0FBU1VRY21HbmlTZWxyRTgxQ2c?oc=5"
       }
     ],
     "6752": [
@@ -1550,6 +1512,24 @@
   "market_news": {
     "japan_market": [
       {
+        "title": "13時の日経平均は2281円高の5万8718円、アドテストが717.36円押し上げ - 株探",
+        "source": "株探",
+        "published_jst": "2026-11-24 13:01",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE81cHpSQk9xd09ZM1dxelFnU3dDZ2JxcU1ITXdmeDJzRkJqSkRpY0R1azR0VnlfdkFFRktnQW5MdGtiR0l1b3RTR1BqeVgzX3hyUFE?oc=5"
+      },
+      {
+        "title": "日経平均4,706円安！弱気相場入りからの反発はあるか？(トウシル) - Yahoo!ファイナンス",
+        "source": "Yahoo!ファイナンス",
+        "published_jst": "2026-11-24 12:45",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQbnJBaUFUNlJiVGhoSHlCekc5aGV4U0Y3RVJLMVp6SW9rN2FPbWwzVy1ORmQ0NnhWQTRPblNSWVRGR1k5cnBYZTN4UW9oM0dpbkFkZ0dpelNOSmczd0tCVEV0TnZBdFdzQUYwdjFvSGFIY1VzWFZJUnFmUE9UZm9iczNybWNyRjg?oc=5"
+      },
+      {
+        "title": "日経平均は大幅反発、アドバンテストが1銘柄で約731円分押し上げ(フィスコ) - Yahoo!ファイナンス",
+        "source": "Yahoo!ファイナンス",
+        "published_jst": "2026-11-24 12:39",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQlVUUTFqUlhQQ0NGM3FHamFzeURVRzVFNHYySHdaa21yU0NxMzZibXB5MFNyenhGcUc4bTY5UVFla2dzdDVKUXRJQXBMbGE0ZUpoS3Y3OWllSWNvOE1Ob2dNWUpNU21NbmhkOXdrNXVCUXR5VV9uWjJhM2VPSjBqcmVkbjZkLVU?oc=5"
+      },
+      {
         "title": "後場に注目すべき3つのポイント～エヌビディアCEO復帰でAI関連株に買い戻し - 株探",
         "source": "株探",
         "published_jst": "2026-11-24 12:35",
@@ -1568,34 +1548,16 @@
         "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPaHZLZi1QbjBndGlfUDhHTC1Rc1VVSGYtMEVoT09Yd2g3WUdvVmRWcWFPS3hEaURJUGNGUFQ0d3VHd0stYjcyeU5xdEg3bk9aLUVnYWJyRl90blBvYnVuc0dwTFkyVU9pTmtVNWVZRGJFeGRoQkpiZWdodGQyaDRrZ1RkWGRjRVE?oc=5"
       },
       {
-        "title": "「AI相場の復活」ならず…日経平均4,706円安、「弱気相場」の行方は？ - トウシル",
-        "source": "トウシル",
+        "title": "【日経平均株価考察】エヌビディアのファン氏復帰でAI・半導体関連が買われる展開か（LIMO） - Yahoo!ニュース",
+        "source": "Yahoo!ニュース",
         "published_jst": "2026-11-24 12:30",
-        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB2SkxOTzRzVTFCdXhlbnNMX2o4UnRMaHpKZ2NabzFsSTVyOGZ0RnVUbGNiV3Nxdng4R3ExQ09QODZvWTY5R2JESkpqUS05QjFNRGZmQXI3TzBzUQ?oc=5"
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE54X2xsT1BSd0M4NGR5b0NkMXJKQlozWHlRdzVXWnloanhPT3VVaE9WTF9MbmpoY1VvWHhlMVU3UUNkTTE5V3NrMGlRNFlpRG1peWxLZ2QtbVZlU3hUelJVWWJEbWN6RmdQN2NrTlFoVmFPN1RFU0czVzhCeHN3UFk?oc=5"
       },
       {
-        "title": "日経平均は大幅反発、エヌビディアCEO復帰でAI関連株に買い戻し／ランチタイムコメント(フィスコ) - Yahoo!ファイナンス",
+        "title": "エヌビディアCEO復帰でAI関連株に買い戻し／後場の投資戦略(フィスコ) - Yahoo!ファイナンス",
         "source": "Yahoo!ファイナンス",
-        "published_jst": "2026-11-24 12:26",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQY1VnVkp3LXh5d2xJYTY3dnJWWUFzdm05MTZsMlFrRTd2dnlpcXFBNkdmMC1WQW9ocDRpajVRSE40dEhtQzJMSk9iWlFCLUNqNEUxMGwtZWlGNEtJblp6MEdubll5b240WU5VX3hZSWo2eGwxaUtVcVlPYVo1Z29XSTdrMHRQaTQ?oc=5"
-      },
-      {
-        "title": "日経平均株価 一時2800円超の大幅値上がり エヌビディア・フアンCEOの復帰受け 「復帰の選択肢は頭になかった」市場関係者から驚きの声 - TBS NEWS DIG",
-        "source": "TBS NEWS DIG",
-        "published_jst": "2026-11-24 12:24",
-        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBfUmFlbUc1Yl9nNUxLdnB4UkU1WGx6dWktVEh2dFBXTGwwaE5XazVsOUp3eVRFbjV2LXV0RnFLUENPNk1ldzZvTjE3MUxmUzR3OFAzOFBMNGZ3MTExNFUzclE3eDY?oc=5"
-      },
-      {
-        "title": "【動画】東京株、２８００円超上昇 米ハイテク高引き継ぐ - 時事通信ニュース",
-        "source": "時事通信ニュース",
-        "published_jst": "2026-11-24 12:21",
-        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBBQjI4eEJ6Q3NoSFFqR3dxREcwdXpiVEtZcVliY3J6QlRJZ1Z4cmZENnIzRkxIaTZ1WVczY0N6ektjNVl0MUQySVR2cDJnODA?oc=5"
-      },
-      {
-        "title": "フアン氏のエヌビディアCEO復帰受け 日経平均も急騰…上げ幅一時2800円超え（2026年11月23日掲載）｜日テレNEWS NNN - 日テレNEWS NNN",
-        "source": "日テレNEWS NNN",
-        "published_jst": "2026-11-24 12:08",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1FdjZHcl82ZXhCci1HcFg4Qi0xUFR6SHcxSFBuY1VZOWN3R1U1V1pXcEhpdUY5UHVPZXFmckx3dkR6dXA2ZTlZLTk0REwta1dkbWFhaVFGd0FmcmxQOURTd0dyZUtRSElja1k5dXB0SlpFUFpYcWV4Z1ZyZWU?oc=5"
+        "published_jst": "2026-11-24 12:30",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZmJSUFNIZFBlRWdhR2FacVQ2d0ZTVF9vSnlIdnFBTXdNNnZsRW8yU2xNdG9icFZ4bVcxZVVwVm5fRjhLSkt5SE5EaThUaDgxTnU5MnhBS0lqQ0pfVkdmdF85bmFSbGNnN1RtVHpLV3d2bzBKZzV1YkRoeVl0SUhTWHdEYUpnUEU?oc=5"
       }
     ],
     "us_market": [
@@ -1639,22 +1601,22 @@
     "economic_indicators": [],
     "boj_fed": [
       {
+        "title": "長期金利、一時２・９３０％ ２９年１０カ月ぶり高水準 - 山陽新聞",
+        "source": "山陽新聞",
+        "published_jst": "2026-11-24 09:52",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAyUV8xSjhtRFVYWUtIWWhZTUd4aUJocXZjNEpWbzR0UWl5Z0tjdW01TmNkNGN3b2E4QlBZcmNFNEZfLUJEX3pBd1E4eHBsRE41SjNXS01qcEJtZElreU1TM0NNeEx3Mnphd3IwUEozcw?oc=5"
+      },
+      {
         "title": "【債券市場】12月利上げ観測が強まる日銀、物価2％定着のカギを握る認知度(週刊 金融財政事情) - Yahoo!ファイナンス",
         "source": "Yahoo!ファイナンス",
         "published_jst": "2026-11-24 09:30",
         "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQd1p3LWRQa2ZfdzhMd1ViRzBweEJsM0VmLS1ZdU1QOVR3Y0kycGZCRlhNY1B1ZnVxRXVUc1h0Rm9CYmgxYlA5LTdvcHBtZVZLb1ZqbzNscEZBYlBXX2F4cVZsaFl2bDBYOHFoQXp0Nm1rQ1habzZIbzNWVUt4NUJ0ZEU2bFdQUzg?oc=5"
       },
       {
-        "title": "今日の為替市場ポイント:◆ユーロ編◆リスク選好的なユーロ買い・円売りはやや抑制される可能性 - ｄメニューニュース",
-        "source": "ｄメニューニュース",
-        "published_jst": "2026-11-24 09:15",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPUFNTMTdRdWpDSGg2dDMxbWpuODJtejA3dTBuSUR1ZGowNXBXTFZYaHJZYjFWQTl0Q203NFdHUlNJM0g4dThMeEw4YTJZdFRIZFp0ZDdDVWtObVVxbVh3RjB1VWx4MnBDQkdtN3haWnd6bGlqZDlnWEdfUlFRTFA2N3JsWHZBbmxpTXRzWdIBjAFBVV95cUxPUFNTMTdRdWpDSGg2dDMxbWpuODJtejA3dTBuSUR1ZGowNXBXTFZYaHJZYjFWQTl0Q203NFdHUlNJM0g4dThMeEw4YTJZdFRIZFp0ZDdDVWtObVVxbVh3RjB1VWx4MnBDQkdtN3haWnd6bGlqZDlnWEdfUlFRTFA2N3JsWHZBbmxpTXRzWQ?oc=5"
-      },
-      {
-        "title": "今日の為替市場ポイント:◆ユーロ編◆リスク選好的なユーロ買い・円売りはやや抑制される可能性 - TradingView",
-        "source": "TradingView",
-        "published_jst": "2026-11-24 08:43",
-        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5hWThiM2hoWHgxWWJhWmcxZmZXWE1OWEl2VE5aV0EwbGJMakNkN1BwSjM2Z2RrVWgyZl9rZTFJOHR2LUVNbG14dkVNYXVrb1VtNXlXN3pSc2hZMHdHVURZSTdBc0xkQQ?oc=5"
+        "title": "メタプラネット、5日続落で177円──週末のBTC急落と戻りへの反応を24日に確認 - JinaCoin",
+        "source": "JinaCoin",
+        "published_jst": "2026-11-24 08:12",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE00UEtnTFFqUnJyVTU2SVh5clVWTDlpdmVZWkFLem5lVEt5TktTejU3NDA0TG4wOWg3SEZsclNJUzNhMmtDV01QY3lTd0NlRW9NUi1UTFRlOFZGM1BqWGh4bVVNdGRoT2E2UVE?oc=5"
       },
       {
         "title": "言言語語：新聞から言葉をえぐる（10月29日～11月12日） - 週刊エコノミスト Online",
@@ -1868,6 +1830,7 @@
     }
   },
   "errors": [
+    "5801 news: 429 Client Error: Too Many Requests for url: https://news.google.com/rss/search?q=%E5%8F%A4%E6%B2%B3%E9%9B%BB%E5%B7%A5%20%E6%A0%AA%20when%3A3d&hl=ja&gl=JP&ceid=JP:ja",
     "calendar https://www.gaitame.com/markets/calendar/: No tables found",
     "calendar https://info.finance.yahoo.co.jp/fx/marketcalendar/: HTTPSConnectionPool(host='info.finance.yahoo.co.jp', port=443): Max retries exceeded with url: /fx/marketcalendar/ (Caused by NameResolutionError(\"HTTPSConnection(host='info.finance.yahoo.co.jp', port=443): Failed to resolve 'info.finance.yahoo.co.jp' ([Errno -2] Name or service not known)\"))"
   ]

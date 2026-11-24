@@ -1,73 +1,73 @@
 {
-  "updated_at_jst": "2026-11-24 12:38",
+  "updated_at_jst": "2026-11-24 13:05",
   "stocks": {
     "5803": {
       "date": "2026-11-24",
-      "close": 2448.0,
+      "close": 2407.0,
       "open": 2449.0,
       "high": 2540.0,
       "low": 2373.0,
-      "volume": 35559200.0,
+      "volume": 41411600.0,
       "prev_close": 2252.0,
       "source_list": "watch"
     },
     "5801": {
       "date": "2026-11-24",
-      "close": 1833.0,
+      "close": 1795.5,
       "open": 1749.5,
-      "high": 1879.0,
+      "high": 1878.0,
       "low": 1694.5,
-      "volume": 21896500.0,
+      "volume": 24084200.0,
       "prev_close": 1620.0,
       "source_list": "watch"
     },
     "5802": {
       "date": "2026-11-24",
-      "close": 1338.5,
+      "close": 1315.5,
       "open": 1290.0,
       "high": 1368.5,
       "low": 1287.5,
-      "volume": 16378200.0,
+      "volume": 17792200.0,
       "prev_close": 1235.5,
       "source_list": "watch"
     },
     "5016": {
       "date": "2026-11-24",
-      "close": 1970.5,
+      "close": 1943.5,
       "open": 1975.0,
       "high": 2010.0,
       "low": 1920.5,
-      "volume": 13544200.0,
+      "volume": 15401500.0,
       "prev_close": 1820.5,
       "source_list": "watch"
     },
     "6723": {
       "date": "2026-11-24",
-      "close": 2639.0,
+      "close": 2609.0,
       "open": 2637.0,
       "high": 2706.5,
-      "low": 2611.0,
-      "volume": 6327800.0,
+      "low": 2603.0,
+      "volume": 7422100.0,
       "prev_close": 2425.0,
       "source_list": "watch"
     },
     "7011": {
       "date": "2026-11-24",
-      "close": 2851.5,
+      "close": 2792.0,
       "open": 2743.0,
       "high": 2885.0,
       "low": 2690.0,
-      "volume": 21001400.0,
+      "volume": 22510500.0,
       "prev_close": 2722.0,
       "source_list": "watch"
     },
     "7532": {
       "date": "2026-11-24",
-      "close": 818.1,
+      "close": 821.9,
       "open": 840.0,
       "high": 845.5,
       "low": 812.8,
-      "volume": 4188800.0,
+      "volume": 4821500.0,
       "prev_close": 832.8,
       "source_list": "watch"
     },
@@ -75,59 +75,59 @@
       "date": "2026-11-24",
       "close": 3152.0,
       "open": 3094.0,
-      "high": 3165.0,
+      "high": 3168.0,
       "low": 3082.0,
-      "volume": 20531700.0,
+      "volume": 23401300.0,
       "prev_close": 3024.0,
       "source_list": "watch"
     },
     "8766": {
       "date": "2026-11-24",
-      "close": 580.5,
+      "close": 583.6,
       "open": 578.0,
       "high": 587.7,
       "low": 572.4,
-      "volume": 41213400.0,
+      "volume": 46725100.0,
       "prev_close": 577.5,
       "source_list": "ranking"
     },
     "4755": {
       "date": "2026-11-24",
-      "close": 546.6,
+      "close": 542.8,
       "open": 550.0,
       "high": 553.9,
       "low": 533.1,
-      "volume": 19961300.0,
+      "volume": 22226000.0,
       "prev_close": 554.7,
-      "source_list": "ranking"
-    },
-    "7013": {
-      "date": "2026-11-24",
-      "close": 2311.5,
-      "open": 2203.0,
-      "high": 2346.0,
-      "low": 2200.0,
-      "volume": 7415300.0,
-      "prev_close": 2181.0,
       "source_list": "ranking"
     },
     "5706": {
       "date": "2026-11-24",
-      "close": 1209.5,
+      "close": 1182.5,
       "open": 1209.5,
       "high": 1239.0,
       "low": 1176.0,
-      "volume": 11893200.0,
+      "volume": 13127300.0,
       "prev_close": 1120.0,
+      "source_list": "ranking"
+    },
+    "7013": {
+      "date": "2026-11-24",
+      "close": 2279.0,
+      "open": 2203.0,
+      "high": 2346.0,
+      "low": 2200.0,
+      "volume": 8101700.0,
+      "prev_close": 2181.0,
       "source_list": "ranking"
     },
     "6752": {
       "date": "2026-11-24",
-      "close": 2969.5,
+      "close": 2946.5,
       "open": 2887.0,
       "high": 2996.0,
       "low": 2838.5,
-      "volume": 8641800.0,
+      "volume": 9451900.0,
       "prev_close": 2687.0,
       "source_list": "ranking"
     }
@@ -135,7 +135,7 @@
   "market": {
     "nikkei225": {
       "date": "2026-11-24",
-      "close": 58675.79,
+      "close": 58638.76,
       "open": 57009.99,
       "high": 59262.57,
       "low": 57009.99,
@@ -144,7 +144,7 @@
     },
     "usdjpy": {
       "date": "2026-11-24",
-      "close": 158.96,
+      "close": 158.98,
       "open": 158.99,
       "high": 159.1,
       "low": 158.75,
@@ -171,20 +171,20 @@
     },
     "growth250_etf": {
       "date": "2026-11-24",
-      "close": 526.4,
+      "close": 523.9,
       "open": 532.0,
       "high": 533.7,
       "low": 522.9,
-      "volume": 288950.0,
+      "volume": 347820.0,
       "prev_close": 512.0
     },
     "nikkei_futures": {
       "date": "2026-11-23",
-      "close": 58620.0,
+      "close": 58695.0,
       "open": 58020.0,
       "high": 59330.0,
       "low": 57300.0,
-      "volume": 6782.0,
+      "volume": 7115.0,
       "prev_close": 54555.0
     },
     "jgb10y": {
@@ -197,211 +197,211 @@
     {
       "code": "285A",
       "name": "キオクシアホールディングス",
-      "price": 7908.0,
-      "ticks": 269068,
+      "price": 7933.0,
+      "ticks": 297646,
       "eligible": false
     },
     {
       "code": "9984",
       "name": "ソフトバンクグループ",
-      "price": 3206.0,
-      "ticks": 82855,
+      "price": 3199.0,
+      "ticks": 89088,
       "eligible": false
     },
     {
       "code": "5803",
       "name": "フジクラ",
-      "price": 2448.0,
-      "ticks": 78259,
+      "price": 2400.0,
+      "ticks": 87978,
       "eligible": true
     },
     {
       "code": "6976",
       "name": "太陽誘電",
-      "price": 7066.0,
-      "ticks": 57790,
+      "price": 7000.0,
+      "ticks": 64260,
       "eligible": false
     },
     {
       "code": "6857",
       "name": "アドバンテスト",
-      "price": 27645.0,
-      "ticks": 56325,
+      "price": 27505.0,
+      "ticks": 61945,
       "eligible": false
     },
     {
       "code": "8035",
       "name": "東京エレクトロン",
-      "price": 9160.0,
-      "ticks": 54857,
+      "price": 9044.0,
+      "ticks": 60177,
       "eligible": false
     },
     {
       "code": "5801",
       "name": "古河電気工業",
-      "price": 1833.0,
-      "ticks": 50719,
+      "price": 1793.5,
+      "ticks": 55295,
       "eligible": true
     },
     {
       "code": "6981",
       "name": "村田製作所",
       "price": 5400.0,
-      "ticks": 41674,
+      "ticks": 43238,
       "eligible": false
     },
     {
       "code": "7011",
       "name": "三菱重工業",
-      "price": 2851.5,
-      "ticks": 34143,
+      "price": 2794.5,
+      "ticks": 36821,
       "eligible": true
     },
     {
       "code": "8766",
       "name": "東京海上ホールディングス",
-      "price": 580.5,
-      "ticks": 31161,
+      "price": 583.9,
+      "ticks": 34588,
       "eligible": true
     },
     {
       "code": "5016",
       "name": "ＪＸ金属",
-      "price": 1970.5,
-      "ticks": 29113,
+      "price": 1943.0,
+      "ticks": 32369,
       "eligible": true
     },
     {
       "code": "4755",
       "name": "楽天グループ",
-      "price": 546.6,
-      "ticks": 24852,
+      "price": 542.6,
+      "ticks": 26957,
       "eligible": true
     },
     {
       "code": "5802",
       "name": "住友電気工業",
-      "price": 1338.5,
-      "ticks": 22002,
-      "eligible": true
-    },
-    {
-      "code": "7013",
-      "name": "ＩＨＩ",
-      "price": 2311.5,
-      "ticks": 21197,
+      "price": 1315.5,
+      "ticks": 23907,
       "eligible": true
     },
     {
       "code": "5706",
       "name": "三井金属",
-      "price": 1209.5,
-      "ticks": 21015,
+      "price": 1181.0,
+      "ticks": 22991,
+      "eligible": true
+    },
+    {
+      "code": "7013",
+      "name": "ＩＨＩ",
+      "price": 2279.5,
+      "ticks": 22918,
       "eligible": true
     },
     {
       "code": "7974",
       "name": "任天堂",
-      "price": 8611.0,
-      "ticks": 20881,
+      "price": 8686.0,
+      "ticks": 22640,
       "eligible": false
     },
     {
       "code": "6752",
       "name": "パナソニック　ホールディングス",
-      "price": 2969.5,
-      "ticks": 20430,
-      "eligible": true
-    },
-    {
-      "code": "7012",
-      "name": "川崎重工業",
-      "price": 1585.5,
-      "ticks": 19113,
-      "eligible": true
-    },
-    {
-      "code": "3436",
-      "name": "ＳＵＭＣＯ",
-      "price": 2066.0,
-      "ticks": 18980,
+      "price": 2948.0,
+      "ticks": 21939,
       "eligible": true
     },
     {
       "code": "6723",
       "name": "ルネサスエレクトロニクス",
-      "price": 2639.0,
-      "ticks": 18851,
+      "price": 2608.5,
+      "ticks": 21106,
+      "eligible": true
+    },
+    {
+      "code": "7012",
+      "name": "川崎重工業",
+      "price": 1555.5,
+      "ticks": 21052,
+      "eligible": true
+    },
+    {
+      "code": "3436",
+      "name": "ＳＵＭＣＯ",
+      "price": 2044.0,
+      "ticks": 20853,
       "eligible": true
     },
     {
       "code": "8411",
       "name": "みずほフィナンシャルグループ",
-      "price": 7775.0,
-      "ticks": 16692,
+      "price": 7729.0,
+      "ticks": 18476,
       "eligible": false
     },
     {
       "code": "8306",
       "name": "三菱ＵＦＪフィナンシャル・グループ",
-      "price": 3152.0,
-      "ticks": 16567,
+      "price": 3153.0,
+      "ticks": 17907,
       "eligible": false
     },
     {
       "code": "6758",
       "name": "ソニーグループ",
-      "price": 4330.0,
-      "ticks": 16046,
+      "price": 4333.0,
+      "ticks": 17463,
       "eligible": false
     },
     {
       "code": "6920",
       "name": "レーザーテック",
-      "price": 33490.0,
-      "ticks": 15503,
+      "price": 33130.0,
+      "ticks": 16851,
       "eligible": false
     },
     {
       "code": "6762",
       "name": "ＴＤＫ",
-      "price": 2303.0,
-      "ticks": 14909,
+      "price": 2274.5,
+      "ticks": 16413,
       "eligible": true
     },
     {
       "code": "2914",
       "name": "日本たばこ産業",
-      "price": 5311.0,
-      "ticks": 14904,
+      "price": 5369.0,
+      "ticks": 16057,
       "eligible": false
     },
     {
       "code": "6315",
       "name": "ＴＯＷＡ",
-      "price": 2488.0,
-      "ticks": 12690,
+      "price": 2422.0,
+      "ticks": 14017,
+      "eligible": true
+    },
+    {
+      "code": "8001",
+      "name": "伊藤忠商事",
+      "price": 2217.0,
+      "ticks": 13368,
       "eligible": true
     },
     {
       "code": "8316",
       "name": "三井住友フィナンシャルグループ",
-      "price": 3051.0,
-      "ticks": 12221,
+      "price": 3035.0,
+      "ticks": 13149,
       "eligible": false
-    },
-    {
-      "code": "8001",
-      "name": "伊藤忠商事",
-      "price": 2237.0,
-      "ticks": 11744,
-      "eligible": true
     },
     {
       "code": "4004",
       "name": "レゾナック・ホールディングス",
-      "price": 12605.0,
-      "ticks": 11631,
+      "price": 12350.0,
+      "ticks": 13124,
       "eligible": false
     }
   ],
