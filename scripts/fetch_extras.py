@@ -2,7 +2,7 @@
 
 - fundamentals : PER・PBR・配当利回り・時価総額・次の決算日・直近四半期の売上と営業利益（Yahoo）
 - disclosures  : 会社の適時開示（TDnet。決算短信・業績修正・配当変更など）
-- news         : 銘柄ごとのニュース見出し（Googleニュースを切り口別に複数回検索。topic=general/analyst/business/earnings/risk/code）
+- news         : 銘柄ごとのニュース見出し（Googleニュースを切り口別に複数回検索。topic=general/analyst_earnings/business_risk）
 - market_news  : 市場全体・米国市場・経済指標のニュース見出し（Googleニュース）
 - calendar     : 経済指標カレンダー（取れたサイトの表をそのまま保存）
 
@@ -107,7 +107,12 @@ def disclosures(code: str) -> list[dict]:
 
 def google_news(query: str, limit: int = 6) -> list[dict]:
     url = f"https://news.google.com/rss/search?q={quote(query)}&hl=ja&gl=JP&ceid=JP:ja"
-    r = requests.get(url, headers=UA, timeout=30)
+    for wait in (0, 10, 30):  # 混み合い（429）のときは少し待ってやり直す
+        if wait:
+            time.sleep(wait)
+        r = requests.get(url, headers=UA, timeout=30)
+        if r.status_code != 429:
+            break
     r.raise_for_status()
     root = ET.fromstring(r.content)
     items = []
@@ -155,10 +160,8 @@ SHORT_NAMES = {
 # 1銘柄あたりの検索の切り口（topic名, 検索語の後ろにつける言葉, 期間）
 NEWS_TOPICS = [
     ("general", "株", "3d"),
-    ("analyst", "目標株価 OR レーティング OR 格付け", "7d"),
-    ("business", "受注 OR 提携 OR 新製品 OR 増産 OR 買収 OR 採用", "7d"),
-    ("earnings", "業績 OR 決算 OR 上方修正 OR 下方修正 OR 配当", "7d"),
-    ("risk", "不正 OR 事故 OR 漏えい OR 行政処分 OR 訴訟 OR リコール", "7d"),
+    ("analyst_earnings", "目標株価 OR レーティング OR 業績 OR 決算 OR 上方修正 OR 下方修正 OR 配当", "7d"),
+    ("business_risk", "受注 OR 提携 OR 新製品 OR 増産 OR 買収 OR 不正 OR 事故 OR 漏えい OR 訴訟 OR 行政処分", "7d"),
 ]
 
 
@@ -170,7 +173,7 @@ def short_name(code: str, name: str) -> str:
     return name.strip() or name
 
 
-def stock_news(code: str, name: str, per_topic: int = 5, limit: int = 18) -> list[dict]:
+def stock_news(code: str, name: str, per_topic: int = 6, limit: int = 15) -> list[dict]:
     """切り口を変えて何回か検索し、重複を除いてまとめる（topic で何の検索で見つかったか分かる）"""
     base = short_name(code, name)
     seen: set[str] = set()
@@ -188,17 +191,7 @@ def stock_news(code: str, name: str, per_topic: int = 5, limit: int = 18) -> lis
             seen.add(key)
             it["topic"] = topic
             merged.append(it)
-        time.sleep(0.7)
-    # コード付きの見出し（株探など）も拾う
-    try:
-        for it in google_news(f"{code} {base.split(' OR ')[0]} when:3d", limit=per_topic):
-            key = re.sub(r"\s+", "", (it.get("title") or "").split(" - ")[0])
-            if key and key not in seen:
-                seen.add(key)
-                it["topic"] = "code"
-                merged.append(it)
-    except Exception:  # noqa: BLE001
-        pass
+        time.sleep(1.5)
     merged.sort(key=lambda x: x.get("published_jst") or "", reverse=True)
     return merged[:limit]
 
