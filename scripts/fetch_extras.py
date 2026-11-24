@@ -73,6 +73,8 @@ def fundamentals(code: str) -> dict:
         dates = cal.get("Earnings Date") if isinstance(cal, dict) else None
         if dates:
             out["next_earnings"] = [str(d) for d in dates]
+            if dates and all(str(d) < datetime.now(JST).strftime("%Y-%m-%d") for d in dates):
+                out["next_earnings_note"] = "過去の日付（Yahoo側が未更新）。earnings_schedule を優先し、無ければ「次回は未発表（前回＋約3か月が目安）」と書く"
     except Exception as e:  # noqa: BLE001
         errors.append(f"{code} calendar: {e}")
     try:
@@ -240,27 +242,106 @@ def pdf_text(url: str, max_pages: int = 4, max_chars: int = 7000) -> str:
 
 
 def filings(code: str, items: list[dict], now: datetime) -> list[dict]:
-    out = []
+    """直近14日の重要開示（最大3件）＋、それより古くても「最新の決算短信」と「最新の業績予想の修正」（120日以内）は必ず入れる"""
+    picked: list[dict] = []
+    seen_kinds: set[str] = set()
+
+    def kind(title: str) -> str | None:
+        if "決算短信" in title:
+            return "tanshin"
+        if "業績予想" in title and "修正" in title:
+            return "revision"
+        return None
+
+    def age(t: str):
+        try:
+            return now - datetime.strptime(t[:19], "%Y-%m-%d %H:%M:%S").replace(tzinfo=JST)
+        except ValueError:
+            return None
+
+    recent = []
     for it in items:
         title, t = it.get("title") or "", it.get("time") or ""
-        if not any(w in title for w in FILING_WORDS):
+        a = age(t)
+        if a is None or not any(w in title for w in FILING_WORDS):
             continue
+        if a <= timedelta(days=14) and len(recent) < 3:
+            recent.append(it)
+    picked.extend(recent)
+    for it in recent:
+        k = kind(it.get("title") or "")
+        if k:
+            seen_kinds.add(k)
+    for it in items:  # 新しい順に並んでいる
+        title, t = it.get("title") or "", it.get("time") or ""
+        k, a = kind(title), age(t)
+        if k and k not in seen_kinds and a is not None and a <= timedelta(days=120):
+            picked.append(it)
+            seen_kinds.add(k)
+
+    out = []
+    for it in picked:
+        url = (it.get("url") or "").split("rd.php?", 1)[-1]
+        a = age(it.get("time") or "")
         try:
-            when = datetime.strptime(t[:19], "%Y-%m-%d %H:%M:%S").replace(tzinfo=JST)
-        except ValueError:
-            continue
-        if now - when > timedelta(days=14):
-            continue
-        url = it.get("url") or ""
-        url = url.split("rd.php?", 1)[-1]
-        try:
-            out.append({"time": t, "title": title, "url": url, "text": pdf_text(url)})
+            out.append({"time": it.get("time"), "title": it.get("title"), "url": url,
+                        "older_than_14d": bool(a and a > timedelta(days=14)),
+                        "text": pdf_text(url)})
         except Exception as e:  # noqa: BLE001
             errors.append(f"{code} filing pdf: {e}")
-        if len(out) >= 3:
-            break
         time.sleep(1)
     return out
+
+
+# ---- 決算発表予定日（日本取引所）・中央銀行の会合日程 ----
+def jpx_earnings_schedule(codes: list[str]) -> dict:
+    """JPXの「決算発表予定日」一覧（Excel）から、ウォッチ銘柄の予定日を探す"""
+    out: dict = {}
+    page_url = "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/index.html"
+    r = requests.get(page_url, headers=UA, timeout=30)
+    r.raise_for_status()
+    links = sorted(set(re.findall(r'href="([^"]+\.xlsx?)"', r.text)))
+    for link in links[:6]:
+        url = link if link.startswith("http") else "https://www.jpx.co.jp" + link
+        try:
+            x = requests.get(url, headers=UA, timeout=60)
+            x.raise_for_status()
+            sheets = pd.read_excel(io.BytesIO(x.content), sheet_name=None, header=None)
+        except Exception as e:  # noqa: BLE001
+            errors.append(f"jpx earnings xlsx {url}: {e}")
+            continue
+        for df in sheets.values():
+            for row in df.itertuples(index=False):
+                cells = [c for c in row if pd.notna(c)]
+                strs = [str(c).strip() for c in cells]
+                hit = next((c for c in codes if any(s in (c, c + "0", f"{c}.0") for s in strs)), None)
+                if not hit:
+                    continue
+                for c in cells:
+                    d = None
+                    if isinstance(c, (datetime, pd.Timestamp)):
+                        d = pd.Timestamp(c)
+                    elif isinstance(c, str) and re.match(r"^20\d\d[/-]\d{1,2}[/-]\d{1,2}", c):
+                        d = pd.Timestamp(c[:10].replace("/", "-"))
+                    if d is not None:
+                        out.setdefault(hit, set()).add(d.strftime("%Y-%m-%d"))
+                        break
+    return {k: sorted(v) for k, v in out.items()}
+
+
+def key_events(now: datetime, days: int = 70) -> list[dict]:
+    """手で管理している中央銀行の会合日程（key_events.json）から、近い予定を出す"""
+    path = DATA.parent / "key_events.json"
+    if not path.exists():
+        return []
+    ev = json.loads(path.read_text(encoding="utf-8"))
+    today = now.date()
+    out = []
+    for e in ev.get("events", []):
+        end = datetime.strptime(e["end"], "%Y-%m-%d").date()
+        if today <= end <= today + timedelta(days=days):
+            out.append({**e, "days_until_end": (end - today).days})
+    return sorted(out, key=lambda x: x["end"])
 
 
 # ---- 需給データ（日本取引所） ----
@@ -323,7 +404,8 @@ def main() -> int:
     names = names_and_codes()
     out: dict = {"updated_at_jst": now.strftime("%Y-%m-%d %H:%M"), "names": names,
                  "fundamentals": {}, "disclosures": {}, "news": {}, "market_news": {},
-                 "calendar": {}, "filings": {}, "supply": {}, "errors": []}
+                 "calendar": {}, "filings": {}, "supply": {}, "earnings_schedule": {},
+                 "key_events": [], "errors": []}
 
     for code, name in names.items():
         out["fundamentals"][code] = fundamentals(code)
@@ -362,6 +444,12 @@ def main() -> int:
             out["market_news"][key] = rss_feed(url, limit=10)
         except Exception as e:  # noqa: BLE001
             errors.append(f"market_news {key}: {e}")
+
+    try:
+        out["earnings_schedule"] = jpx_earnings_schedule(list(names))
+    except Exception as e:  # noqa: BLE001
+        errors.append(f"jpx earnings schedule: {e}")
+    out["key_events"] = key_events(now)
 
     out["calendar"] = calendar()
     out["supply"] = jpx_supply(list(names))
