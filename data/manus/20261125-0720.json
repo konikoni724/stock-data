@@ -1,0 +1,285 @@
+{
+  "generated_at": "2026-11-25T07:20:00+09:00",
+  "run_type": "scheduled",
+  "stocks": [
+    {
+      "code": "5803",
+      "name": "フジクラ",
+      "items": [],
+      "fetch_failed": [
+        "https://www.fujikura.co.jp/ir/news/ — 該当URLは404（ページなし）。公式IRトップと決算資料ページでは対象期間内の資料を確認できず。"
+      ]
+    },
+    {
+      "code": "5801",
+      "name": "古河電工",
+      "items": [],
+      "fetch_failed": []
+    },
+    {
+      "code": "5802",
+      "name": "住友電工",
+      "items": [],
+      "fetch_failed": []
+    },
+    {
+      "code": "5016",
+      "name": "JX金属",
+      "items": [
+        {
+          "type": "news",
+          "headline": "JX金属、TSMCの2026 Excellent Performance Awardを受賞",
+          "summary": "TSMCから「Excellent Production Support」を受賞。安定供給と量産対応への貢献が評価され、受賞は通算3度目。",
+          "published": "2026-11-24",
+          "source_name": "JX金属（公式ニュースリリース）",
+          "url": "https://www.jx-nmm.com/newsrelease/2026/20261124_01.html",
+          "tone": "好材料"
+        }
+      ],
+      "fetch_failed": []
+    },
+    {
+      "code": "6723",
+      "name": "ルネサスエレクトロニクス",
+      "items": [],
+      "fetch_failed": []
+    },
+    {
+      "code": "7011",
+      "name": "三菱重工業",
+      "items": [],
+      "fetch_failed": [
+        "三菱重工公式ニュース https://www.mhi.com/jp/news — 記事一覧本文と対象期間の公開日を確認できず。",
+        "三菱重工IR https://www.mhi.com/jp/finance — 対象期間の開示・公開日を確認できず。",
+        "みんかぶ https://minkabu.jp/stock/7011/analyst_consensus — 個別の目標株価変更の発表元一次ページと公開日を確認できず、採用せず。"
+      ]
+    },
+    {
+      "code": "7532",
+      "name": "パン・パシフィック・インターナショナルHD",
+      "items": [
+        {
+          "type": "news",
+          "headline": "ドンキのAI社員「近藤あい」が勤労感謝の日に正式デビューへ",
+          "summary": "PPIHがAI社員を宣伝担当に起用。販促物や商品紹介動画、SNS発信に活用し、制作期間短縮の事例もある。",
+          "published": "2026-11-21",
+          "source_name": "CNET Japan",
+          "url": "https://japan.cnet.com/article/35255239/",
+          "tone": "中立"
+        },
+        {
+          "type": "news",
+          "headline": "PPIHがPeopleXのAI面接・AIロープレを導入",
+          "summary": "応募者の面接機会拡大と採用工数削減、店舗接客や管理職の育成強化を目的に対話型AIを導入。",
+          "published": "2026-11-24",
+          "source_name": "流通ニュース",
+          "url": "https://www.ryutsuu.biz/it/s112411.html",
+          "tone": "中立"
+        }
+      ],
+      "fetch_failed": []
+    },
+    {
+      "code": "8306",
+      "name": "三菱UFJフィナンシャル・グループ",
+      "items": [
+        {
+          "type": "industry",
+          "headline": "地域金融機関の競争可能性を分析、大和総研が地域別に試算",
+          "summary": "貸出残高増に伴う規模の経済を指摘。46道府県中41地域で金融機関数が損益分岐点を上回ると推定。",
+          "published": "2026-11-24",
+          "source_name": "大和総研",
+          "url": "https://www.dir.co.jp/report/research/capital-mkt/securities/20261124_026206.html",
+          "tone": "中立"
+        },
+        {
+          "type": "analyst",
+          "headline": "アナリスト予想コンセンサスは「買い」、平均目標株価3,909円",
+          "summary": "11月21日時点の判断は買い。平均目標株価は3,909円で、1週間前の3,924円から低下。",
+          "published": "2026-11-21",
+          "source_name": "みんかぶ",
+          "url": "https://minkabu.jp/stock/8306/analyst_consensus",
+          "tone": "中立"
+        }
+      ],
+      "fetch_failed": [
+        "日本経済新聞 https://www.nikkei.com/article/DGXZQOUB1982E0Z11C26A0000000/ — 有料会員限定で記事全文を閲覧できず。情報は採用せず。"
+      ]
+    },
+    {
+      "code": "8766",
+      "name": "東京海上ホールディングス",
+      "items": [],
+      "fetch_failed": []
+    },
+    {
+      "code": "3436",
+      "name": "SUMCO",
+      "items": [],
+      "fetch_failed": []
+    },
+    {
+      "code": "6752",
+      "name": "パナソニックHD",
+      "items": [],
+      "fetch_failed": []
+    },
+    {
+      "code": "4755",
+      "name": "楽天グループ",
+      "items": [
+        {
+          "type": "ir",
+          "headline": "2029年満期9.75%シニア債の同意勧誘が成立",
+          "summary": "必要な同意を取得し、債務条項の変更に合意。対象社債権者への同意対価は最短11月25日に送金予定。",
+          "published": "2026-11-24",
+          "source_name": "楽天グループ株式会社（公式発表）",
+          "url": "https://corp.rakuten.co.jp/news/press/2026/1124_11.html",
+          "tone": "中立"
+        },
+        {
+          "type": "ir",
+          "headline": "2029年満期6.00%シニア債の同意勧誘を開始",
+          "summary": "社債購入契約の条項変更について同意を募集。必要同意数は元本総額の50%超、期限は12月3日。",
+          "published": "2026-11-24",
+          "source_name": "楽天グループ株式会社（公式発表）",
+          "url": "https://corp.rakuten.co.jp/news/press/2026/1124_12.html",
+          "tone": "中立"
+        }
+      ],
+      "fetch_failed": [
+        "日本経済新聞「楽天G、社債発行見送り 最大1500億円の永久劣後債」（2026-11-24）— 検索で確認されたが会員限定で本文を閲覧できず。"
+      ]
+    },
+    {
+      "code": "5706",
+      "name": "三井金属",
+      "items": [],
+      "fetch_failed": []
+    }
+  ],
+  "market": [
+    {
+      "headline": "米株３指数が大幅反発、ナスダック6.51％高",
+      "summary": "11月23日、ダウは3.01％高、S&P500は4.73％高。エヌビディアCEO復帰を受けAI関連株が買われた。",
+      "published": "2026-11-23",
+      "source_name": "Reuters",
+      "url": "https://www.reuters.com/business/wall-street-futures-rebound-after-rough-week-ai-linked-shares-2026-11-23/"
+    },
+    {
+      "headline": "日経平均、11月24日午前に一時５％上昇",
+      "summary": "前週末比3.97％高の58,675.79円で午前を終えた。半導体・AI関連株への買いが主導した。",
+      "published": "2026-11-24",
+      "source_name": "新華社（Xinhua）",
+      "url": "https://english.news.cn/asiapacific/20261124/291356eeae624ebba914e312cbb9a407/c.html"
+    },
+    {
+      "headline": "米ナスダックとS&P500が反落、ダウは上昇",
+      "summary": "11月24日、ナスダックは1.45％安、S&P500は0.48％安。前日の急騰後にテック株が下落した。",
+      "published": "2026-11-24",
+      "source_name": "Reuters",
+      "url": "https://www.reuters.com/business/wall-st-futures-dip-chip-stocks-cool-after-nvidia-fueled-rally-2026-11-24/"
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2026-11-25",
+      "event": "米国：GDP（2026年第3四半期・改定値）および企業利益の公表（8:30 ET）",
+      "source_name": "U.S. Bureau of Economic Analysis (BEA)",
+      "url": "https://www.bea.gov/news/schedule"
+    },
+    {
+      "date": "2026-11-25",
+      "event": "米国：個人所得・支出（2026年10月分）の公表（8:30 ET）",
+      "source_name": "U.S. Bureau of Economic Analysis (BEA)",
+      "url": "https://www.bea.gov/news/schedule"
+    },
+    {
+      "date": "2026-11-25",
+      "event": "米国：耐久財受注・先行報告の公表予定（8:30 ET）",
+      "source_name": "Federal Reserve Bank of New York, Economic Indicators Calendar",
+      "url": "https://www.newyorkfed.org/research/calendars/nationalecon_cal"
+    },
+    {
+      "date": "2026-11-25",
+      "event": "米国：連邦準備制度のベージュブック公表",
+      "source_name": "Board of Governors of the Federal Reserve System",
+      "url": "https://www.federalreserve.gov/monetarypolicy/publications/beige-book-default.htm"
+    },
+    {
+      "date": "2026-11-25",
+      "event": "日銀：貸出約定平均金利（2026年9月分）公表（8:50）",
+      "source_name": "日本銀行 公表予定",
+      "url": "https://www.boj.or.jp/about/calendar/index.htm"
+    },
+    {
+      "date": "2026-11-25",
+      "event": "日銀：企業向けサービス価格指数（2026年10月分）公表（8:50）",
+      "source_name": "日本銀行 公表予定",
+      "url": "https://www.boj.or.jp/about/calendar/index.htm"
+    },
+    {
+      "date": "2026-11-25",
+      "event": "日銀：消費者物価のコア指標公表（14:00）",
+      "source_name": "日本銀行 公表予定",
+      "url": "https://www.boj.or.jp/about/calendar/index.htm"
+    },
+    {
+      "date": "2026-11-26",
+      "event": "日銀：田村審議委員の挨拶（山梨）",
+      "source_name": "日本銀行 公表予定",
+      "url": "https://www.boj.or.jp/about/calendar/index.htm"
+    },
+    {
+      "date": "2026-11-27",
+      "event": "日本：東京都区部・2026年11月消費者物価指数（東京CPI）公表予定",
+      "source_name": "みんかぶFX（MINKABUPRESS）",
+      "url": "https://fx.minkabu.jp/news/385159"
+    },
+    {
+      "date": "2026-11-27",
+      "event": "日銀：田村審議委員の記者会見（11月26日分、時刻未定）",
+      "source_name": "日本銀行 公表予定",
+      "url": "https://www.boj.or.jp/about/calendar/index.htm"
+    },
+    {
+      "date": "2026-11-30",
+      "event": "日本：鉱工業生産・出荷・在庫指数速報（2026年10月分）公表（8:50）",
+      "source_name": "経済産業省 統計公表スケジュール",
+      "url": "https://www.meti.go.jp/statistics/toppage/kohyo.html"
+    },
+    {
+      "date": "2026-11-30",
+      "event": "日本：製造工業生産予測指数（2026年10月調査）公表（8:50）",
+      "source_name": "経済産業省 統計公表スケジュール",
+      "url": "https://www.meti.go.jp/statistics/toppage/kohyo.html"
+    },
+    {
+      "date": "2026-11-30",
+      "event": "日銀：植田総裁の挨拶（名古屋、10:05）",
+      "source_name": "日本銀行 公表予定",
+      "url": "https://www.boj.or.jp/about/calendar/index.htm"
+    },
+    {
+      "date": "2026-12-01",
+      "event": "日銀：植田総裁の記者会見（11月30日分、時刻未定）",
+      "source_name": "日本銀行 公表予定",
+      "url": "https://www.boj.or.jp/about/calendar/index.htm"
+    },
+    {
+      "date": "2026-12-02",
+      "event": "日銀：マネタリーベース（2026年11月分）公表（8:50）",
+      "source_name": "日本銀行 公表予定",
+      "url": "https://www.boj.or.jp/about/calendar/index.htm"
+    },
+    {
+      "date": "2026-12-02",
+      "event": "日銀：貸出約定平均金利（2026年10月分）公表（8:50）",
+      "source_name": "日本銀行 公表予定",
+      "url": "https://www.boj.or.jp/about/calendar/index.htm"
+    }
+  ],
+  "errors": [
+    "対象13銘柄の決算発表予定について、2026-11-25〜2026-12-02の日程を裏付けるIR等の出典を確認できませんでした。推測で予定を追加していません。"
+  ]
+}
