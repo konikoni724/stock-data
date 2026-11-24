@@ -2,7 +2,7 @@
 
 - fundamentals : PER・PBR・配当利回り・時価総額・次の決算日・直近四半期の売上と営業利益（Yahoo）
 - disclosures  : 会社の適時開示（TDnet。決算短信・業績修正・配当変更など）
-- news         : 銘柄ごとのニュース見出し（Googleニュース）
+- news         : 銘柄ごとのニュース見出し（Googleニュースを切り口別に複数回検索。topic=general/analyst/business/earnings/risk/code）
 - market_news  : 市場全体・米国市場・経済指標のニュース見出し（Googleニュース）
 - calendar     : 経済指標カレンダー（取れたサイトの表をそのまま保存）
 
@@ -122,6 +122,85 @@ def google_news(query: str, limit: int = 6) -> list[dict]:
                       "published_jst": pub, "url": item.findtext("link")})
     items.sort(key=lambda x: x.get("published_jst") or "", reverse=True)
     return items[:limit]
+
+
+def rss_feed(url: str, limit: int = 10) -> list[dict]:
+    r = requests.get(url, headers=UA, timeout=30)
+    r.raise_for_status()
+    root = ET.fromstring(r.content)
+    items = []
+    for item in root.iter("item"):
+        pub = item.findtext("pubDate")
+        try:
+            pub = parsedate_to_datetime(pub).astimezone(JST).strftime("%Y-%m-%d %H:%M")
+        except Exception:  # noqa: BLE001
+            pass
+        items.append({"title": item.findtext("title"), "source": "NHK", "published_jst": pub,
+                      "url": item.findtext("link")})
+    items.sort(key=lambda x: x.get("published_jst") or "", reverse=True)
+    return items[:limit]
+
+
+# 検索で使う短い名前（長い社名だと記事に当たりにくい銘柄だけ）
+SHORT_NAMES = {
+    "7532": "パンパシフィック OR PPIH OR ドン・キホーテ",
+    "8306": "三菱UFJ OR 三菱ＵＦＪ OR MUFG",
+    "6723": "ルネサス",
+    "6752": "パナソニック",
+    "8766": "東京海上",
+    "4755": "楽天グループ OR 楽天G",
+    "3436": "SUMCO",
+}
+
+# 1銘柄あたりの検索の切り口（topic名, 検索語の後ろにつける言葉, 期間）
+NEWS_TOPICS = [
+    ("general", "株", "3d"),
+    ("analyst", "目標株価 OR レーティング OR 格付け", "7d"),
+    ("business", "受注 OR 提携 OR 新製品 OR 増産 OR 買収 OR 採用", "7d"),
+    ("earnings", "業績 OR 決算 OR 上方修正 OR 下方修正 OR 配当", "7d"),
+    ("risk", "不正 OR 事故 OR 漏えい OR 行政処分 OR 訴訟 OR リコール", "7d"),
+]
+
+
+def short_name(code: str, name: str) -> str:
+    if code in SHORT_NAMES:
+        return SHORT_NAMES[code]
+    for w in ("株式会社", "ホールディングス", "グループ", "フィナンシャル"):
+        name = name.replace(w, "")
+    return name.strip() or name
+
+
+def stock_news(code: str, name: str, per_topic: int = 5, limit: int = 18) -> list[dict]:
+    """切り口を変えて何回か検索し、重複を除いてまとめる（topic で何の検索で見つかったか分かる）"""
+    base = short_name(code, name)
+    seen: set[str] = set()
+    merged: list[dict] = []
+    for topic, words, period in NEWS_TOPICS:
+        q = f"({base}) {words} when:{period}"
+        try:
+            items = google_news(q, limit=per_topic)
+        except Exception:  # noqa: BLE001
+            continue
+        for it in items:
+            key = re.sub(r"\s+", "", (it.get("title") or "").split(" - ")[0])
+            if not key or key in seen:
+                continue
+            seen.add(key)
+            it["topic"] = topic
+            merged.append(it)
+        time.sleep(0.7)
+    # コード付きの見出し（株探など）も拾う
+    try:
+        for it in google_news(f"{code} {base.split(' OR ')[0]} when:3d", limit=per_topic):
+            key = re.sub(r"\s+", "", (it.get("title") or "").split(" - ")[0])
+            if key and key not in seen:
+                seen.add(key)
+                it["topic"] = "code"
+                merged.append(it)
+    except Exception:  # noqa: BLE001
+        pass
+    merged.sort(key=lambda x: x.get("published_jst") or "", reverse=True)
+    return merged[:limit]
 
 
 CALENDAR_URLS = [
@@ -263,7 +342,7 @@ def main() -> int:
         except Exception as e:  # noqa: BLE001
             errors.append(f"{code} disclosures: {e}")
         try:
-            out["news"][code] = google_news(f"{name} 株 when:3d")
+            out["news"][code] = stock_news(code, name)
         except Exception as e:  # noqa: BLE001
             errors.append(f"{code} news: {e}")
         time.sleep(1)
@@ -273,9 +352,21 @@ def main() -> int:
         "us_market": "米国株 ダウ ナスダック SOX when:1d",
         "economic_indicators": "米経済指標 今夜 発表予定 when:2d",
         "boj_fed": "日銀 金融政策決定会合 OR FOMC when:3d",
+        "analyst_moves": "目標株価 引き上げ OR 引き下げ OR レーティング when:1d",
+        "semiconductor_ai": "半導体株 OR AI関連株 OR データセンター 株価 when:2d",
+        "nonferrous_wire": "電線株 OR 非鉄株 OR 光ファイバー 需要 when:3d",
+        "us_earnings": "米国 決算発表 株価 when:2d",
+        "forex_rates": "ドル円 OR 長期金利 OR 円相場 when:1d",
     }.items():
         try:
             out["market_news"][key] = google_news(q, limit=8)
+        except Exception as e:  # noqa: BLE001
+            errors.append(f"market_news {key}: {e}")
+
+    # Googleニュース以外の無料の見出し配信
+    for key, url in {"nhk_economy": "https://www3.nhk.or.jp/rss/news/cat5.xml"}.items():
+        try:
+            out["market_news"][key] = rss_feed(url, limit=10)
         except Exception as e:  # noqa: BLE001
             errors.append(f"market_news {key}: {e}")
 
