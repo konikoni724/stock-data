@@ -162,7 +162,7 @@ SHORT_NAMES = {
 # 1銘柄あたりの検索の切り口（topic名, 検索語の後ろにつける言葉, 期間）
 NEWS_TOPICS = [
     ("general", "株", "3d"),
-    ("analyst", "アナリスト評価 OR アイフィスジャパン OR 目標株価 引き上げ OR 目標株価 引き下げ", "14d"),
+    ("analyst", "アナリスト評価 OR アイフィス OR 目標株価 OR 投資判断 OR 格上げ OR 格下げ", "14d"),
     ("analyst_earnings", "目標株価 OR レーティング OR 業績 OR 決算 OR 上方修正 OR 下方修正 OR 配当", "7d"),
     ("business_risk", "受注 OR 提携 OR 新製品 OR 増産 OR 買収 OR 不正 OR 事故 OR 漏えい OR 訴訟 OR 行政処分", "7d"),
 ]
@@ -182,7 +182,7 @@ def stock_news(code: str, name: str, per_topic: int = 6, limit: int = 15) -> lis
     seen: set[str] = set()
     merged: list[dict] = []
     for topic, words, period in NEWS_TOPICS:
-        q = f"({base}) {words} when:{period}"
+        q = f"({base}) ({words}) when:{period}"
         try:
             items = google_news(q, limit=per_topic)
         except Exception:  # noqa: BLE001
