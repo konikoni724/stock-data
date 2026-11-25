@@ -2,7 +2,7 @@
 
 - fundamentals : PER・PBR・配当利回り・時価総額・次の決算日・直近四半期の売上と営業利益（Yahoo）
 - disclosures  : 会社の適時開示（TDnet。決算短信・業績修正・配当変更など）
-- news         : 銘柄ごとのニュース見出し（Googleニュースを切り口別に複数回検索。topic=general/analyst_earnings/business_risk）
+- news         : 銘柄ごとのニュース見出し（Googleニュースを切り口別に複数回検索。topic=general/analyst/analyst_earnings/business_risk）
 - market_news  : 市場全体・米国市場・経済指標のニュース見出し（Googleニュース）
 - calendar     : 経済指標カレンダー（取れたサイトの表をそのまま保存）
 
@@ -162,6 +162,7 @@ SHORT_NAMES = {
 # 1銘柄あたりの検索の切り口（topic名, 検索語の後ろにつける言葉, 期間）
 NEWS_TOPICS = [
     ("general", "株", "3d"),
+    ("analyst", "アナリスト評価 OR アイフィスジャパン OR 目標株価 引き上げ OR 目標株価 引き下げ", "14d"),
     ("analyst_earnings", "目標株価 OR レーティング OR 業績 OR 決算 OR 上方修正 OR 下方修正 OR 配当", "7d"),
     ("business_risk", "受注 OR 提携 OR 新製品 OR 増産 OR 買収 OR 不正 OR 事故 OR 漏えい OR 訴訟 OR 行政処分", "7d"),
 ]
