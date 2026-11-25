@@ -1,5 +1,5 @@
 {
-  "updated_at_jst": "2026-11-25 12:41",
+  "updated_at_jst": "2026-11-25 14:36",
   "names": {
     "5803": "フジクラ",
     "5801": "古河電工",
@@ -10,18 +10,18 @@
     "7532": "パン・パシフィック・インターナショナルHD",
     "8306": "三菱UFJフィナンシャル・グループ",
     "9984": "ソフトバンクグループ",
-    "3905": "データセクション",
     "6752": "パナソニック ホールディングス",
+    "3905": "データセクション",
     "8766": "東京海上ホールディングス",
     "3436": "ＳＵＭＣＯ"
   },
   "fundamentals": {
     "5803": {
-      "per": 12.742,
-      "per_forward": 6.8683,
-      "pbr": 4.9686,
+      "per": 12.6409,
+      "per_forward": 6.8138,
+      "pbr": 4.9292,
       "dividend_yield_pct": 2.74,
-      "market_cap": 3444892762112.0,
+      "market_cap": 3417565298688.0,
       "next_earnings": [
         "2027-02-09"
       ],
@@ -59,11 +59,11 @@
       ]
     },
     "5801": {
-      "per": 9.2688,
-      "per_forward": 5.2536,
-      "pbr": 2.41,
+      "per": 9.2629,
+      "per_forward": 5.2502,
+      "pbr": 2.4085,
       "dividend_yield_pct": 1.36,
-      "market_cap": 1096345714688.0,
+      "market_cap": 1095641989120.0,
       "next_earnings": [
         "2027-02-08"
       ],
@@ -101,11 +101,11 @@
       ]
     },
     "5802": {
-      "per": 11.6399,
-      "per_forward": 5.5716,
-      "pbr": 1.336,
+      "per": 11.6257,
+      "per_forward": 5.5649,
+      "pbr": 1.3344,
       "dividend_yield_pct": 3.64,
-      "market_cap": 3842621046784.0,
+      "market_cap": 3837940727808.0,
       "next_earnings": [
         "2027-02-02"
       ],
@@ -143,11 +143,11 @@
       ]
     },
     "5016": {
-      "per": 9.4666,
+      "per": 9.5439,
       "per_forward": null,
-      "pbr": 2.2641,
+      "pbr": 2.2826,
       "dividend_yield_pct": 1.92,
-      "market_cap": 1532833693696.0,
+      "market_cap": 1545350283264.0,
       "next_earnings": [
         "2027-02-09"
       ],
@@ -185,11 +185,11 @@
       ]
     },
     "6723": {
-      "per": 6.6128,
-      "per_forward": 8.2526,
-      "pbr": 1.4813,
+      "per": 7.2283,
+      "per_forward": 8.3335,
+      "pbr": 1.4959,
       "dividend_yield_pct": 1.15,
-      "market_cap": 4288203718656.0,
+      "market_cap": 4330235887616.0,
       "next_earnings": [
         "2027-02-03"
       ],
@@ -227,11 +227,11 @@
       ]
     },
     "7011": {
-      "per": 28.6471,
-      "per_forward": 28.3101,
-      "pbr": 2.7413,
+      "per": 28.7017,
+      "per_forward": 28.3641,
+      "pbr": 2.7465,
       "dividend_yield_pct": 1.1,
-      "market_cap": 8818854461440.0,
+      "market_cap": 8835661037568.0,
       "next_earnings": [
         "2027-02-03"
       ],
@@ -269,11 +269,11 @@
       ]
     },
     "7532": {
-      "per": 23.9208,
-      "per_forward": 4.8722,
-      "pbr": 3.5207,
+      "per": 24.0898,
+      "per_forward": 4.9066,
+      "pbr": 3.5456,
       "dividend_yield_pct": 1.14,
-      "market_cap": 2581994668032.0,
+      "market_cap": 2600238841856.0,
       "next_earnings": [
         "2027-02-11"
       ],
@@ -311,11 +311,11 @@
       ]
     },
     "8306": {
-      "per": 12.7275,
-      "per_forward": 20.4707,
-      "pbr": 1.5331,
+      "per": 12.7398,
+      "per_forward": 20.4905,
+      "pbr": 1.5346,
       "dividend_yield_pct": 3.44,
-      "market_cap": 34957779009536.0,
+      "market_cap": 34991555739648.0,
       "next_earnings": [
         "2027-02-04"
       ],
@@ -353,11 +353,11 @@
       ]
     },
     "9984": {
-      "per": 11.2802,
-      "per_forward": 9.0115,
-      "pbr": 0.9249,
+      "per": 11.3756,
+      "per_forward": 9.0877,
+      "pbr": 0.9328,
       "dividend_yield_pct": 0.36,
-      "market_cap": 15165854580736.0,
+      "market_cap": 15294089134080.0,
       "next_earnings": [
         "2027-02-11"
       ],
@@ -394,51 +394,12 @@
         }
       ]
     },
-    "3905": {
-      "per": 8.0286,
-      "per_forward": null,
-      "pbr": 0.9894,
-      "dividend_yield_pct": 0.0,
-      "market_cap": 33437196288.0,
-      "quarterly": [
-        {
-          "period_end": "2026-09-30",
-          "revenue": 366862000.0,
-          "operating_income": -1826419000.0,
-          "net_income": -6262013000.0
-        },
-        {
-          "period_end": "2026-06-30",
-          "revenue": 6327633000.0,
-          "operating_income": 4843383000.0,
-          "net_income": 3913119000.0
-        },
-        {
-          "period_end": "2026-03-31",
-          "revenue": 17675774000.0,
-          "operating_income": 3876702000.0,
-          "net_income": 3368023000.0
-        },
-        {
-          "period_end": "2025-12-31",
-          "revenue": 14183006000.0,
-          "operating_income": 1038630000.0,
-          "net_income": 899144000.0
-        },
-        {
-          "period_end": "2025-09-30",
-          "revenue": 1078175000.0,
-          "operating_income": -1028407000.0,
-          "net_income": -1132095000.0
-        }
-      ]
-    },
     "6752": {
-      "per": 17.8363,
-      "per_forward": 16.0764,
-      "pbr": 1.1811,
+      "per": 17.6063,
+      "per_forward": 15.8691,
+      "pbr": 1.1658,
       "dividend_yield_pct": 1.75,
-      "market_cap": 6338631958528.0,
+      "market_cap": 6256903847936.0,
       "next_earnings": [
         "2027-02-04"
       ],
@@ -475,12 +436,51 @@
         }
       ]
     },
+    "3905": {
+      "per": 7.6715,
+      "per_forward": null,
+      "pbr": 0.9454,
+      "dividend_yield_pct": 0.0,
+      "market_cap": 31950098432.0,
+      "quarterly": [
+        {
+          "period_end": "2026-09-30",
+          "revenue": 366862000.0,
+          "operating_income": -1826419000.0,
+          "net_income": -6262013000.0
+        },
+        {
+          "period_end": "2026-06-30",
+          "revenue": 6327633000.0,
+          "operating_income": 4843383000.0,
+          "net_income": 3913119000.0
+        },
+        {
+          "period_end": "2026-03-31",
+          "revenue": 17675774000.0,
+          "operating_income": 3876702000.0,
+          "net_income": 3368023000.0
+        },
+        {
+          "period_end": "2025-12-31",
+          "revenue": 14183006000.0,
+          "operating_income": 1038630000.0,
+          "net_income": 899144000.0
+        },
+        {
+          "period_end": "2025-09-30",
+          "revenue": 1078175000.0,
+          "operating_income": -1028407000.0,
+          "net_income": -1132095000.0
+        }
+      ]
+    },
     "8766": {
-      "per": 51.5185,
-      "per_forward": 1.2111,
-      "pbr": 2.076,
-      "dividend_yield_pct": 2.71,
-      "market_cap": 16741259280384.0,
+      "per": 51.4927,
+      "per_forward": 1.2105,
+      "pbr": 2.0749,
+      "dividend_yield_pct": 2.68,
+      "market_cap": 16732848652288.0,
       "next_earnings": [
         "2027-02-10"
       ],
@@ -519,10 +519,10 @@
     },
     "3436": {
       "per": null,
-      "per_forward": 36.0654,
-      "pbr": 1.098,
+      "per_forward": 35.9638,
+      "pbr": 1.095,
       "dividend_yield_pct": 1.09,
-      "market_cap": 620949733376.0,
+      "market_cap": 619201101824.0,
       "next_earnings": [
         "2027-02-10"
       ],
@@ -939,48 +939,6 @@
         "url": "https://webapi.yanoshin.jp/rd.php?https://www.release.tdnet.info/inbs/140120260924539094.pdf"
       }
     ],
-    "3905": [
-      {
-        "time": "2026-11-25 12:00:00",
-        "title": "その他の関係会社の異動に関するお知らせ",
-        "url": "https://webapi.yanoshin.jp/rd.php?https://www.release.tdnet.info/inbs/140120261125585551.pdf"
-      },
-      {
-        "time": "2026-11-24 11:05:00",
-        "title": "主要株主及び主要株主である筆頭株主の異動に関するお知らせ",
-        "url": "https://webapi.yanoshin.jp/rd.php?https://www.release.tdnet.info/inbs/140120261124584625.pdf"
-      },
-      {
-        "time": "2026-11-18 10:30:00",
-        "title": "主要株主及び主要株主である筆頭株主の異動に関するお知らせ",
-        "url": "https://webapi.yanoshin.jp/rd.php?https://www.release.tdnet.info/inbs/140120261118582520.pdf"
-      },
-      {
-        "time": "2026-11-16 21:00:00",
-        "title": "為替差損、リース解約損及び解約損失引当金の計上に関するお知らせ",
-        "url": "https://webapi.yanoshin.jp/rd.php?https://www.release.tdnet.info/inbs/140120261116581691.pdf"
-      },
-      {
-        "time": "2026-11-16 21:00:00",
-        "title": "2027年３月期 第２四半期（中間期）決算短信〔日本基準〕（連結）",
-        "url": "https://webapi.yanoshin.jp/rd.php?https://www.release.tdnet.info/inbs/140120261116581695.pdf"
-      },
-      {
-        "time": "2026-11-16 21:00:00",
-        "title": "業績予想の修正に関するお知らせ",
-        "url": "https://webapi.yanoshin.jp/rd.php?https://www.release.tdnet.info/inbs/140120261116581693.pdf"
-      },
-      {
-        "time": "2026-10-27 15:10:00",
-        "title": "（開示事項の経過）大口受注案件の稼働開始に関するお知らせ",
-        "url": "https://webapi.yanoshin.jp/rd.php?https://www.release.tdnet.info/inbs/140120261027556977.pdf"
-      },
-      {
-        "time": "2026-10-21 12:50:00",
-        "title": "主要株主及び主要株主である筆頭株主の異動に関するお知らせ",
-        "url": "https://webapi.yanoshin.jp/rd.php?https://www.release.tdnet.info/inbs/140120261021554020.pdf"
-      }
-    ],
     "6752": [
       {
         "time": "2026-10-30 15:30:00",
@@ -1021,6 +979,48 @@
         "time": "2026-03-31 15:30:00",
         "title": "（開示事項の経過）パナソニック ハウジングソリューションズ株式会社の株式譲渡完了について",
         "url": "https://webapi.yanoshin.jp/rd.php?https://www.release.tdnet.info/inbs/140120260331593611.pdf"
+      }
+    ],
+    "3905": [
+      {
+        "time": "2026-11-25 12:00:00",
+        "title": "その他の関係会社の異動に関するお知らせ",
+        "url": "https://webapi.yanoshin.jp/rd.php?https://www.release.tdnet.info/inbs/140120261125585551.pdf"
+      },
+      {
+        "time": "2026-11-24 11:05:00",
+        "title": "主要株主及び主要株主である筆頭株主の異動に関するお知らせ",
+        "url": "https://webapi.yanoshin.jp/rd.php?https://www.release.tdnet.info/inbs/140120261124584625.pdf"
+      },
+      {
+        "time": "2026-11-18 10:30:00",
+        "title": "主要株主及び主要株主である筆頭株主の異動に関するお知らせ",
+        "url": "https://webapi.yanoshin.jp/rd.php?https://www.release.tdnet.info/inbs/140120261118582520.pdf"
+      },
+      {
+        "time": "2026-11-16 21:00:00",
+        "title": "為替差損、リース解約損及び解約損失引当金の計上に関するお知らせ",
+        "url": "https://webapi.yanoshin.jp/rd.php?https://www.release.tdnet.info/inbs/140120261116581691.pdf"
+      },
+      {
+        "time": "2026-11-16 21:00:00",
+        "title": "2027年３月期 第２四半期（中間期）決算短信〔日本基準〕（連結）",
+        "url": "https://webapi.yanoshin.jp/rd.php?https://www.release.tdnet.info/inbs/140120261116581695.pdf"
+      },
+      {
+        "time": "2026-11-16 21:00:00",
+        "title": "業績予想の修正に関するお知らせ",
+        "url": "https://webapi.yanoshin.jp/rd.php?https://www.release.tdnet.info/inbs/140120261116581693.pdf"
+      },
+      {
+        "time": "2026-10-27 15:10:00",
+        "title": "（開示事項の経過）大口受注案件の稼働開始に関するお知らせ",
+        "url": "https://webapi.yanoshin.jp/rd.php?https://www.release.tdnet.info/inbs/140120261027556977.pdf"
+      },
+      {
+        "time": "2026-10-21 12:50:00",
+        "title": "主要株主及び主要株主である筆頭株主の異動に関するお知らせ",
+        "url": "https://webapi.yanoshin.jp/rd.php?https://www.release.tdnet.info/inbs/140120261021554020.pdf"
       }
     ],
     "8766": [
@@ -1111,6 +1111,20 @@
   "news": {
     "5803": [
       {
+        "title": "フジクラが急反落､大手証券が判断｢買い｣から｢中立｣に変更 - 四季報オンライン",
+        "source": "四季報オンライン",
+        "published_jst": "2026-11-25 13:52",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5tODlaYkpNdTFVemdmQmRZQ2ZkZmJlMmlNLTRLWTlKNUYzLUVIWkp6UE00dlp3VU9oVmRqbUdPd0J1S0toYXdSWEFsdjRTY21wNjBFVWpDNA?oc=5",
+        "topic": "general"
+      },
+      {
+        "title": "フジクラが１４％安と急落、国内大手証券は２８年３月期減益予想に修正 - 株探",
+        "source": "株探",
+        "published_jst": "2026-11-25 13:12",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1HWndpQW1YWlZ3VGc4M3RnR0RWb0FvSEdNX0h0Zm1kMnZHcXRoM2V4N0p2aHRJaE84N0tjZ1JCbEZneTVCbGRrU21JTXpBa2MweGc?oc=5",
+        "topic": "analyst_earnings"
+      },
+      {
         "title": "「AI銘柄は今が買いか？」業績上方修正でも株価下落「フジクラ・古河電工・住友電工」電線御三家…需要の先に潜む落とし穴に迫る - ｄメニューニュース",
         "source": "ｄメニューニュース",
         "published_jst": "2026-11-25 12:00",
@@ -1125,10 +1139,10 @@
         "topic": "general"
       },
       {
-        "title": "注目銘柄ダイジェスト（前場）:キオクシアHD、ロート薬、フジクラなど - ｄメニューニュース",
-        "source": "ｄメニューニュース",
+        "title": "注目銘柄ダイジェスト（前場）:キオクシアHD、ロート薬、フジクラなど - 株探",
+        "source": "株探",
         "published_jst": "2026-11-25 11:42",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNb3FNWkxHdG1KWEtjM25feGpGNnRBelREeFM3UGxrZk90WDNPYkFFNWpNZ0tPN0ZfcDFUc1Y4Q3c2d2lDQUxrYkFKdUk2VUNENGpYOVB0cmVKakQ1aVY3WXp5b3RwNWhpbklQM2JqRDRrLTF2ZjZQNzRpdHFSODcwaE1qQV9mMWfSAYwBQVVfeXFMTlU4c1JiekNjdUcweDZ3NnlDUDUyYmdCWHlZX3ZLV2FabDBmLWhwY3VLR3oxdkpTVWhmUFVSSnBvS2xJV2hBMExHSVVobU50TDV3UTVlUGJxYUVFdWZDdlRwTHF6Uk82QmxDY0J6dzBObnRoak05bDJOS2s5cFJNRk54UDN0bC1hcFE0VVA?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBVdk9xcGgxZlVHOEN0T3hpOERLTWpBb3NaRmM2R19STEhzMjB4M2VOS0tiYnVZUVZrSU5zWmNQNUFNVmVqWUFqbFpFaENIV1UzVlE?oc=5",
         "topic": "general"
       },
       {
@@ -1136,7 +1150,7 @@
         "source": "まぐまぐ",
         "published_jst": "2026-11-25 11:40",
         "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1yQVpkSkxISVJSVjJhMlktUmprdGVMYlVrcWQ4dHBHbUpTaDlMV21aeVBJMC1JSmJ4ekxKb213dmZRVmlDOFZqYUVmZERoelBOd1HSAVJBVV95cUxNckFaZEpMSElSUlYyYTJZLVJqa3RlTGJVa3FkOHRwR21KU2g5TFdtWnlQSTAtSUpieHpMSm9td3ZmUVZpQzhWamFFZmREaHpQTndR?oc=5",
-        "topic": "analyst_earnings"
+        "topic": "analyst"
       },
       {
         "title": "前場コメント No.8 ウォンテッドリ、フジクラ、オートサーバー、Ｆｉｎａｔｅｘｔ(トレーダーズ・ウェブ) - Yahoo!ファイナンス",
@@ -1153,33 +1167,47 @@
         "topic": "general"
       },
       {
-        "title": "フジクラ---大幅反落、国内証券では来期営業減益を予想し投資判断格下げ - ｄメニューニュース",
-        "source": "ｄメニューニュース",
+        "title": "フジクラ---大幅反落、国内証券では来期営業減益を予想し投資判断格下げ - 47NEWS",
+        "source": "47NEWS",
         "published_jst": "2026-11-25 11:18",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONlhWTjhTR0JqY21iaDJMZkcyb19uZm92WkRqdkpINTZTQklDQ25pTkRHZmxxS0ozeVZqUzNJcTQ0enVoQWQ4ZkpmZ05VX1oycFhNZWg2dVpuMGJRYUhHenJWcUYta0doUWRaR3I1dmFyM0FmdDhBWVIwcks3WXJyZWNoTXlmNWfSAYwBQVVfeXFMTUFCdFJ4RmNEMUlYSEstQmVmZ0hDbDd6bWIwX01VWlVobGJxVllOVnIwZDlCaUpjeXJMeloyVDhNblJjZWJDRG4zNURzU0stT09KalFkc0lxeXZQTGM3TV8zclVhSDZGX3J3dFU5RzVZaGNBM0JCUy1lcFpIZUdEbUJkdjZNLWMzMVNmc2c?oc=5",
-        "topic": "general"
+        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE82LXNaRWJnSzJVSjBKeWpEQkJPV2hmeUtrUkVOWWJ5NHY2WHpLNHJyTzQ0LXlRWENOVVliSlNBZ0M5LWFYd2FhLTczUQ?oc=5",
+        "topic": "analyst"
       },
       {
         "title": "日経平均は261円安でスタート、キオクシアHDやフジクラなどが下落 - ｄメニューニュース",
         "source": "ｄメニューニュース",
         "published_jst": "2026-11-25 09:43",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSDFNanZCUC1YNVk5MXAyd2x5dFc2Ry1ENEduVi1jdUZxdGFZZ0RMYU1tSE1DZTdRbWthS3NtZ3RXY0U3MkI1MURLcFZMWXJEelN4UGtmcDVjRWRkNjZLckdQbDdlb3dEekdwbG1wRi1UeXFQY2RnSTA1MmYwWUYxTVBVa29rTWPSAYwBQVVfeXFMT3owZ0tmaS1uSTB0Wnhjc1YwZWVSMGI5T3lxSk1LRThRb1ZBRkpEZTNNQXhiRUdFbFJSN2dwT2poOFVLTkFaLVo3M2Zfby1vUXp0aXcwNHdHRndmWmM4S3BjMkdWRWI3MDN6R2dGVVQ3bzN2cnlGeGdUQUt5R3dnZUI3MEQwRVo4RTNPZVE?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPejBnS2ZpLW5JMHRaeGNzVjBlZVIwYjlPeXFKTUtFOFFvVkFGSkRlM01BeGJFR0VsUlI3Z3BPamg4VUtOQVotWjczZl9vLW9RenRpdzA0d0dGd2ZaYzhLcGMyR1ZFYjcwM3pHZ0ZVVDdvM3ZyeUZ4Z1RBS3lHd2dlQjcwRDBFWjhFM09lUdIBjAFBVV95cUxPejBnS2ZpLW5JMHRaeGNzVjBlZVIwYjlPeXFKTUtFOFFvVkFGSkRlM01BeGJFR0VsUlI3Z3BPamg4VUtOQVotWjczZl9vLW9RenRpdzA0d0dGd2ZaYzhLcGMyR1ZFYjcwM3pHZ0ZVVDdvM3ZyeUZ4Z1RBS3lHd2dlQjcwRDBFWjhFM09lUQ?oc=5",
         "topic": "business_risk"
       },
       {
-        "title": "株式会社フジクラ「光ファイバーメーカー」｜知られざるガリバー～エクセレントカンパニーファイル - テレ東BIZ",
-        "source": "テレ東BIZ",
-        "published_jst": "2026-11-23 12:59",
-        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5IM1AtdEdjS01mampjNVdMejhCZUhRZmpTWHRUUGZaUjBzelVON1Q1REtzc01jWlR3NFo4MmJQTGtGcTZTYVZXcERiMnRJYVVKc0hzR3dwUTFvZzZES0Noc3A2NA?oc=5",
-        "topic": "business_risk"
+        "title": "FBNセキュリティーズ、バリュエーション懸念でズーム株の目標株価を$115に引き下げ - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+        "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+        "published_jst": "2026-11-24 23:47",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5EcU9mV3RCaFFiajFCOHVybnROZDRCTWUtWklxR0p5NXJJOGludGRydVcwbWJoRjBCYnh3ejdXX25uS0gxOWo4RVZqVmJ4RWV4b1N4dm9uR1Z2ZXFVbFZvaWlYb3FQeXRYV29RZFhHMHB6YVZX?oc=5",
+        "topic": "analyst"
       }
     ],
     "5801": [
       {
+        "title": "【独自】今年度の第2次補正予算案 “新たな赤字国債”は発行せず　数兆円程度の税収上振れ分で対応する方針 - ｄメニューニュース",
+        "source": "ｄメニューニュース",
+        "published_jst": "2026-11-25 13:16",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1XNW5Tblo0M2w2SjUxcDBLNHo2OHp0SktpRjZRRG14TUZkZnJWNHFhU3loZjRXNzlXQmV4SVBSbi10YVJ5cUxrRjFDQWJ3cFBzZVdrZFp4R0pDQ3dNcVlSaXV4ODY5cFJzMFE2MnR5dlVBTkR6aTNn0gF3QVVfeXFMTVc1blNuWjQzbDZKNTFwMEs0ejY4enRKS2lGNlFEbXhNRmRmclY0cWFTeWhmNFc3OVdCZXhJUFJuLXRhUnlxTGtGMUNBYndwUHNlV2tkWnhHSkNDd01xWVJpdXg4NjlwUnMwUTYydHl2VUFORHppM2c?oc=5",
+        "topic": "general"
+      },
+      {
+        "title": "後場の日経平均は1974円安でスタート、KOKUSAIやソフトバンクGなどが下落 - ｄメニューニュース",
+        "source": "ｄメニューニュース",
+        "published_jst": "2026-11-25 13:02",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQnZkcVM5TUNhQ0VfSnJIZy1ySjBFVTI2eUdNS09qd24yaHlmd1VBdEVHR2ZURkpFa1BIekkwdDcxbklXOWQzV2dxb2QyOTd6dE1hcUNPVHcydjRjSnN1X002TzRuSlBCbUhRWlFkRC1VdVRfOEZIX0kySXFZWFdQOUNZVHdKZ1XSAYwBQVVfeXFMT0c4OHpYeGtrSW9WNE5WbUFaQ2dONmZwcTMzcnpoTWxNeW1DRDRBbGpHbmtqblJCdEV2OWJQa3QwSnpBTjRKRHpaa0RMeGtEWmNjUC1HRnE0MkdOX1V4OGcyR3hMS3dtaWI4MGhsa3AzbF9jOE5LLW1keXFxWkFMQkZ1bUtUdGFzc3BJQXU?oc=5",
+        "topic": "general"
+      },
+      {
         "title": "「AI銘柄は今が買いか？」業績上方修正でも株価下落「フジクラ・古河電工・住友電工」電線御三家…需要の先に潜む落とし穴に迫る - ｄメニューニュース",
         "source": "ｄメニューニュース",
         "published_jst": "2026-11-25 12:00",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1TUTFGaW13cmxtYzVYczJlOTRpQTJwY0NCYVU5Zm42Tl8wOGhIcmFxb0dtWVpzQ0Z4SmdrN25MOWVTNHFOdzhRZFNYNDc3RHhmT3Etc21ZYzZQNmY5WDRkTGEyX2duTUFtbW9BN3Fvc1RUN1ZQd2ZFRXlB0gF_QVVfeXFMTjh0b0hWX3J2RXNpT24ySVlkTEJDVlB4XzZQbDhCaExYcmNMRVVTcVF5SDBZVUhFaElVdWNEX3FUd21kZWwydWJrSTFNaHgzcVQ2QUw2b1hHbmo0QzRMSlNRNzJmN3hlZkRXbWVwVXI2azhPNXJzRkQ1TS1kMEFrcw?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE44dG9IVl9ydkVzaU9uMklZZExCQ1ZQeF82UGw4QmhMWHJjTEVVU3FReUgwWVVIRWhJVXVjRF9xVHdtZGVsMnVia0kxTWh4M3FUNkFMNm9YR25qNEM0TEpTUTcyZjd4ZWZEV21lcFVyNms4TzVyc0ZENU0tZDBBa3PSAX9BVV95cUxOOHRvSFZfcnZFc2lPbjJJWWRMQkNWUHhfNlBsOEJoTFhyY0xFVVNxUXlIMFlVSEVoSVV1Y0RfcVR3bWRlbDJ1YmtJMU1oeDNxVDZBTDZvWEduajRDNExKU1E3MmY3eGVmRFdtZXBVcjZrOE81cnNGRDVNLWQwQWtz?oc=5",
         "topic": "general"
       },
       {
@@ -1197,11 +1225,11 @@
         "topic": "general"
       },
       {
-        "title": "本日の【業種】騰落ランキング ＝ 大引け 【上昇トップ】非鉄金属 【下落トップ】鉱業 [15:35](株探ニュース) - Yahoo!ファイナンス",
-        "source": "Yahoo!ファイナンス",
-        "published_jst": "2026-11-24 15:50",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPX0l6RW5IaGFzc1ktaHEzMGdtU1Y0VXhZdW8yZm9mS1I4ODJDS0RHbGZoZGpTLXVhUGZNTmdVUVdDR1ZPWGFKdnJpUGNnWUdTWVNET3BfdEE3Yy1TVUN2M1d2ODdSRnZuYzN0Vi0zQjJ0d3QwMXltMGs5Nmh1T1Rsa24zLXAzRzQ?oc=5",
-        "topic": "general"
+        "title": "極薄銅箔の発展でリチウム電池新材料分野へ参入―甘粛省蘭州市 - Infoseek",
+        "source": "Infoseek",
+        "published_jst": "2026-11-24 15:40",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9TaXItb2dFS19adFloYjMza1Q5bjlDX1NZVVk4cms2aDBwUWQ4WjItRk92S3l1RXF1MmNPeVU1MEQxWUthQU4tMW41X0ZVTkVibWZuYnJPTkJnM3AzR2tkY0dnQ0RrQ3p0Znc?oc=5",
+        "topic": "business_risk"
       },
       {
         "title": "電線株が上昇、古河電工16%高 NVIDIAファン氏復帰で銅反発 - 日本経済新聞",
@@ -1215,7 +1243,7 @@
         "source": "ｄメニューニュース",
         "published_jst": "2026-11-24 13:01",
         "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNd0JyRjBjcEVSV1A5RnVHWmkzelJya1Y1T2h5MjZRQlZHX19RV2c1dkNZdXdBaDBFX0tDQXNnZ3lnWV9tcXFsc3Z3V3liZnBsX2c2alE5cVczN0NFYTllZUlCQU4za21FTU4tQzJ5aDYybGhCNzRYd24xT1h2V2YwdWtPNDlPLTF0M2lrd9IBjAFBVV95cUxNd0JyRjBjcEVSV1A5RnVHWmkzelJya1Y1T2h5MjZRQlZHX19RV2c1dkNZdXdBaDBFX0tDQXNnZ3lnWV9tcXFsc3Z3V3liZnBsX2c2alE5cVczN0NFYTllZUlCQU4za21FTU4tQzJ5aDYybGhCNzRYd24xT1h2V2YwdWtPNDlPLTF0M2lrdw?oc=5",
-        "topic": "general"
+        "topic": "business_risk"
       },
       {
         "title": "業績、株価、賃金、就職… 5年後の業界地図 AI格差で序列激変!? - ダイヤモンド・オンライン",
@@ -1239,26 +1267,26 @@
         "topic": "analyst_earnings"
       },
       {
-        "title": "Jパワー、日立、マクニカがフィジカルAI開発基盤を共同検討 送電線点検ドローンで実証 - ビジネスネットワーク",
-        "source": "ビジネスネットワーク",
-        "published_jst": "2026-11-20 14:20",
-        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBveFlET0NRQ0ladEFYOV9xRWdpaHZpdXlCbjRnQzlSUElKN3dSSkpxd0lVWjFESElTYUY4TzNPUWdTQ2xRdE9Fazc0YURXRmEzR2RZ?oc=5",
-        "topic": "business_risk"
-      },
-      {
-        "title": "シャープ・古野電気ら、5G NTN対応の小型衛星通信端末を開発へ - ビジネスネットワーク",
-        "source": "ビジネスネットワーク",
-        "published_jst": "2026-11-20 11:09",
-        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5sODQ2TDgzc2NWcjB1NDRfVGxVOGRrSll0Q0dIYlZNaDZRWGQ2MTJsY245ODBoTGo3SF9kS2N6TXNsbTZLbUN3ZDhDeUtseHdUYklZ?oc=5",
-        "topic": "business_risk"
+        "title": "台湾ABF載板・CCL株が4割急落、米銀バンク・オブ・アメリカが「行き過ぎた売り」と反論 利益予想は上方修正も目標株価は引き下げ - BigGo ファイナンス",
+        "source": "BigGo ファイナンス",
+        "published_jst": "2026-11-19 12:55",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA5N2FOSkpzTTdxSE9LWmVMNF9jcEpYSFBpNGN3Q1g0dVlIYm0xV1JlNk9pbHNWc296cGctSk0zODgtNjNVdTcxdmRzdThBOXRjQ1l2Qk5Kd0p5VXIxeWM1UzQ4ekRldEFxbjlOZF9PZGQxTmd3?oc=5",
+        "topic": "analyst"
       }
     ],
     "5802": [
       {
+        "title": "米スターバックス、日本事業売却へ銀行起用＝報道 - ｄメニューニュース",
+        "source": "ｄメニューニュース",
+        "published_jst": "2026-11-25 13:13",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOaEFXbFdsRDhweTVBOU5vbjVrc2l2ODVVcU83Ql9SYzliMVN2VkZXUU5WZ0Vxc01qS01YMkdLcHlNWG45NFFjMkkyOWVjTHdYRldjU1JqWDlYOEpRcGJTYzhTaWxCUGx6U0l3TE5YQ2NNbmJYcVRtMXpjMVQ5VlNBREZvMzRacFnSAYcBQVVfeXFMTmhBV2xXbEQ4cHk1QTlOb241a3Npdjg1VXFPN0JfUmM5YjFTdlZGV1FOVmdFcXNNaktNWDJHS3B5TVhuOTRRYzJJMjllY0x3WEZXY1NSalg5WDhKUXBiU2M4U2lsQlBselNJd0xOWENjTW5iWHFUbTF6YzFUOVZTQURGbzM0WnBZ?oc=5",
+        "topic": "general"
+      },
+      {
         "title": "「AI銘柄は今が買いか？」業績上方修正でも株価下落「フジクラ・古河電工・住友電工」電線御三家…需要の先に潜む落とし穴に迫る - ｄメニューニュース",
         "source": "ｄメニューニュース",
         "published_jst": "2026-11-25 12:00",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1TUTFGaW13cmxtYzVYczJlOTRpQTJwY0NCYVU5Zm42Tl8wOGhIcmFxb0dtWVpzQ0Z4SmdrN25MOWVTNHFOdzhRZFNYNDc3RHhmT3Etc21ZYzZQNmY5WDRkTGEyX2duTUFtbW9BN3Fvc1RUN1ZQd2ZFRXlB0gF_QVVfeXFMTjh0b0hWX3J2RXNpT24ySVlkTEJDVlB4XzZQbDhCaExYcmNMRVVTcVF5SDBZVUhFaElVdWNEX3FUd21kZWwydWJrSTFNaHgzcVQ2QUw2b1hHbmo0QzRMSlNRNzJmN3hlZkRXbWVwVXI2azhPNXJzRkQ1TS1kMEFrcw?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE44dG9IVl9ydkVzaU9uMklZZExCQ1ZQeF82UGw4QmhMWHJjTEVVU3FReUgwWVVIRWhJVXVjRF9xVHdtZGVsMnVia0kxTWh4M3FUNkFMNm9YR25qNEM0TEpTUTcyZjd4ZWZEV21lcFVyNms4TzVyc0ZENU0tZDBBa3PSAX9BVV95cUxOOHRvSFZfcnZFc2lPbjJJWWRMQkNWUHhfNlBsOEJoTFhyY0xFVVNxUXlIMFlVSEVoSVV1Y0RfcVR3bWRlbDJ1YmtJMU1oeDNxVDZBTDZvWEduajRDNExKU1E3MmY3eGVmRFdtZXBVcjZrOE81cnNGRDVNLWQwQWtz?oc=5",
         "topic": "general"
       },
       {
@@ -1311,25 +1339,18 @@
         "topic": "general"
       },
       {
+        "title": "(株)安川電機【6506】：株つぶやき - Yahoo!ファイナンス",
+        "source": "Yahoo!ファイナンス",
+        "published_jst": "2026-11-24 18:06",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0yZzI3VHNTWjlteVl3MmJJRDRRNWd5d1lfUF9GOWdiV2wxMDdUbVdrY1RxTVpHT0xjN1U0ZmdfZWdocVRuYkNGbmh2alp5U3U2NzFPRnlYdzQ?oc=5",
+        "topic": "general"
+      },
+      {
         "title": "楽々WorkflowII、AI-OCRで添付書類を読み取り申請フォームに自動入力 - 時事ドットコム",
         "source": "時事ドットコム",
         "published_jst": "2026-11-24 13:16",
         "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5oOHBRMS1HS3NjUWIzbHRPQkJ4QjBUdFNYeFRNMUlBUzlENHJndldaNnZvSEFKd01fejdXbVl0eXpvRGZFVU5mQWI2WUNFcjFoYk9HYnFWN25ISHFURGVlWGRCLXFJVFhlUXNr?oc=5",
         "topic": "business_risk"
-      },
-      {
-        "title": "楽々WorkflowII、AI-OCRで添付書類を読み取り申請フォームに自動入力 ～ 手書き帳票や多様なファイルに対応し、転記負担と入力ミスを抑制 ～ | 住友電工情報システム株式会社 - Digital PR Platform",
-        "source": "Digital PR Platform",
-        "published_jst": "2026-11-24 11:02",
-        "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9aSENmcVB5OU9RQ01oa3JmWU5icFJxaWJrcmFSOThZdm9jcF9OUzBzTFpWMkhuUVZlZk9KMWxxSkFNc1U?oc=5",
-        "topic": "general"
-      },
-      {
-        "title": "浜松ホトニクス(株)【6965】：株つぶやき - Yahoo!ファイナンス",
-        "source": "Yahoo!ファイナンス",
-        "published_jst": "2026-11-24 05:05",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE90M21HN00yZmpnM1dxZko3cW9zY1R6ZmswRE54bGwwZzlFVmx0SFJiMDBZRmRkV0JJYm15cy1HeHpKcU5FODRDVkhSc0t1UnFmYmlmT1E0STI?oc=5",
-        "topic": "general"
       },
       {
         "title": "三菱マテリアル(株)【5711】：株つぶやき - Yahoo!ファイナンス",
@@ -1362,6 +1383,27 @@
     ],
     "5016": [
       {
+        "title": "ＪＸ金属(株)【JXAMY】：株価・株式情報 - Yahoo!ファイナンス",
+        "source": "Yahoo!ファイナンス",
+        "published_jst": "2026-11-25 13:51",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBVSDVCNzE0eEVuM3hXUy1YVmIwamc1ckVIVkVUTl9meS1GQkNmWmpnN3kxbkRzZzJ6UmtPd01sdTIyT2lJdDNUNGpzeko3M2J3?oc=5",
+        "topic": "general"
+      },
+      {
+        "title": "代表・黒田武志が「第16回 個人投資家サミット」登壇 - PR TIMES",
+        "source": "PR TIMES",
+        "published_jst": "2026-11-25 13:00",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5xSG9UVjJDbmkxZ3lvdEozWUM2d2pwS05heGRZUUVjMWVJZTRaVXRIUUJ4SVhDaHJHSHJYMWM0MEo5eTJQRm5NUndOSTY0eHNaRWIyZlp4aGR1MGtmWERtLVF0aGYxSEZfcHc?oc=5",
+        "topic": "analyst_earnings"
+      },
+      {
+        "title": "オキサイド[6521]：第三者割当による新株式の発行に係る払込完了に関するお知らせ 2026年11月25日(適時開示) ：日経会社情報DIGITAL - 日本経済新聞",
+        "source": "日本経済新聞",
+        "published_jst": "2026-11-25 12:00",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4zb1ZRSnFMX2MzSWd0YUhwWG5rWW5yaWJjWWFfaGVMTkdLRDU5dTR0QjdDTnY0NmF1Z3BrR0dIZTlZQmNSX3QtUGFvdEVYNEpwZ0ZFWnRseEpKNkVxV09aR1FRcVd5RGk0SlE?oc=5",
+        "topic": "general"
+      },
+      {
         "title": "日本株の買付ランキング、1位は「キオクシア」！ ソフトバンクG、JX金属も上位に - Infoseek",
         "source": "Infoseek",
         "published_jst": "2026-11-25 11:30",
@@ -1383,13 +1425,6 @@
         "topic": "business_risk"
       },
       {
-        "title": "【見通し】株式明日の戦略ーAI関連が買われて大幅高、過度な警戒はいったん後退 - 外為どっとコム",
-        "source": "外為どっとコム",
-        "published_jst": "2026-11-25 03:54",
-        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE54MXRWeHhjVDREMG9QR2xXTW12MEg5VE44ZFJlejBUbVlqWmhCcm51YzR4ZndwdnBaSkktZ21xX29TaGF3UUJ2am5RSnppMVAwR3BHMUFFa1F4cjFsY1ZLTXA5QQ?oc=5",
-        "topic": "general"
-      },
-      {
         "title": "＜通期予想を上方修正＞【NEC】上期Non-GAAP営業利益は47.7％増、売上の約76％を占めるITサービスが利益の約8割を稼ぐ - LIMO | くらしとお金の経済メディア",
         "source": "LIMO | くらしとお金の経済メディア",
         "published_jst": "2026-11-24 21:00",
@@ -1401,20 +1436,13 @@
         "source": "日本経済新聞",
         "published_jst": "2026-11-24 19:35",
         "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1HZEhCLUtXUGF3ZlJEV3ZhdzBPQzRTOVpNanFKMmFYanJUTjkzR0liNnA5LWI1ZE15djUyN0llM2VBQnI3TlZCclhFUU9XUXVZZk14Y3ItTlNuY0toWkJOQThGWEFBdUh1ZzF4dQ?oc=5",
-        "topic": "general"
+        "topic": "business_risk"
       },
       {
         "title": "JX金属が8日ぶり反発、アドバンテストは+12.45％など。エヌビディアはフアンCEO復帰発表の23日に31％高 - LIMO | くらしとお金の経済メディア",
         "source": "LIMO | くらしとお金の経済メディア",
         "published_jst": "2026-11-24 16:17",
         "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE91Y2hHekF1aFdzbEdybUhVOGFMNTBQMzRnWE1TaWtKZW1kSnB1U1F2ek0zMGVObHJzMUI1OVM5TmdFV3R0ZC0wNmhicVFOV1RMaVE?oc=5",
-        "topic": "general"
-      },
-      {
-        "title": "【速報】 堺化学、自社株の消却を発表 - 株探",
-        "source": "株探",
-        "published_jst": "2026-11-24 15:00",
-        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1kYl9WNVViZXAxTENzdEdXYVd1eVNOLUR3VDlMeEhwYXJ4b0wwRXVGczNBX0gxMUZWcUlFaDd6LXVZOVJNOUZqNXlHdkNFaUU1bDNQekx2RW9QWlMwbVJ6Uw?oc=5",
         "topic": "general"
       },
       {
@@ -1425,11 +1453,11 @@
         "topic": "analyst_earnings"
       },
       {
-        "title": "後場の日経平均は2150円高でスタート、太陽誘電やアドバンテストなどが上昇 - ｄメニューニュース",
-        "source": "ｄメニューニュース",
-        "published_jst": "2026-11-24 13:01",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNd0JyRjBjcEVSV1A5RnVHWmkzelJya1Y1T2h5MjZRQlZHX19RV2c1dkNZdXdBaDBFX0tDQXNnZ3lnWV9tcXFsc3Z3V3liZnBsX2c2alE5cVczN0NFYTllZUlCQU4za21FTU4tQzJ5aDYybGhCNzRYd24xT1h2V2YwdWtPNDlPLTF0M2lrd9IBjAFBVV95cUxNd0JyRjBjcEVSV1A5RnVHWmkzelJya1Y1T2h5MjZRQlZHX19RV2c1dkNZdXdBaDBFX0tDQXNnZ3lnWV9tcXFsc3Z3V3liZnBsX2c2alE5cVczN0NFYTllZUlCQU4za21FTU4tQzJ5aDYybGhCNzRYd24xT1h2V2YwdWtPNDlPLTF0M2lrdw?oc=5",
-        "topic": "general"
+        "title": "【速報】 堺化学、自社株の消却を発表 - 株探",
+        "source": "株探",
+        "published_jst": "2026-11-24 15:00",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1kYl9WNVViZXAxTENzdEdXYVd1eVNOLUR3VDlMeEhwYXJ4b0wwRXVGczNBX0gxMUZWcUlFaDd6LXVZOVJNOUZqNXlHdkNFaUU1bDNQekx2RW9QWlMwbVJ6Uw?oc=5",
+        "topic": "analyst_earnings"
       },
       {
         "title": "JX金属の亜鉛基板、宇宙へ 暗黒エネルギー解明に貢献：材料技術 - MONOist",
@@ -1439,25 +1467,25 @@
         "topic": "business_risk"
       },
       {
-        "title": "三菱マテリアルは当期益3.9倍…非鉄8社の通期見通し、AI特需が追い風も漂い始めた先行き不透明感 (ニュースイッチ) - Yahoo!ニュース",
-        "source": "Yahoo!ニュース",
-        "published_jst": "2026-11-24 11:41",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPYkZrRFd5YTJvdlhSZmZzQUJLWXVSaUV3WHRzQjR0WktzcHh3VERNTXJfVk5PbHVOQlpiX1g5a3JzbU5IWXlIQTdDdEFtak9ibDFIakFtQWh4NGF0UGhnQnlDdlM5cmRsTGZHSUZWX0tWUklIRFJTNEdTU1oyRDRTLV9jZTUzdmNCU01kTzN3?oc=5",
-        "topic": "analyst_earnings"
-      },
-      {
         "title": "三菱マテリアルは当期益3.9倍…非鉄8社の通期見通し、AI特需が追い風も漂い始めた先行き不透明感 - ニュースイッチ by 日刊工業新聞社",
         "source": "ニュースイッチ by 日刊工業新聞社",
         "published_jst": "2026-11-24 06:00",
         "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE14RS1zLThmMjN4XzdTaTlVckg1MnZ6Rng1OTNfMGFzMml6ai1iX1RXalpkQmU4aXRGSWZoNFhGcnNvZw?oc=5",
-        "topic": "analyst_earnings"
+        "topic": "business_risk"
       },
       {
-        "title": "ＪＸ金属のＣｄＺｎＴｅ基板、宇宙望遠鏡向け採用 - 化学工業日報 電子版",
-        "source": "化学工業日報 電子版",
-        "published_jst": "2026-11-24 05:00",
-        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5wbFJwbGhROG9mdWd4WTVYTmxpZHlJX2hSMnVkVmpPMVFpak9KOUNrX1ZvZzViREwyWXZmOElfQ3dTSVhmX1NpZk55YnkwYjJteTl3?oc=5",
-        "topic": "business_risk"
+        "title": "三菱マテリアル(株)【5711】：株つぶやき - Yahoo!ファイナンス",
+        "source": "Yahoo!ファイナンス",
+        "published_jst": "2026-11-23 23:08",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBGanRzYWJ0UTBfTWZtMklvQVpuNjROM0lzZVNyRHNJbkwzRldsY0pxVWZTeFYxRVhreGR3RmI2TlBRMVctblNqVTV4a01JNEZZSVFNLW5HVlk?oc=5",
+        "topic": "general"
+      },
+      {
+        "title": "前日に動いた銘柄 part2 JX金属、セイコーグループ、日アビオなど(フィスコ) - Yahoo!ファイナンス",
+        "source": "Yahoo!ファイナンス",
+        "published_jst": "2026-11-20 07:32",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQWmJrWVVSMThlRF9oVTRDNUZfUllaWVlqUjd5dFRzQW1ZZkp2QnM3QUhsampHOVFTelBnbzhGOFh6MlVxU3JNZk02dFY0YTBSVno2N251NXpVaUprV2xPTGVoUWVBdnQ0bTFXSGpjcTFfaVVTbnFEM1BpbFBfZFA5T0xvYWN0SlU?oc=5",
+        "topic": "analyst"
       }
     ],
     "6723": [
@@ -1551,35 +1579,35 @@
         "published_jst": "2026-11-19 17:00",
         "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB3RlFVa3JFZlh0eUNyMTdEZ3FXNkRGMHRCOTlSb0Y0bVdNekVwS04xUkFQS3JidDVVVGRFMG13dkJMUXRwVGNoQmxaSmRLYXltZEFKdklsdVpxZw?oc=5",
         "topic": "business_risk"
+      },
+      {
+        "title": "【アナリスト評価】ルネサスエレ、レーティング強気を継続、目標株価4,800円に引下げ（日系大手証券）(アイフィス株予報) - Yahoo!ファイナンス",
+        "source": "Yahoo!ファイナンス",
+        "published_jst": "2026-11-18 19:59",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNjRzVUFjRVYwWExqbWI2U1NBdWFfMG1VODhmazlURV9kMEFZYkVfRmo4WHRyNldzaWM4YWE3eGE5ZlJ0T1NCSHRfelJNdHZJQ3BManJ1NWh5Wmp5b1ZrdTY2djFBS3FmNWZMeGJWZGR1anFOOW1RNnZ5b0hWZ2ttVmw1eXNPVGM?oc=5",
+        "topic": "analyst"
       }
     ],
     "7011": [
       {
-        "title": "日本株の買付ランキング、1位は「キオクシア」！ ソフトバンクG、JX金属も上位に - マイナビニュース",
-        "source": "マイナビニュース",
-        "published_jst": "2026-11-25 11:30",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE50SHdldUVzM3hlSldoZGdwUDFzZXYwT2J5TG1KcU52UF9lQ1c4TjQ4eDAyOVEzeXNrUlprbHZYWE9zVWFxSFpDMzZHTlc1MWd6YWtVQUhvS1VabVUxV0JtVzNZR2JPclU?oc=5",
+        "title": "三菱重工業---大幅反落、防衛省が概算要求を大幅に下回る予算枠を企業に通知と(フィスコ) - Yahoo!ファイナンス",
+        "source": "Yahoo!ファイナンス",
+        "published_jst": "2026-11-25 14:14",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQU1SSDFEcWwyanJpMWQ1bWFETi1ibW5vaUVxdGtIOUc2SVI5MGRRQzgwQm9XbVpZMmZ4TU9VNERnMng3SVpSakFrZl9qUmxxSzN5aTFfLUJ1U1BwdkhvS0NMVHJBejhCclltVmpRZE14bVI5YmRhenFsTEVOM0JoakdNcHpMMWs?oc=5",
         "topic": "general"
       },
       {
-        "title": "菱重工や川重など防衛関連が安い、装備発注最大８割減と(ウエルスアドバイザー) - Yahoo!ファイナンス",
-        "source": "Yahoo!ファイナンス",
-        "published_jst": "2026-11-25 11:12",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOOEJFV1dFWWh1d0h3ZXF4UldlaFlhYlZKMUk2LVRjZXdmQ1JWN3pGNkIxbzc1VS0yZUpXWHRlRDFmNXhwWEJIWUp1bHI5XzB4OU1QSFc5ckNPN3ItTEhreW1xcG1xVTRTOFlxRlNobEpXWGJLYXJQZ0JDODhkR2NmeENybEZiVEE?oc=5",
-        "topic": "general"
+        "title": "三菱重工業---大幅反落、防衛省が概算要求を大幅に下回る予算枠を企業に通知と - 株探",
+        "source": "株探",
+        "published_jst": "2026-11-25 14:14",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9KLXoyN2ZtSlVTaXFIajBzSGdBV2ljNmd3ejREdmpITFN1U09DVkxZeU1pc1FqXzlaaFdOTld1d3k0eFo1Wkdick9zajlEV3NtNHpkNGFZR0ZNZW1NTk5xMw?oc=5",
+        "topic": "analyst_earnings"
       },
       {
         "title": "三菱重工業株、一時6%安 「防衛装備品の受注半減」報道 - 日本経済新聞",
         "source": "日本経済新聞",
         "published_jst": "2026-11-25 10:45",
         "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE01WDdDUXc5UjFtYldMOE1uTjZuVnlEeEYwZG0tQjViZksxMEI5NGNpdTUwTEQ5ZHdfWS1sUThENkhnRV9DZW01NmxZXzdwR2xQLXhZNU5LSXpDTG5KMVFhb1NoRUFaWW9kRTk5Ng?oc=5",
-        "topic": "general"
-      },
-      {
-        "title": "「ENEX2027第51回地球環境とエネルギーの調和展」への出展 - NEDO",
-        "source": "NEDO",
-        "published_jst": "2026-11-25 10:07",
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBRcnl2TURXYmpQaXU5SUhhdmVNRjZMeUluSGhXMUtoOEpBUUwxUWRlQ1pyTjRxYm8waWJnV3RRbVhYd1ZadnNHcnh0M0JNR0hDd2RmQWlNSmJFZTZOQlBv?oc=5",
         "topic": "general"
       },
       {
@@ -1590,25 +1618,53 @@
         "topic": "general"
       },
       {
-        "title": "【本日の材料と銘柄】米国防総省、軍用ドローンの量産へGMなどと協議(フィスコ) - Yahoo!ファイナンス",
-        "source": "Yahoo!ファイナンス",
-        "published_jst": "2026-11-25 06:41",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOM2o3MEc5Yzl3RVp6dkdTeF9wLTJ6dmRZbGpyWWo3MmZKaVk3WHNUejFhVW95Yi12bXd3WXBNejF6QmR3OHRTZ09ZNm8za2VWeEVLTGZRYlZrMDhHU2RYZVhsYm1wSndrd3FxSXBuOGNmcDNaWkNZTThxdy15MmdDQ1gyZ0FKVnc?oc=5",
-        "topic": "general"
-      },
-      {
-        "title": "三菱重工 市に園芸博券１万枚 「家族で楽しんで」 - タウンニュース",
-        "source": "タウンニュース",
-        "published_jst": "2026-11-25 00:00",
-        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBVZnhNMHI5NDBreW9ZUjcyd1BCaHhua0ZleENNMnAweHhqN0RCckhsY3BUUzkxQWhPTVRhNVY0QnQtOG5IVWtObDYzUlB1MzkxcVZMOVltREFzc2RXNzQzaVlwc1A?oc=5",
-        "topic": "analyst_earnings"
-      },
-      {
         "title": "三菱重工の敗訴確定、元徴用工訴訟 - NNAアジア",
         "source": "NNAアジア",
         "published_jst": "2026-11-25 00:00",
         "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBVSG9LWmtiTjJlVDF4Zml3T2xiTlJTSnZPYkpabEVwVS1aMHdhU1QyMWZfanZTaC1YNzdweVBBc2wteWVkR3c?oc=5",
         "topic": "business_risk"
+      },
+      {
+        "title": "FBNセキュリティーズ、バリュエーション懸念でズーム株の目標株価を$115に引き下げ - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+        "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+        "published_jst": "2026-11-24 23:47",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5EcU9mV3RCaFFiajFCOHVybnROZDRCTWUtWklxR0p5NXJJOGludGRydVcwbWJoRjBCYnh3ejdXX25uS0gxOWo4RVZqVmJ4RWV4b1N4dm9uR1Z2ZXFVbFZvaWlYb3FQeXRYV29RZFhHMHB6YVZX?oc=5",
+        "topic": "analyst"
+      },
+      {
+        "title": "バーンスタイン、ジースケイラー買収でCrowdStrike Holdings Incの目標株価を引き下げ - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+        "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+        "published_jst": "2026-11-24 22:25",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1tQi1jYmV5d3RXYXJtZWZUVVVVdUh2MGZZdlVJWmROUFpleTdsclRDS2lWV1lQZFRQdFYxTkZqY05vUWNSc0dBa3lCRXo3c2xiSkpHN2F0TG5qLWtsNmNQXy1vNTBKQTZSMVhFSUVyT2lhSGZ2?oc=5",
+        "topic": "analyst"
+      },
+      {
+        "title": "オッペンハイマー、バリュエーション懸念からマーベル・テクノロジー・グループの目標株価を引き下げ - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+        "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+        "published_jst": "2026-11-24 21:55",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1hdktxYnZvNmlQYURjLW5rbm9UX2FfSDRFWW5FMTFPa256VHRrUDN0QmVRVjdnTmx6eGYxSHN1SnluWXlFR0hvQVVGYjlGQjZ1LWxNMW1tS0YycjBWc08xdFdzQzA0SXBSN3gwaWVUaEk2RVg2?oc=5",
+        "topic": "analyst"
+      },
+      {
+        "title": "トゥルーイスト、マージン懸念でコンストラクション・パートナーズの目標株価を80ドルに引き下げ - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+        "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+        "published_jst": "2026-11-24 21:25",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE01anR0czBFSHI1U3lIRVpZUC1SLUtoMWZMVGc3Q0dWYXdTMEl6cW9FSjkzSkJzWld6MG9Rd2hmYnVVZVRucXdtOEgzaE44d3RGVjJTTnJNMmhWR3VESjdWM1hrTVI3MnFSbGFncTVlcFp0NTBt?oc=5",
+        "topic": "analyst"
+      },
+      {
+        "title": "Strategy Inc株価、目標株価引き下げで3.2%下落 - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+        "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+        "published_jst": "2026-11-24 21:22",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1YUlRoNkRXZThvdHNod0Q5UVpSOW1QOHhFa3U3M2lReHg4YktBY1EwcHB6VkJBS2R0QlRWWG5CdHZBUTZiSngwUGJQU2FnS2oyUFotaU5NaWRaLWNhUHl2VU80X2cwem5yMEVfSWIweFkxWnRhakU0?oc=5",
+        "topic": "analyst"
+      },
+      {
+        "title": "BofAがアトモス・エナジーの目標株価を引き下げ - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+        "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+        "published_jst": "2026-11-24 20:25",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8wMjFjZm9kRFFJaXNYc1lDbzkxSUItU3lFYmhNTWFhR0x5d0VndG03MjctakQwSjc3YWcxRkZqNXUtR3A5cERlOWhyMzBycEhhNzRCclZvc1NDR2tGQjE5aEhodWR5TnZZZWp6LVJWb1g1aE9U?oc=5",
+        "topic": "analyst"
       },
       {
         "title": "元徴用工訴訟、三菱重工に１億ウォンの賠償命じた判決が確定…韓国最高裁が上告棄却 (読売新聞オンライン) - Yahoo!ニュース",
@@ -1622,21 +1678,14 @@
         "source": "読売新聞",
         "published_jst": "2026-11-24 20:15",
         "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5NSnE3b0NJeGdKZ2o0MzBWdTI2NmE4QW9uX21mbi1HUTl4NG50czcyRTRmT2NuT0Jfb0o0Sl81ZHNXbzdZbkR2bzhEbW1BYWRVRXJTZ2F3VGdsQ2dZMVUxakR3?oc=5",
-        "topic": "business_risk"
-      },
-      {
-        "title": "【画像】元徴用工訴訟、三菱重工に１億ウォンの賠償命じた判決が確定…韓国最高裁が上告棄却 - ライブドアニュース",
-        "source": "ライブドアニュース",
-        "published_jst": "2026-11-24 20:15",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5BZUxDQ0toS3N3SEVaVUthQ2djZXQ2UUNzSFhVcFB1MFljMDg5UG9uV1RxaWhrM0VrRVdYM2pfSjM4WVhPYkx1Y0tSX0VCallzaFNId2Q5azFBUTJ6U0FRcDFSSDVRSkEyeU9taWpldjE0MVJlZXh3SU9ad3U?oc=5",
-        "topic": "business_risk"
+        "topic": "general"
       },
       {
         "title": "プレスリリース：三菱重工グループ「SUSTAINABILITY DATABOOK 2026」を発行（PR TIMES） - 毎日新聞",
         "source": "毎日新聞",
         "published_jst": "2026-11-24 17:53",
         "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8xWHZUTU4tZVIxdzJhOS0xLW9vNGNfWDFvMVktck1lR1dGTlRlekdxXzdCRFpFOVNuR0xyNldFUTZhQV9nUTBiMWU3ZnpBQ1hwcl9GUXFnTFFfamlkcDhRak5aNGtnU08t?oc=5",
-        "topic": "analyst_earnings"
+        "topic": "general"
       },
       {
         "title": "【アナリスト評価】荏原製作所、レーティング強気を継続、目標株価5,400円に引下げ（米系大手証券）(アイフィス株予報) - Yahoo!ファイナンス",
@@ -1644,23 +1693,44 @@
         "published_jst": "2026-11-24 16:23",
         "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMVdKb2xxVThIcVpGb0kyRU0xQ25Ja3AzZlM5TXR3ZHNnMFhVd0lnQXpxN1hLNHdicHFpbEhCZHdmMkkzRWctLVRCdXgtcFlpMWx3Tm85SWhDYmJRSXpZN1lfdXZHc3ZwMjJDTlYxcVdlSFBSbzdRZU1oU3l3eE5zc2JUQ2plTDg?oc=5",
         "topic": "analyst_earnings"
-      },
-      {
-        "title": "H3ロケット打ち上げ 三菱重工に移管 JAXA、需要増で業務一元化：ニュース - 中日BIZナビ",
-        "source": "中日BIZナビ",
-        "published_jst": "2026-11-24 11:18",
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9SbkNTdHhhcFl3S29INVNjOEZUeEJQcngyd3c0NG5UaFQ3Um5PUnNiQVhGVUtNenkzVmJ5b3AtN2UxWVJDOFc3NWtIRk9uT3lDR2pZR2tCenhHMkg1ZW5R?oc=5",
-        "topic": "analyst_earnings"
-      },
-      {
-        "title": "NTTデータ燃料電池900MW契約、三菱重工 大型ガスタービン受注残83台・37GW：AIデータセンター発電重要ニュース 11月9日までの2週間：東証プライム経営者用サマリー - さっつーのAIエージェント",
-        "source": "さっつーのAIエージェント",
-        "published_jst": "2026-11-23 11:56",
-        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1jUnNtQllBcGxyVWVOeXpocFRTZ3hlYm5JbUgteHBsa0h2TThzdjhIMTVfZzRWdHNQZHdwZzJoajhGbm1hV18wQ092djNyTzRKLVQ3eGM4ZjJLa2N0d2lORGZuOFdIbDBvN0Ew?oc=5",
-        "topic": "analyst_earnings"
       }
     ],
     "7532": [
+      {
+        "title": "ソン・ソクグ、日本のドン・キホーテアクション秘話「広告モデルのエイタのおかげ..グッズも受け取って [インタビュー②] - 스타뉴스",
+        "source": "스타뉴스",
+        "published_jst": "2026-11-25 14:30",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9pY2NHa01STmVZLUhTQ3FWS3Jwb25TVVZ0M1hDMHlVa2EwVVRNUmQxWnVqTU1WZnhobm94X25pLWVBZWlmVW1abVItb2oxLVlIMWdWbG1wd0FjUjN0clhKSVc3N0NiYUQ5LWVTMW1tR3I3cGZHc3FTaQ?oc=5",
+        "topic": "general"
+      },
+      {
+        "title": "ドンキのAI社員・近藤あいは何が新しい？ 「広告の顔」から「働く仲間」へ変わるAIキャラクター - ニコニコニュース",
+        "source": "ニコニコニュース",
+        "published_jst": "2026-11-25 13:09",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5VVGtJNEIyYm5JNFhWUVo2S1lQRVA4ZXdRcjluRjVFcFpJVGpvMDc0bGNaZG9YUllRcXFUclk5ODYtZm5VUGQzVGNEd1pRWk5YYkgydWhoM043NHFnWEl2dG1vX01hQWVV?oc=5",
+        "topic": "general"
+      },
+      {
+        "title": "アパレル製品における『SmileyWorld』のライセンス契約締結のお知らせ - PR TIMES",
+        "source": "PR TIMES",
+        "published_jst": "2026-11-25 13:00",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE00cGJBOEZqQjR5Q2JWZzFzNGs1clMwendGeXc0ZWRBZmZOWi1zbGl6MU5mMDBSVXVQQWE1NGsyV1lGUkRoalRCc3FuRmd3QmZYLUtfVVV5X1g3TVdLQW5YdUVjS00yalZZRVE?oc=5",
+        "topic": "general"
+      },
+      {
+        "title": "韓国発の人気アニメ「デザート キャッチ！ティニピン」がドン・キホーテと限定コラボ！12月5日よりグッズを発売（Kstyle） - Yahoo!ニュース",
+        "source": "Yahoo!ニュース",
+        "published_jst": "2026-11-25 12:39",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBUb0xMak15VGM1bFU4YXM4TEdXTVV5TVM2QlZGWHY1VnVCN29zX1FJU1BIUjJLdWlpUGg1ZjZYams4bjJQRFZXMFZzQ0VLOGhsN2hfN014NWFpSFE1MEozeWZsR09DUEIwVDZfUHZVaUdpWkNaVWpDVXJTSzBnTHc?oc=5",
+        "topic": "general"
+      },
+      {
+        "title": "ドンキに「AI社員」近藤あい 販促物づくりを1カ月から1週間に短縮 - BigGo ファイナンス",
+        "source": "BigGo ファイナンス",
+        "published_jst": "2026-11-25 12:25",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE56cmpDc2VEb1I2cGhRc3ZnUEF5T2NwNkhoRjk1RVJVd0ZmOG5yRHNPWE1kU3dUM3k4SW9fUG52NG05WXBvcmVLV1AzWXVlZ1JhVnc3SUo4Z2pJTE9oVTF2bmxGRHB6X2lKS3hNNDNwb1VwSmpY?oc=5",
+        "topic": "general"
+      },
       {
         "title": "ドンキのAI社員・近藤あいは何が新しい？ 「広告の顔」から「働く仲間」へ変わるAIキャラクター（リアルサウンド） - Yahoo!ニュース",
         "source": "Yahoo!ニュース",
@@ -1672,7 +1742,7 @@
         "title": "「これ健康にいいじゃん」-10kg8年キープ主婦がドンキ＆ロビンフッドの健康美アイテムを厳選！生鮮食品から手軽な魚の冷凍ミールキットまで紹介 - ライブドアニュース",
         "source": "ライブドアニュース",
         "published_jst": "2026-11-25 11:56",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9aN3VySG56eW1kc3Vma0x4OVdiUXVfM29ERG1zSndqa1loWEMzckx4aFRSQUVZWnVtNjQ5SzJvRzZpaTc0Q25CdXNLS1JSaFpDNWl1R2kyZUdVaDlCUFl3MGZNUGlkOFBHdmdNTklJLXVsaW1GZ1NuYlNn?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1UOG9JNUg3Zm5MXzg5U0oxOHNJQ2FCR0ZDbTAzWmdfanpJOEtCMHpFdElUelowbXZUYThQRFppVzhfTTlTdENwMXd2aW8xM1ppMmhHU01yV1dYdlpvdkE?oc=5",
         "topic": "business_risk"
       },
       {
@@ -1694,28 +1764,7 @@
         "source": "号外NET 吹田",
         "published_jst": "2026-11-24 18:00",
         "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE02c3h4Sk5kZGcxVW45QXgxLUM3X2JpNTdOZ09uem1oTWJQdzhaazJKUUNlcEJmdjFfSkV1bHpqeEVkdGNRUFFXZ0J2VTVGZE8zX3VWX3VqTm9aZ3lGNUh3?oc=5",
-        "topic": "general"
-      },
-      {
-        "title": "ハローキティ 冬の新作 ドン・キホーテにて11月28日より順次発売! - コラボカフェ",
-        "source": "コラボカフェ",
-        "published_jst": "2026-11-24 17:51",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdzh2ajJTSTlDU0ZsemI2R2Q4MVg1cVdiZmpMRTQ1RHlZV2ladkZhR2tFZXR6X1RGS0hzLVVscVlsVjlqSFZVc1UyOGZBWUJWOW5QMFl6MGV6R1RfNlFYQ2xSSmNnMGNSWE13elkzc2JKOHV0UmNJbTlfY3NldnJMQm9FUmk0VVR2SWRXTk0tMDgzQ2M?oc=5",
-        "topic": "general"
-      },
-      {
-        "title": "リラックマ商品が@cosme TOKYOにて先行販売決定！ - San-xネット",
-        "source": "San-xネット",
-        "published_jst": "2026-11-24 17:12",
-        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBxX1FpN3dma3FOWXhTWlpTNmJmazlOZUY3Qnlpb1F5MkY1Q2QtY29keG5PZ3NPTlkwMFlncTNwckxMdmpzUXhTaTVhanNuUEFxWTUxVU8ydzNvOFhDOEJ3SXhlWQ?oc=5",
-        "topic": "general"
-      },
-      {
-        "title": "アニメ『デザート キャッチ！ティニピン』×ドン・キホーテ限定コラボ決定！ - AERA DIGITAL",
-        "source": "AERA DIGITAL",
-        "published_jst": "2026-11-24 17:01",
-        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA0cXd3Nmd5Q3U5dVB3UWtaNnRmWWU0Qm9Mb1VzdWdmaVNmbDc1QlRxbm9qaGhsQThXQ0d5RzZPZl9BdnJnLTJPZ1kxU3NHY3V3?oc=5",
-        "topic": "general"
+        "topic": "business_risk"
       },
       {
         "title": "PPIHnews｜｢MEGAドン･キホーテ Olympic洋光台店｣12/10転換オープン - 流通スーパーニュース",
@@ -1739,54 +1788,75 @@
         "topic": "analyst_earnings"
       },
       {
-        "title": "写真：東京商工リサーチ、企業リスクをひと目で可視化する新指標「クレジットレーティング」を提供開始 - 沖縄タイムス社",
-        "source": "沖縄タイムス社",
-        "published_jst": "2026-11-24 11:00",
-        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBKSkZsSGtLUHY0cWVUM0JoX1RqUkZfYkx3ejQ4a2ZqWGt6Rk9xYVdZQlpjOTJaWDl6aG1WRFdKSlFSOGZVNnROdWY0MWNwZUdtWHNiZWcyTC1XRGdheVRUYndmNGNBZw?oc=5",
-        "topic": "analyst_earnings"
-      },
-      {
         "title": "1万円台から買えるNTT、24期連続増配のドンキ運営会社など“10万円以下”のお宝株 - 現代ビジネス",
         "source": "現代ビジネス",
         "published_jst": "2026-11-24 08:25",
         "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9YaUJNSU9qVXdFcnZVck1KbUV5VDZhbG16WThOMi1YN1M3WVFGZWdKZVlKZ2ZUSFY5OVRFU2U0LUZpTmJVblQtWTJfelFMRXdSeVE2V2o1M0g?oc=5",
         "topic": "analyst_earnings"
+      },
+      {
+        "title": "年末の「NISA残り枠」を埋める最強の5銘柄！1万円台から買えるNTT、24期連続増配のドンキ運営会社など”10万円以下”のお宝株 - ライブドアニュース",
+        "source": "ライブドアニュース",
+        "published_jst": "2026-11-24 07:30",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5ic2JWeXduaDNFS3VON3dxb1JlajB5UUZlVEhYS0szcnlCNmNxbmwzVmxXb2s2Z2QxZFJGT1hQRXN5YzcxNmlQUXJ2UTM2QXFJVGo2ckNIZG5xclJDRlcw?oc=5",
+        "topic": "analyst_earnings"
       }
     ],
     "8306": [
       {
-        "title": "日経平均下落でリスクオフ強まる【今日の市場はどう動いた？】 - Yahoo!ファイナンス",
+        "title": "ベイリー・ギフォード世界成長企業戦略/SMT.LN外国投資証券ファンド【03311219】：基準価格・投資信託情報 - Yahoo!ファイナンス",
         "source": "Yahoo!ファイナンス",
-        "published_jst": "2026-11-25 11:57",
-        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBZQ04xX3h6S08ybE1KVjlWYTZTWldFVllQN3otVXF2cUlSS0RUVUtpWjhIYXI4MnFxRmlaZWhadHM2ZjZ2UkhhR3VlV1ZaWEdkLUIyVGJ1aVFMSGFVSWF1VlV0M2I?oc=5",
-        "topic": "general"
-      },
-      {
-        "title": "上場ETN（発行者：三菱UFJ証券ホールディングス株式会社）に関する日々の開示事項 投稿日時： 2026/11/25 11:30[適時開示] - みんかぶ",
-        "source": "みんかぶ",
-        "published_jst": "2026-11-25 11:30",
-        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1yNVZyWVRuTFNRZXlka0NUbW5oLTRhNVVBbjIwZHREV2pqRXlLY3BiVTlTeXNpVnRFMTJ5Z3ctdkcyOU5Qc1E?oc=5",
+        "published_jst": "2026-11-25 13:29",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBoNHh2dVMzYWc4R3FRSzlkZW4yeXFHZUhKUlZfdmF3T294dklEdUxKUExaZlA2VDlvMTlQTDRiVFFqVTI4ZkVFTTZTRFBtYWZpa2d4Xw?oc=5",
         "topic": "general"
       },
       {
         "title": "グローバル･ヘルスケア&バイオ･ファンド【03316042】：基準価格・投資信託情報 - Yahoo!ファイナンス",
         "source": "Yahoo!ファイナンス",
-        "published_jst": "2026-11-25 11:27",
+        "published_jst": "2026-11-25 13:24",
         "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5yT3lOMTNaZzE5T3BIMERsNFRKU21aR29xOVdsYl9RSnAtYTNicF8wb0tWcE1MbWk5dVpIeFA0YVJSejB3WGU2N2hzeHlIbGkxT2RzYg?oc=5",
         "topic": "general"
       },
       {
-        "title": "楽天・シュワブ・高配当株式・米国ファンド(四半期決算型)【9I312249】：基準価格・投資信託情報 - Yahoo!ファイナンス",
+        "title": "シイエム・シイ[2185]：特定の株主からの自己株式取得に関するお知らせ 2026年11月25日(適時開示) ：日経会社情報DIGITAL - 日本経済新聞",
+        "source": "日本経済新聞",
+        "published_jst": "2026-11-25 13:00",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBtbE1uNDIwU0k3Yktad0FGT080QUNLbzRabTlUaE10MS1pNlh1VVEzTXpSWVE0WEVmTGFjMEhteDVSMjJJQVRSQW9YLTJITXg0d01raVJNZjBFVUZCdHQyeDlnYlpjRGRSa0E?oc=5",
+        "topic": "general"
+      },
+      {
+        "title": "三菱UFJ 純金ファンド【03311112】：基準価格・投資信託情報 - Yahoo!ファイナンス",
         "source": "Yahoo!ファイナンス",
-        "published_jst": "2026-11-25 11:27",
-        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1Wb19jSmJMakhqVC12TVZISkRwTlZQcV9iaG5hT3kxRzFHUEs3MmgxYzlRbXZNU2hRN1BqN1JwY01GSjgtUnVSekozbnI4YkVyMzczVw?oc=5",
+        "published_jst": "2026-11-25 12:46",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5mNEtpeXdmblRBVlJBQnJZQXltdTd2dGE4TUVnYnBqazJkNVZ2all3MXVwaEFZNGNaNEVjaDlHNWRrMElRM2lpa2xRZVhLTksyVEh5Qg?oc=5",
+        "topic": "general"
+      },
+      {
+        "title": "eMAXIS Slim国内株式(日経平均)【03311182】：基準価格・投資信託情報 - Yahoo!ファイナンス",
+        "source": "Yahoo!ファイナンス",
+        "published_jst": "2026-11-25 12:42",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9zdkVBRWpTSVZ3Y2YxbjVlS2RTTG5aZElFZGx6Vnd3Y1BJUk9KSVduckVyUnUxZWFtcFN4em5TbXJQcUUwanQ0c1FmMVRvMFNDdGR4cw?oc=5",
+        "topic": "general"
+      },
+      {
+        "title": "eMAXIS Slim米国株式(S&P500)【03311187】：基準価格・投資信託情報 - Yahoo!ファイナンス",
+        "source": "Yahoo!ファイナンス",
+        "published_jst": "2026-11-25 12:14",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBEMU9Tck5nc1F6c2FMaUVWSm52cXRNVUY1b0cwYXZHZlFpRHlQNlZtTHp2eGZBZFAzQTVhaW9LVlNhREtGT0dQNnl3X25HRlRaNUF4RA?oc=5",
+        "topic": "general"
+      },
+      {
+        "title": "純金上場信託(現物国内保管型)【1540】：株価・株式情報（夜間PTS含む） - Yahoo! JAPAN",
+        "source": "Yahoo! JAPAN",
+        "published_jst": "2026-11-25 11:58",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4wT0pLZFYweEZKZEI1MWVnSDNHYXJfemt1T1FNNDFfai1kRkFoVGp2Y0pLemJYVGRIUDc2VGNXVUlUSUFFdTNscnZBME81Ml9Oenc?oc=5",
         "topic": "analyst_earnings"
       },
       {
-        "title": "eMAXIS Slim国内株式(TOPIX)【03317172】：基準価格・投資信託情報 - Yahoo!ファイナンス",
+        "title": "(株)三菱ＵＦＪフィナンシャル・グループ【MUFG】：株価・株式情報 - Yahoo!ファイナンス",
         "source": "Yahoo!ファイナンス",
-        "published_jst": "2026-11-25 11:10",
-        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBSalpJb2FzZjBqSU1vTFo3RVd1X3liczdRc25wZU9jMVI2dWJ0R0xDcU1UaWhMOUNxODRGdlNhMU5JYkUzaWJnNEk1QThpODAwM2x4Yg?oc=5",
+        "published_jst": "2026-11-25 11:43",
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1fb09UZ016WWhiUVBjc0RvWFltWjhxVkhJbkpyOEhKLXMzR2JuMk0wY1MybnpuUWNldldDSTJMak1rZV83N2JYNGFMWktSU3M?oc=5",
         "topic": "analyst_earnings"
       },
       {
@@ -1794,27 +1864,6 @@
         "source": "Yahoo!ファイナンス",
         "published_jst": "2026-11-25 10:52",
         "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1LQkxZZEFOR2NJZndhSmQzaHllYXBGVWp4N0ROLUpLNmVJVnFEM3dvaDdCME81ZWkzYnB3SkwycTBXNGRsVlJsUlVMeWV5WGpCdDZkaQ?oc=5",
-        "topic": "general"
-      },
-      {
-        "title": "サイバーセキュリティ株式オープン(為替ヘッジなし)予想分配金提示型【03319211】：基準価格・投資信託情報 - Yahoo!ファイナンス",
-        "source": "Yahoo!ファイナンス",
-        "published_jst": "2026-11-25 10:47",
-        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5QOTBpb2ZrQ2pQOFhwRWVBTmRaNXJYQkt0dWt2LVozRG8yLUNiS0lVdlkyWEQ4OUt1VTQtUU11NHE2VTRnOUJYMF85eWhnVGFSaXIwTg?oc=5",
-        "topic": "general"
-      },
-      {
-        "title": "ベイリー・ギフォード世界成長企業戦略/SMT.LN外国投資証券ファンド【03311219】：基準価格・投資信託情報 - Yahoo!ファイナンス",
-        "source": "Yahoo!ファイナンス",
-        "published_jst": "2026-11-25 10:33",
-        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBoNHh2dVMzYWc4R3FRSzlkZW4yeXFHZUhKUlZfdmF3T294dklEdUxKUExaZlA2VDlvMTlQTDRiVFFqVTI4ZkVFTTZTRFBtYWZpa2d4Xw?oc=5",
-        "topic": "general"
-      },
-      {
-        "title": "純金上場信託(現物国内保管型)【1540】：株価・株式情報（夜間PTS含む） - Yahoo! JAPAN",
-        "source": "Yahoo! JAPAN",
-        "published_jst": "2026-11-25 09:11",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4wT0pLZFYweEZKZEI1MWVnSDNHYXJfemt1T1FNNDFfai1kRkFoVGp2Y0pLemJYVGRIUDc2VGNXVUlUSUFFdTNscnZBME81Ml9Oenc?oc=5",
         "topic": "analyst_earnings"
       },
       {
@@ -1825,42 +1874,63 @@
         "topic": "analyst_earnings"
       },
       {
-        "title": "日経平均高配当利回り株ファンド【0331118B】：基準価格・投資信託情報 - Yahoo!ファイナンス",
-        "source": "Yahoo!ファイナンス",
-        "published_jst": "2026-11-25 03:58",
-        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1HZ0xjeTRwbFVQWGhSd0dCN3VsX1VJTGdWNDNsejBlSlpHZzliQ3hnSEhkZGxIYVRsY25vc2duM1J2MHFfa3NacXNoeDhtdnE1T2paTg?oc=5",
+        "title": "Strategy Inc株価、目標株価引き下げで3.2%下落 - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+        "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+        "published_jst": "2026-11-24 21:22",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1YUlRoNkRXZThvdHNod0Q5UVpSOW1QOHhFa3U3M2lReHg4YktBY1EwcHB6VkJBS2R0QlRWWG5CdHZBUTZiSngwUGJQU2FnS2oyUFotaU5NaWRaLWNhUHl2VU80X2cwem5yMEVfSWIweFkxWnRhakU0?oc=5",
+        "topic": "analyst"
+      },
+      {
+        "title": "JR東日本・三菱UFJ・セブン銀行、独自調査で見えた攻めの大規模IT投資 - 日経クロステック",
+        "source": "日経クロステック",
+        "published_jst": "2026-11-24 16:48",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5FYk5lWU12WHd5a1dkemk1OWJoVWNsNW9fcm90UmQ5bDFtWVhmTnctQ3duNFFkVG44T3pUd0ZlTXY0ZXN5Z0JMQU1OZXpmRHFSR3RFVmxia2thdzhoazY0cXQ1Qkl3RjBrVUplTw?oc=5",
         "topic": "analyst_earnings"
       },
       {
-        "title": "「委託したとこ全部漏洩してんじゃんよ💢」プレイド『KARTE』の不正アクセスで、ZOZOTOWNや三菱UFJ銀行など影響を受けた企業が次々判明…不安や警戒の声が広がる - Togetter",
-        "source": "Togetter",
-        "published_jst": "2026-11-22 20:57",
-        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBMUTJqbU5Wem5ibTF2MktDek1fSldINnRhaWtaeGNLR241bW11cEtST2Z4MTd5SGJUUkNRVFphMFY5U3NKMFE?oc=5",
-        "topic": "business_risk"
+        "title": "サスケハナ、マーベル・テクノロジー・グループの目標株価を$225に引き下げ - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+        "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+        "published_jst": "2026-11-23 21:41",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE43NnpzOHp5UHlLOWFYa0JFelhJS2JMOHhnRTY1OFUzd3U0YXIzdkVrQy1DSzNaYmpZMHM2QlZuOVg5MzZ2V0NIQ3BadFJMZkh1cVBRQmxJM0FUM2RLcjhncEVQTjZVdHdkb1lSRmpSN3lIOGcx?oc=5",
+        "topic": "analyst"
       },
       {
-        "title": "三菱ＵＦＪ銀、委託先に不正アクセス 顧客情報650万件漏えい（ロイター） - Yahoo!ニュース",
-        "source": "Yahoo!ニュース",
-        "published_jst": "2026-11-22 12:55",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1iOFpwaTZ2TlRBV1V4SEpLT0dtVGdtcTRnUGNqSDZxOHlfYjNWRGZqZi1wWHhBbnk5bUxpWk5hMTN0ZEprN3BrN1pfRDNXcWhIZjE4TG1LenRULW1ZejFVVm1BZW9VcU1JQkF4OE1qTVd6S1VVaHlwWm5Vb3JFN1k?oc=5",
-        "topic": "business_risk"
+        "title": "TD CowenがSalesforce Incの目標株価を$275に引き下げ、第3四半期見通しを受けて - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+        "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+        "published_jst": "2026-11-23 21:41",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBxazJSemx1bVhGWWpZLVJFdnRpODJ0YVphT2FmS2hkVlFCWnhoZDNZTkhrMEpYaTI2U2hxSWtNNXRlTFNqWU12QzhqUmItSmZQcm84SEtZXzAxdUNmQWhTWFdTZE9Nb1J4d01RcEhjMjI4MVgw?oc=5",
+        "topic": "analyst"
       },
       {
-        "title": "三菱UFJ eスマート証券、証券口座番号約6万件と年齢約10.5万件が漏えい 委託先プレイドの「KARTE」への不正アクセスで - 株式会社アクト",
-        "source": "株式会社アクト",
-        "published_jst": "2026-11-19 15:37",
-        "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE0zTDVXMFU2emN1X1pPQmd6RnU1R2JHVGcyYUhCeDBiQmpIU3lpWmp0MDRscjZYRnRsOUVhLXlnLTlFcXVUWTYyVA?oc=5",
-        "topic": "business_risk"
-      },
-      {
-        "title": "サービス受託企業への不正アクセスで漏えい拡大…三菱ＵＦＪ銀行６５０万件、ＤＨＣ１９１１万件など - 読売新聞",
-        "source": "読売新聞",
-        "published_jst": "2026-11-18 22:33",
-        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1VMmxFTko4LV9KU1ZiNmdzUEJJVHZiV19VdEhZZmwwXy1MZERheUl6ZldaN3Ryc2MzVXRNXzJXQlpxdWdZYjJJS3R2d0ZLcnlQZXQyQ3dBVWpvZGRHMFVtV3psWmw?oc=5",
-        "topic": "business_risk"
+        "title": "モルガン・スタンレー、クラウド支出増加見通しでMeta Platformsの目標株価を引き下げ - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+        "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+        "published_jst": "2026-11-23 20:25",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8tVzE1RlFOWGdvR0tfNElhS05uSks0Y2hYNjZYRmFPeGJiMDNTQ0hyYm50OUxVaGVwWGNuUzZrblZZVTRKcGh5Z2tIZFpUX3l2aVpwSEtpc0syUnBjMTFaTHV6b2R1UWl2RURyNEZ5NlhPWmU4?oc=5",
+        "topic": "analyst"
       }
     ],
     "9984": [
+      {
+        "title": "ソフトバンクＧが急反落、米アンソロピック公開価格割れでオープンＡＩ上場実現巡る不透明感を意識 - 株探",
+        "source": "株探",
+        "published_jst": "2026-11-25 13:30",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE05V1JjdVVlUGpzX1VJOVZfZ3dNSmNCMHlZdkh2ak0zU1VNc2NPNXlTT3JZcjlLNzItV2JDN2pXU3R0MG9yTTNia09vc2pTX3htUlhTZ2U1THZIRkY3SmgzOA?oc=5",
+        "topic": "general"
+      },
+      {
+        "title": "日本航空（株）第１回社債型種類株式【92015】：株価・株式情報 - Yahoo!ファイナンス",
+        "source": "Yahoo!ファイナンス",
+        "published_jst": "2026-11-25 12:12",
+        "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1wM1BIWUdEZEZHLV9wRmxFN3Q5akZVTzFSZXhhQTlrLWs5QnlBN1phSjBUY2hyVG9nSnA3NFdJTm9rU241aDR0SjFKVVNfR1BteEpV?oc=5",
+        "topic": "general"
+      },
+      {
+        "title": "AIバブル崩壊でソフトバンクGの株価は最高値から70％下がった - アゴラ 言論プラットフォーム",
+        "source": "アゴラ 言論プラットフォーム",
+        "published_jst": "2026-11-25 11:32",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA4Z2N2TXQ4UFNBMm96Z1MwOHdyMmkwTFgtZ2VyZ25PVzRKb3pGeTJTZjBhOUNKVDlDU3ZyeW5mZ0FRQjNraXpPTk9OdmhqU2ZEbHh5WTB2cnBfZzQ?oc=5",
+        "topic": "general"
+      },
       {
         "title": "前場コメント No.1 イビデン、ＨＯＤＬ１、ソフトバンクＧ、ＴＯＫＩＵＭ、アドバンテ、山一電(トレーダーズ・ウェブ) - Yahoo!ファイナンス",
         "source": "Yahoo!ファイナンス",
@@ -1883,32 +1953,25 @@
         "topic": "general"
       },
       {
-        "title": "ソフトバンクG株13%安、年初来安値を更新｜高値から約7割下落 - CRYPTO TIMES",
-        "source": "CRYPTO TIMES",
-        "published_jst": "2026-11-25 10:44",
-        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ISEZiZm85eV9MRXVKM0dUaVJvel9wc3hVYjdST2RmSUQ0VkdlcXpsUHMxeWc1QTBqd2pPaTJCWHJCZURVUlNqQjQxRGVZcFJhdG5GMjViWkd3a3l2c3d4M1h3bC1XMzgw?oc=5",
-        "topic": "general"
-      },
-      {
-        "title": "ソフトバンクGが反落､6月最高値から｢半値八掛け二割引き｣に - 四季報オンライン",
-        "source": "四季報オンライン",
-        "published_jst": "2026-11-25 09:59",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5EbWR5azE4Um1veDVLODBNejE1Y0hNb1hfcXdjYVBBeFRraElKMGxzOEhfSlBBb3RPRkY0VjZHbTFYdVVEVXdubjVmSk00UktqQnlJU0lfaw?oc=5",
-        "topic": "general"
-      },
-      {
-        "title": "ソフトバンク株10％安 AI関連でサムスン・SKハイニックスも7％超下落 - BeInCrypto",
+        "title": "ウォール街、エヌビディア目標株価を25％下方修正 - BeInCrypto",
         "source": "BeInCrypto",
-        "published_jst": "2026-11-25 09:53",
-        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9Nd05oTlR5ckRoRnZUcFZlTXVrX1FmYmxuZFM5cF9JLUdmVldSSk9WSElIVXRXQlRORlFRVlhrNnE2M3FuNTdHN1NURjA3U1FYNVZYbVpRbUd2NXJOeVJTRElaaWExeUVVNnlPZGR0RmZ6Zw?oc=5",
-        "topic": "general"
+        "published_jst": "2026-11-25 10:12",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9pN2ZEYnItMFZPV1E2RERPNWNwNVFjWlRLZlpVeGlfZk9oZVNGdjVFZThycmQ0RE5BTWRmX28xRWhVOEJLUWc5R3JiVGowc2hKbWp3SE1TenBTRUpJR0tidXNYZU1KSGtfXzNKYlU3SndEV0ZLRG1CbWpZczk?oc=5",
+        "topic": "analyst"
       },
       {
-        "title": "KDDI・NTTのように連続増配できるか…ソフトバンク株のリスクは配当性向約70%とAI投資 (2026年11月25日掲載) - ライブドアニュース",
+        "title": "KDDI・NTTのように連続増配できるか…ソフトバンク株のリスクは配当性向約70%とAI投資 - ライブドアニュース",
         "source": "ライブドアニュース",
         "published_jst": "2026-11-25 07:00",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5LQTJIUGlvS3JhdW1mQUhlTmhZeFY4OUY0WkR1ZnpMaHJWRTMzVjd3VWYzbEo2M3ZmYXdTU3gtWmVNZE5HVElTZ0NIR255QnBrV2t6d3hJVTg3UDhSNUE?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5OMGJxZnJtdmFyU19FV0JrRFBzVXh2bFpYV0VScl9NZDhRYjYxNWhIV0RHeHgyRzF2U2NucWdCd0VQam5HejBxN01wRkhDTkhtYjFvd0FFUmpSNWo1ZFlR?oc=5",
         "topic": "analyst_earnings"
+      },
+      {
+        "title": "FBNセキュリティーズ、バリュエーション懸念でズーム株の目標株価を$115に引き下げ - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+        "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+        "published_jst": "2026-11-24 23:47",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5EcU9mV3RCaFFiajFCOHVybnROZDRCTWUtWklxR0p5NXJJOGludGRydVcwbWJoRjBCYnh3ejdXX25uS0gxOWo4RVZqVmJ4RWV4b1N4dm9uR1Z2ZXFVbFZvaWlYb3FQeXRYV29RZFhHMHB6YVZX?oc=5",
+        "topic": "analyst"
       },
       {
         "title": "【アナリスト予想】ソフトバンクＧ、27年3月期経常予想。対前週45.9%下降。(アイフィス株予報) - Yahoo!ファイナンス",
@@ -1916,6 +1979,13 @@
         "published_jst": "2026-11-24 22:47",
         "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPdzNqNXlzWWRQY2tWeENERE5XMGVqVXpNUENXSXZ5NHlEYnFnd3NMX2FZa2ZDdzR1ODhRNGpqU1JDYmJvQkhnSXNFYXh5U1pfek1VZG4yRExuNy1GTnoxUThXZlZBcloydHZSTEdOOHg5TzhxMXh4Mmg4eHI2YzdnZXRBZFpvbm8?oc=5",
         "topic": "analyst_earnings"
+      },
+      {
+        "title": "バーンスタイン、ジースケイラー買収でCrowdStrike Holdings Incの目標株価を引き下げ - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+        "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+        "published_jst": "2026-11-24 22:25",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1tQi1jYmV5d3RXYXJtZWZUVVVVdUh2MGZZdlVJWmROUFpleTdsclRDS2lWV1lQZFRQdFYxTkZqY05vUWNSc0dBa3lCRXo3c2xiSkpHN2F0TG5qLWtsNmNQXy1vNTBKQTZSMVhFSUVyT2lhSGZ2?oc=5",
+        "topic": "analyst"
       },
       {
         "title": "ソフトバンクG株価はなぜ年初来安値圏へ？元機関投資家が語る「孫メーター」と需給悪化 - LIMO | くらしとお金の経済メディア",
@@ -1932,146 +2002,18 @@
         "topic": "business_risk"
       },
       {
-        "title": "【高配当株】日本郵船・ソフトバンク・積水ハウスの3社、100株で受け取る年間の配当はいくらか（LIMO） - Yahoo!ニュース",
-        "source": "Yahoo!ニュース",
-        "published_jst": "2026-11-24 20:20",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ZUXNMV21LdnBpRndPa0RiX0RBUlJkQ1RKWjA4Z3ZNRVNNN2ZnVEowUUctUEhhMkcxd1NMQlNsblVWem5LRXZaZmhpd1lkZFV5MlJJV1VqcnhLWnZtR1UxUlkyRU9uYVBsOVNOR0VoeFlyOXlvbHloVWFOdzUtSlE?oc=5",
-        "topic": "analyst_earnings"
+        "title": "オッペンハイマー、バリュエーション懸念からマーベル・テクノロジー・グループの目標株価を引き下げ - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+        "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+        "published_jst": "2026-11-24 21:55",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1hdktxYnZvNmlQYURjLW5rbm9UX2FfSDRFWW5FMTFPa256VHRrUDN0QmVRVjdnTmx6eGYxSHN1SnluWXlFR0hvQVVGYjlGQjZ1LWxNMW1tS0YycjBWc08xdFdzQzA0SXBSN3gwaWVUaEk2RVg2?oc=5",
+        "topic": "analyst"
       },
       {
-        "title": "【高配当株】日本郵船・ソフトバンク・積水ハウスの3社、100株で受け取る年間の配当はいくらか (LIMO) - Yahoo!ニュース",
-        "source": "Yahoo!ニュース",
-        "published_jst": "2026-11-24 20:20",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeFg3LUYzUUlaZWNNWGZpNldLTUxPaFVrS0xHclhXTEpEZzQwTm9QeEs2d2VWLThRY3Vvb1phQzhWanRwbVdrYWlhSzBBQlRmb3BiTnMwblVxeGVPTTdiZm1HNW9MNGhGMzZQcFkwMUdVdFpDemFuNHJGSGhsNDJJeHk0cXM5d3NBWFpYRFpR?oc=5",
-        "topic": "analyst_earnings"
-      },
-      {
-        "title": "【高配当株】日本郵船・ソフトバンク・積水ハウスの配当と株主優待。100株で受け取る年間の配当と、100株を持つのに必要な金額はいくらか - LIMO | くらしとお金の経済メディア",
-        "source": "LIMO | くらしとお金の経済メディア",
-        "published_jst": "2026-11-24 20:19",
-        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9Pdl9XYzdGdUlMWFFnd3dNeExkTHpJcFk4WnFlbUNScGtzaFdiSjVURkhhWG9GOURTSHlWQjJNTDNTdFo4aXlFWnlUcHA?oc=5",
-        "topic": "analyst_earnings"
-      },
-      {
-        "title": "ソフトバンク、「ITmedia」運営会社の売却検討 AI関連事業に集中 - 日本経済新聞",
-        "source": "日本経済新聞",
-        "published_jst": "2026-11-24 17:00",
-        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9vMmd6Xzc0blc1ckd2YnBCTl9Bd2JIZkRkOXV3cWJxZm53OEFDQUFQamt5dEYyRlhOT1JyTDFJX0FqV1RzRmp6OGZGY1RKTUJabmRkT1p3VDkweUVtODhIN1o2TnNwNkFxZjY1cA?oc=5",
-        "topic": "business_risk"
-      },
-      {
-        "title": "孫正義氏がSKハイニックス買収を検討？＝韓国ネット「SKがソフトバンクを買う方が早い」 - ｄメニューニュース",
-        "source": "ｄメニューニュース",
-        "published_jst": "2026-11-24 13:00",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUGdsREh4bjFLUVJaZTl5QVdMT1pEYXV0dzR6MFE5dF9zQzN1V0VvTkxfMEtWZk15MnIzWU4tZFRJeWtZcUM4aFllZ3VZbzF2Um9SN21OYm4yZzNNa2s4M2EzSE9OWmU1aHcxa29oQkU0Rm56U1c3MXg1UTBSZnFGcTd1d0pxd9IBiwFBVV95cUxOeUxwR0RPOVVrWTZkcUp4WVNEQm9JdTNaazVvRDJTNUF3YXVNRVJoRUpGZmxVczJuMEg3LUJVT25ROGNBejl0bHVVQmZqbnhKRUh4Tnozc0lfeU01Si0zRlJJTld6bUFad3ptUk5QeVdxZGhkaTFmeXZ5dVNxR1BHQWFNZzgyZjVoQzBz?oc=5",
-        "topic": "business_risk"
-      }
-    ],
-    "3905": [
-      {
-        "title": "(株)レイヤード【634A】：株価・株式情報（夜間PTS含む） - Yahoo!ファイナンス",
-        "source": "Yahoo!ファイナンス",
-        "published_jst": "2026-11-25 10:05",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5rQ3Y1SVo5dlQzX1lzV19TQzFxczhhNlhEUTdsTm81VnByV013UTRjS1p6SFdXSHpNWEFFOVRpeTl2VTVERVZ4UmF5OW5Zc0dvcnc?oc=5",
-        "topic": "general"
-      },
-      {
-        "title": "PTSで大きく動いた注目の材料銘柄（11月25日）(トレーダーズ・ウェブ) - Yahoo!ファイナンス",
-        "source": "Yahoo!ファイナンス",
-        "published_jst": "2026-11-25 07:29",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdVpUaWxIRTJWb3NFQ1lIT2NWNXVwRTM5ZDA5SVNtbllqeDN2QU4zUzdua25iekIzOENNcm5YWFViam9sTDlwbmszc1NVXzNGYVNtXzJQdlZOZFktYUZDSE84b2p3aDJYUWFpbVNwaXlOUFZ5U2NidUlHTXg2bERYNGdJbmRnY1k?oc=5",
-        "topic": "general"
-      },
-      {
-        "title": "前日に「買われた株！」総ザライ ―本日につながる期待株は？― - 株探",
-        "source": "株探",
-        "published_jst": "2026-11-25 05:30",
-        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9XcXRxZy1fREJYcHZkX0FoWWlZZFJnbE8yTGNxWFFOaTV6VV9vV21kcHd1QzJMemNXNDUzMkt2ZjFLVVBpak5ocnNOQnFwd0tUaTRnSjFMYWdDbEJnUEhhUg?oc=5",
-        "topic": "general"
-      },
-      {
-        "title": "業績修正（大引け後）－該当銘柄なし(トレーダーズ・ウェブ) - Yahoo!ファイナンス",
-        "source": "Yahoo!ファイナンス",
-        "published_jst": "2026-11-24 17:22",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPalA3aUhSb1RHOUc1Wlo1eVJWZjdPeFpsbGZCQk9oVXM0ZmxMTlJ0aE1ZaUdIZC1wWWlIYklBZGlZNWU2VlNGZy1tOGlJTEtXMlJDV0lGaUJ2bGowSUM5V3RyYktFbnpxVnloLXJmNHcwc1l3Ykt4TkZ0QWJkUHpjdmU3cUJETEE?oc=5",
-        "topic": "analyst_earnings"
-      },
-      {
-        "title": "業績修正（取引時間中）－令和ＡＨ(トレーダーズ・ウェブ) - Yahoo!ファイナンス",
-        "source": "Yahoo!ファイナンス",
-        "published_jst": "2026-11-24 17:22",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONDMzcWRUQVhfME0xZDdFT0dNeGw1ZmNuYUMzR1BWRXFUTzdvYzhEeHFuN0JjcS1sRE5sMGtoSGFtbmtFQXpXeDV4b1ZlbURxYUo3dXpMWFJDT1ZGaDEtZU9uTzc1Vkx1ZzhUM0RqVklKZFdtUlRBanl3bi1XQ2FjMnhDcHlfbW8?oc=5",
-        "topic": "analyst_earnings"
-      },
-      {
-        "title": "東証グロ－ス指数は大幅に8日ぶり反発、米株高受けひとまず買い優勢／グロース市況(フィスコ) - Yahoo!ファイナンス",
-        "source": "Yahoo!ファイナンス",
-        "published_jst": "2026-11-24 16:54",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPdldCejk1ZXdMUGxZVlJTbmlrWWFkdV9ZemlNVjFHX2ZldjBadUgtYzkyU05TTDU3aWwzR285WUdzWWZCM0ZVTDg4NW1RbEpfSExTVld6cmV3V09SSlNDV1FQMW9HT2ZvN2JmTFBhMXQ2dzJtdG5Ga25abkNqc0UxQTVoQ0h2ZWc?oc=5",
-        "topic": "general"
-      },
-      {
-        "title": "本日の【ストップ高／ストップ安】 引け S高＝ 12 銘柄 S安＝ 1 銘柄 (11月24日)(株探ニュース) - Yahoo!ファイナンス",
-        "source": "Yahoo!ファイナンス",
-        "published_jst": "2026-11-24 15:45",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMktfU0lLMXRyTDRFVDRKSUc2R29KOEpoYTdjR2g4dG5nU1dxQ1NJUUJrMzlzNTM5U3d3Vm9Yc3YzanlDem1HeWg5Vjc4UXZBOHBZMG9pUzByQ0xRRDloMnl0NXZ5S0s5RVNkVGZYNHNzNUJRSlUtLVdSUFFieXhFSGxuWTgwMUk?oc=5",
-        "topic": "general"
-      },
-      {
-        "title": "話題株ピックアップ【夕刊】（1）：データセク、トムソン、アドテスト - 株探",
-        "source": "株探",
-        "published_jst": "2026-11-24 15:44",
-        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9tMTVMSVZJMmZEOWR3SkV5RTZrdjllV3FjT3hzRWNDV0ZGNlM1ajBOT0RCQkxRdUZBT3g1aVk3b1p0X0V3TWhkYUd2TnlzdjJ3R1RMSlVNWEdoaUxsZkhXag?oc=5",
-        "topic": "general"
-      },
-      {
-        "title": "前場コメント No.6 アサヒインテック、データＳＥＣ、ダイワボＨＤ、ＫｅｅＰｅｒ技、正興電機、セリア(トレーダーズ・ウェブ) - Yahoo!ファイナンス",
-        "source": "Yahoo!ファイナンス",
-        "published_jst": "2026-11-24 11:33",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQU3p3UXZiams0dmoxM0xOVUFNRlpQWDhVTTdpS0VrMVRuS29lOHg2M1ctZnNnRV9mY3Z1UXJwek04ZDdoN2Z5YWk4RnFwWEFaN2pLNUp5SmlrWFIxTVdBa3pjSldzR0h1V0FFSS1Db3hOeTFaQzQ1alg3Yy1SY3VQTUh4WG1RT1U?oc=5",
-        "topic": "analyst_earnings"
-      },
-      {
-        "title": "Ｄセクションがストップ高カイ気配、オアシスの保有比率上昇(ウエルスアドバイザー) - Yahoo!ファイナンス",
-        "source": "Yahoo!ファイナンス",
-        "published_jst": "2026-11-24 10:08",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNU1BtQzBoUVZYS2c4d0hKYUJIb0p6UmdvcWdHc1dLN012eGJlN1dVbm9XdWFsSGpCYV8xM2xGck5ReU0wVzM3Wjl3aGdYeGliMmJRRWhnWHVGMWFYTXJUQkFIeHFFTWJRYnJXN3p0WjhtQ3pxUjZReGxCa0g1RktpeU1JRm5RanM?oc=5",
-        "topic": "analyst_earnings"
-      },
-      {
-        "title": "データセクはＳ高カイ気配、オアシスによる買い増し判明で思惑 - ライブドアニュース",
-        "source": "ライブドアニュース",
-        "published_jst": "2026-11-24 09:43",
-        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE94d2IxX1VtVDd3RjBYem1PUmxtTGMweUtmdmhSUzVnQU01Ykt5N2NrWTh2WHY0Z2VKVWdWeFNack11RlJ1d2FNb29pZFVBWDN4Y25ObnNBQlc5Y0NIMzlV?oc=5",
-        "topic": "analyst_earnings"
-      },
-      {
-        "title": "【新新聞】データセクション、売上高予想を89％下方修正 大口顧客は中国テンセントか、台湾ODM にも波及懸念 - 風傳媒日本語版",
-        "source": "風傳媒日本語版",
-        "published_jst": "2026-11-24 08:23",
-        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1ia3RKTUJFY1ZOekRQMDVwS1gtbm1IbXhRUW4zS0VvZk10TWJCcVlZeDBxYkE0dzRVU1dCT21zeVJocS1OcDJPdlRabzdHc0Rn?oc=5",
-        "topic": "business_risk"
-      },
-      {
-        "title": "香港ファンドのオアシス、データセクション株買い増し 16.18％（ロイター） - Yahoo!ニュース",
-        "source": "Yahoo!ニュース",
-        "published_jst": "2026-11-22 12:29",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5NN00tNlhIdEZ3QnNZQmZQQmlYRVh0NVFwdG9FYUxLVE9RTm5ad1o1MHRhU0pKNGpiVlVyZldwRW9HQ252emt1OTdSRDQxQmpqbFNhWnF5ZWc1ZlZIZzJHN1dKSjR0el9NRmN0MWtucGg5Q2FRaWJMakk0VTNPeVU?oc=5",
-        "topic": "business_risk"
-      },
-      {
-        "title": "新興市場見通し：AI・半導体関連株の下げ止まり待ち、個人消費関連銘柄に関心が移行か - ｄメニューニュース",
-        "source": "ｄメニューニュース",
-        "published_jst": "2026-11-21 14:45",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOYmR2U3M3NTUweTFEYVRVd01yVHNMRVI4eE1lTE14SVlrQXZHbHg3ZEVfczlNajRPQ211WmpXNGplbGV3QTJrcldTYzBaMmdKOTA0Mm1yUGIwckRxczJHNS1JY3Z3LUpwN3lvOFhvalZXOTNVQkJPWEg3Z0hSZ2FoNXBNRUZCLU1ZWDcwZdIBjAFBVV95cUxOYmR2U3M3NTUweTFEYVRVd01yVHNMRVI4eE1lTE14SVlrQXZHbHg3ZEVfczlNajRPQ211WmpXNGplbGV3QTJrcldTYzBaMmdKOTA0Mm1yUGIwckRxczJHNS1JY3Z3LUpwN3lvOFhvalZXOTNVQkJPWEg3Z0hSZ2FoNXBNRUZCLU1ZWDcwZQ?oc=5",
-        "topic": "business_risk"
-      },
-      {
-        "title": "香港ファンドのオアシス、データセクション株買い増し 16.18％ - Reuters",
-        "source": "Reuters",
-        "published_jst": "2026-11-20 18:12",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQemNFTjlycE4zTVdIdmUzSHRZcTJLSGlfc1NrSDdjSnF6dzRBTkdkVzRWS2lPVmVORzBXRVlJVi1qY2Y3T2U2ZjlQZDFpMWRTSUE3c294YzBXakU3QkxaUU1lN3NsZ1JMTWtOTFBmV1NWZm52QTFZM0pSQ2FLZk52cXZFV2pRQQ?oc=5",
-        "topic": "business_risk"
+        "title": "トゥルーイスト、マージン懸念でコンストラクション・パートナーズの目標株価を80ドルに引き下げ - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+        "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+        "published_jst": "2026-11-24 21:25",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE01anR0czBFSHI1U3lIRVpZUC1SLUtoMWZMVGc3Q0dWYXdTMEl6cW9FSjkzSkJzWld6MG9Rd2hmYnVVZVRucXdtOEgzaE44d3RGVjJTTnJNMmhWR3VESjdWM1hrTVI3MnFSbGFncTVlcFp0NTBt?oc=5",
+        "topic": "analyst"
       }
     ],
     "6752": [
@@ -2083,18 +2025,18 @@
         "topic": "general"
       },
       {
+        "title": "パナソニック ホールディングス(株)【PCRHY】：株価・株式情報 - Yahoo!ファイナンス",
+        "source": "Yahoo!ファイナンス",
+        "published_jst": "2026-11-25 11:53",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1ZMEtyWmxsUnBma3lZd1JJUWRMRE5BR1NkWWpLSnJFQ203bEFjdGJoQmt5M1ZScGJSOS1WVldZYjkzeVhYYnlZbjh4ZVNtMC14?oc=5",
+        "topic": "general"
+      },
+      {
         "title": "10月ハウスメーカー受注、厳しさ続く 前年比増は2社 - Housing Tribune Online",
         "source": "Housing Tribune Online",
         "published_jst": "2026-11-25 11:53",
         "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0zeHlac0R1cXZJZDQ2ZGt6aTZ3dDMtcU9YRkl6cTVaVkpSQldIeWdJMDFwdkNma0IzcFFvZW1Ldlg1MThLcTJvZDNzNkVGNm5uVUhfZWhn?oc=5",
         "topic": "business_risk"
-      },
-      {
-        "title": "パナソニックグループが「RoboNext2026」に出展 ～AI・ロボティクスでひとに寄り添い、ひと・現場の可能性を広げる技術を紹介～ - 時事ドットコム",
-        "source": "時事ドットコム",
-        "published_jst": "2026-11-25 11:46",
-        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBWN3J4UWx5SUZoMG5iaHFoeWc4QkpUdS11UWNHWU1TQWtpcUNDXzQteXQ5eFJ0YVZzY2FiS1JVN2QzOXlmNGQ0TUFYbG9lcDBtc1plSFpBNjc0TXlPaHM1akxlZFF6MTExaTVN?oc=5",
-        "topic": "general"
       },
       {
         "title": "パナソニックの「空気清浄機」「加湿空気清浄機」が初めて「マザーズセレクション大賞」受賞 - 時事ドットコム",
@@ -2139,6 +2081,13 @@
         "topic": "general"
       },
       {
+        "title": "パナソニックのレンズ開発計画は3本に！L-Rumorsが広角単焦点・大口径望遠ズーム・電動ズームを整理 - CAMEOTA.com",
+        "source": "CAMEOTA.com",
+        "published_jst": "2026-11-25 07:18",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB3VjNnTkVDM1hHbEczM0tlbnlqWXkwVVRyQTlBRG93Y1dENmdCY2tzWS1BUUI1UGxCenViMlNBN0JWTWZlNUJhLTBfdmJKcDhaWHc?oc=5",
+        "topic": "business_risk"
+      },
+      {
         "title": "パナソニック、半世紀ぶりの自転車生産新棟 生産能力を4割増強 [大阪府] - 朝日新聞",
         "source": "朝日新聞",
         "published_jst": "2026-11-25 07:00",
@@ -2170,30 +2119,151 @@
         "title": "パナ、電動アシスト自転車強化　生産能力増へ柏原工場に新棟 - Infoseek",
         "source": "Infoseek",
         "published_jst": "2026-11-24 18:27",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9WRFVOTWQtdUhCdERxYnl5cVRWalBxbkw4WTlrQUd2a3lDaGNFUzVmUHdqUzlnRlA3MEs0UF9RcGVHbnE4TGxtTncwZ0h5cEtjdzZCaS12SkN5S28xTnk0NmtHLUw2M2FZcGZLUGJCZ9IBdEFVX3lxTE9PTnk0cU5oYW5hV0dTbzA0ekxaNjJham53UHNvcmF3U281cGl3TG1DcDRyVGRqQVNRVE5vWjlJZnVCSUxBSDhnVlR0a2cyYnIwV1BSbGZadzd5SnVXRzk4ZkpjNjdaanFIOFhnR2ljSXc2c1JM?oc=5",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9PTnk0cU5oYW5hV0dTbzA0ekxaNjJham53UHNvcmF3U281cGl3TG1DcDRyVGRqQVNRVE5vWjlJZnVCSUxBSDhnVlR0a2cyYnIwV1BSbGZadzd5SnVXRzk4ZkpjNjdaanFIOFhnR2ljSXc2c1JM0gF0QVVfeXFMT09OeTRxTmhhbmFXR1NvMDR6TFo2MmFqbndQc29yYXdTbzVwaXdMbUNwNHJUZGpBU1FUTm9aOUlmdUJJTEFIOGdWVHRrZzJicjBXUFJsZlp3N3lKdVdHOThmSmM2N1pqcUg4WGdHaWNJdzZzUkw?oc=5",
+        "topic": "analyst_earnings"
+      }
+    ],
+    "3905": [
+      {
+        "title": "ユビキタスＡＩ－4日続落 「ONEKEY Platform」の取り扱いを開始(トレーダーズ・ウェブ) - Yahoo!ファイナンス",
+        "source": "Yahoo!ファイナンス",
+        "published_jst": "2026-11-25 13:14",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZ2l5QXM2d3FDLXIxd2pqN0plbHhsbkZCcC1TLUROLXNEUGZKQ2pvYkhhajRabUVoLXhBN0hFcmYyaEhRalQzYUNweXBON1huTENJMHZjaWR1V3dZaFZBc0M2LXFYbWd2VW0zZHQxUEZSUERWYm5XUjR0czh3S1NVY1JUd01GR3M?oc=5",
+        "topic": "general"
+      },
+      {
+        "title": "(株)レイヤード【634A】：株価・株式情報（夜間PTS含む） - Yahoo!ファイナンス",
+        "source": "Yahoo!ファイナンス",
+        "published_jst": "2026-11-25 13:02",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5rQ3Y1SVo5dlQzX1lzV19TQzFxczhhNlhEUTdsTm81VnByV013UTRjS1p6SFdXSHpNWEFFOVRpeTl2VTVERVZ4UmF5OW5Zc0dvcnc?oc=5",
+        "topic": "general"
+      },
+      {
+        "title": "寄付速報＞ 本日の活況銘柄を探る【約定回数】ベスト50 [9時6分現在](株探ニュース) - Yahoo!ファイナンス",
+        "source": "Yahoo!ファイナンス",
+        "published_jst": "2026-11-25 09:22",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRGIwSWY4UVVLZUJzZkVXSkhEZjFFTXZvMnZaZVNuZk1ZSWtQSHhJUkttMHFkOUJrbGRraEE3RWJCd0dmaFp1VmlmR2VKVnRsY0x2MGU1NzhuNzVESVhLTlJ1R0xLWnl6WVJHQnI5dDg1UDhQd29rN25KbE1YUllVZ0tYTW1PWUU?oc=5",
+        "topic": "general"
+      },
+      {
+        "title": "「米ハイテク株が下落、地獄の窯の底を覗き込みにいく」～黒岩の眼（朝刊） 投稿日時： 2026/11/25 08:31[黒岩泰] - みんかぶ",
+        "source": "みんかぶ",
+        "published_jst": "2026-11-25 08:31",
+        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBYS3hYM2RlWENCb094UXVZMjNDVHo2Q1g4ZEJMYV9MMjBVVWpUVzY2VmFScHVhVU1xT0dvdE5PMzFsal83cXc?oc=5",
+        "topic": "general"
+      },
+      {
+        "title": "米国の半導体規制、東南アジアのデータセンター拡大を脅かす＝ナティクシス警告 - BigGo ファイナンス",
+        "source": "BigGo ファイナンス",
+        "published_jst": "2026-11-25 08:25",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBHRDJxNXpLbXBWX1NhbERZTkJqQWRyU2gxanRPX1ZfTjQ2akppd0l2LWdETTFtN1hVUkRpOVRzZFdKTUpUeXB3d29YZGJieHdySy1XM21IUEJCcllwcUJETmhHQTNqVWszTTRYTXAwcXlURDN3?oc=5",
+        "topic": "general"
+      },
+      {
+        "title": "PTSで大きく動いた注目の材料銘柄（11月25日）(トレーダーズ・ウェブ) - Yahoo!ファイナンス",
+        "source": "Yahoo!ファイナンス",
+        "published_jst": "2026-11-25 07:29",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdVpUaWxIRTJWb3NFQ1lIT2NWNXVwRTM5ZDA5SVNtbllqeDN2QU4zUzdua25iekIzOENNcm5YWFViam9sTDlwbmszc1NVXzNGYVNtXzJQdlZOZFktYUZDSE84b2p3aDJYUWFpbVNwaXlOUFZ5U2NidUlHTXg2bERYNGdJbmRnY1k?oc=5",
+        "topic": "general"
+      },
+      {
+        "title": "業績修正（大引け後）－該当銘柄なし(トレーダーズ・ウェブ) - Yahoo!ファイナンス",
+        "source": "Yahoo!ファイナンス",
+        "published_jst": "2026-11-24 17:22",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPalA3aUhSb1RHOUc1Wlo1eVJWZjdPeFpsbGZCQk9oVXM0ZmxMTlJ0aE1ZaUdIZC1wWWlIYklBZGlZNWU2VlNGZy1tOGlJTEtXMlJDV0lGaUJ2bGowSUM5V3RyYktFbnpxVnloLXJmNHcwc1l3Ykt4TkZ0QWJkUHpjdmU3cUJETEE?oc=5",
         "topic": "analyst_earnings"
       },
       {
-        "title": "パナ、電動アシスト自転車強化 - 埼玉新聞",
-        "source": "埼玉新聞",
-        "published_jst": "2026-11-24 18:27",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5xNDNPbUMtSEREY3lkQ1lXS2xjMXMxcV9JS1NhVWFfMmhaYmJidFZzU2huVi1WZWI2YkpYdk5oTDZFb1oxcGtWaUhQZV8tUWJuUVpVOTlabw?oc=5",
+        "title": "業績修正（取引時間中）－令和ＡＨ(トレーダーズ・ウェブ) - Yahoo!ファイナンス",
+        "source": "Yahoo!ファイナンス",
+        "published_jst": "2026-11-24 17:22",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONDMzcWRUQVhfME0xZDdFT0dNeGw1ZmNuYUMzR1BWRXFUTzdvYzhEeHFuN0JjcS1sRE5sMGtoSGFtbmtFQXpXeDV4b1ZlbURxYUo3dXpMWFJDT1ZGaDEtZU9uTzc1Vkx1ZzhUM0RqVklKZFdtUlRBanl3bi1XQ2FjMnhDcHlfbW8?oc=5",
+        "topic": "analyst_earnings"
+      },
+      {
+        "title": "話題株ピックアップ【夕刊】（1）：データセク、トムソン、アドテスト - 株探",
+        "source": "株探",
+        "published_jst": "2026-11-24 15:44",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9tMTVMSVZJMmZEOWR3SkV5RTZrdjllV3FjT3hzRWNDV0ZGNlM1ajBOT0RCQkxRdUZBT3g1aVk3b1p0X0V3TWhkYUd2TnlzdjJ3R1RMSlVNWEdoaUxsZkhXag?oc=5",
+        "topic": "analyst_earnings"
+      },
+      {
+        "title": "(株)電通グループ【4324】：株つぶやき - Yahoo!ファイナンス",
+        "source": "Yahoo!ファイナンス",
+        "published_jst": "2026-11-24 12:34",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB3U1Qzb0tHaUkwRVo0b2xPMHhsQW9pY2hsWm9EUTNDczkwdDNnQmt4YmtsMzhNTVZVWXdmS2ZRZHBoWFQzbTZmQll1ckpPZVdhZDY2TDBlT2Q?oc=5",
+        "topic": "analyst_earnings"
+      },
+      {
+        "title": "話題株ピックアップ【昼刊】：データセク、ワコム、アドテスト(株探ニュース) - Yahoo!ファイナンス",
+        "source": "Yahoo!ファイナンス",
+        "published_jst": "2026-11-24 11:35",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUFNaOVdRQmJ3T0F5bUUzdW5CanFnaDIwWnU5WlZaQzZ4M0hxeC1LQUdaczFDeGFzd1BrVEFjdmhTLUxRcjRTS1RnS1Y3ek8wd1pLMTlVYmtOeU1oZ1hUd3ZTVHp5eTVjaWsydnVvSjBVWnFIMDVINWh0eWhKaVI4RFBqRlJaQk0?oc=5",
+        "topic": "analyst_earnings"
+      },
+      {
+        "title": "前場コメント No.6 アサヒインテック、データＳＥＣ、ダイワボＨＤ、ＫｅｅＰｅｒ技、正興電機、セリア(トレーダーズ・ウェブ) - Yahoo!ファイナンス",
+        "source": "Yahoo!ファイナンス",
+        "published_jst": "2026-11-24 11:33",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQU3p3UXZiams0dmoxM0xOVUFNRlpQWDhVTTdpS0VrMVRuS29lOHg2M1ctZnNnRV9mY3Z1UXJwek04ZDdoN2Z5YWk4RnFwWEFaN2pLNUp5SmlrWFIxTVdBa3pjSldzR0h1V0FFSS1Db3hOeTFaQzQ1alg3Yy1SY3VQTUh4WG1RT1U?oc=5",
+        "topic": "analyst"
+      },
+      {
+        "title": "デタセクションが買い気配､オアシスの保有比率16％に増加 - 四季報オンライン",
+        "source": "四季報オンライン",
+        "published_jst": "2026-11-24 09:23",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBQcTNFSjZWY3hmUnpYbWR0ZzJYWlVOUWdCUlF2a0Y5cXJsbUtzaUg5QUpxb0VINXdxTFpfTE8zU3hSWEhZTndZeW1ua2lqTGRyMjJKTjlLOA?oc=5",
         "topic": "business_risk"
+      },
+      {
+        "title": "【新新聞】データセクション、売上高予想を89％下方修正 大口顧客は中国テンセントか、台湾ODM にも波及懸念 - 風傳媒日本語版",
+        "source": "風傳媒日本語版",
+        "published_jst": "2026-11-24 08:23",
+        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1ia3RKTUJFY1ZOekRQMDVwS1gtbm1IbXhRUW4zS0VvZk10TWJCcVlZeDBxYkE0dzRVU1dCT21zeVJocS1OcDJPdlRabzdHc0Rn?oc=5",
+        "topic": "business_risk"
+      },
+      {
+        "title": "ゴールドマン・サックス、サムスン電子の目標株価を30％、SKハイニックスを43％引き下げ…市況ピーク論が浮上 - 재경일보",
+        "source": "재경일보",
+        "published_jst": "2026-11-23 21:20",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5yVTJrVldpQjl4aWhSYmc0LVpqdk1keXJsMWZPb1VYMVF3LXhPQTBuSzNHUWVRRFJNNWNQLU50eU9hRm9NdGdLNVdIbGROYjdVdGM0bXp3TTNRTzNFSnBOY1Y4MA?oc=5",
+        "topic": "analyst"
       }
     ],
     "8766": [
+      {
+        "title": "フジクラが急反落､大手証券が判断｢買い｣から｢中立｣に変更 - 四季報オンライン",
+        "source": "四季報オンライン",
+        "published_jst": "2026-11-25 13:52",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5tODlaYkpNdTFVemdmQmRZQ2ZkZmJlMmlNLTRLWTlKNUYzLUVIWkp6UE00dlp3VU9oVmRqbUdPd0J1S0toYXdSWEFsdjRTY21wNjBFVWpDNA?oc=5",
+        "topic": "analyst"
+      },
+      {
+        "title": "東京海上･宇宙関連株式ファンド(為替ヘッジなし)【49311189】：基準価格・投資信託情報 - Yahoo!ファイナンス",
+        "source": "Yahoo!ファイナンス",
+        "published_jst": "2026-11-25 13:42",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1nM1RKRURfQk5lNkRseTViaG1CQkphMjV4ZHJrZlg4QVQyV1VDdTJ2S2NOeThsUFFZQWpkckZvRWxBWVBsdllNRWRlT1VJOFNIaVRmYg?oc=5",
+        "topic": "general"
+      },
       {
         "title": "東京海上日動あんしん生命、ヘッジ外債積み増しへ－円債以外で収益 - Bloomberg.com",
         "source": "Bloomberg.com",
         "published_jst": "2026-11-25 12:14",
         "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5lTzMxMElGdnVQMnZQM0FFQ25Tb3hjWm5Nc0FxLUh4VjZnMzhxNS1TUnFySUxPNFZnVC04R0JaWHZzSHYyYUtwYmZjRmZNMHNZZXBVaUU5cUUwOG5PeWJRa0FqUk1PWjZNOVlqaGM1bWlzdU84WEtB?oc=5",
-        "topic": "business_risk"
+        "topic": "general"
       },
       {
         "title": "本日の【パラボリック｜買い／売り・転換】前場 買い＝ 71 銘柄 売り＝ 101 銘柄 (11月25日)(株探ニュース) - Yahoo!ファイナンス",
         "source": "Yahoo!ファイナンス",
         "published_jst": "2026-11-25 11:45",
         "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObkh2QURkUHFmNjlHQ2JkZzZ4bDVZQ25KTnNHOWpVSjQ3SHZrbTlqbHF6T200SEhwdHNYMTVjZ0NiTlhwNVRiOEdRRkJWQ19HLWhqSzJfekNwZm5pUF8ySE9qRGVKVTcyZ0ZQRE1vZ1pwdVNRek5femVic24yQ01tZkVQTFo1bHc?oc=5",
+        "topic": "general"
+      },
+      {
+        "title": "日本株の買付ランキング、1位は「キオクシア」！ ソフトバンクG、JX金属も上位に - マイナビニュース",
+        "source": "マイナビニュース",
+        "published_jst": "2026-11-25 11:30",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE50SHdldUVzM3hlSldoZGdwUDFzZXYwT2J5TG1KcU52UF9lQ1c4TjQ4eDAyOVEzeXNrUlprbHZYWE9zVWFxSFpDMzZHTlc1MWd6YWtVQUhvS1VabVUxV0JtVzNZR2JPclU?oc=5",
         "topic": "general"
       },
       {
@@ -2218,25 +2288,11 @@
         "topic": "general"
       },
       {
-        "title": "東京海上･宇宙関連株式ファンド(為替ヘッジなし)【49311189】：基準価格・投資信託情報 - Yahoo!ファイナンス",
-        "source": "Yahoo!ファイナンス",
-        "published_jst": "2026-11-25 08:25",
-        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1nM1RKRURfQk5lNkRseTViaG1CQkphMjV4ZHJrZlg4QVQyV1VDdTJ2S2NOeThsUFFZQWpkckZvRWxBWVBsdllNRWRlT1VJOFNIaVRmYg?oc=5",
-        "topic": "general"
-      },
-      {
-        "title": "東京海上ホールディングス(株)【TKOMY】：株価・株式情報 - Yahoo!ファイナンス",
-        "source": "Yahoo!ファイナンス",
-        "published_jst": "2026-11-25 07:45",
-        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1NX0xxSnNyTkVuNE1xQXhObXotaFcyODUtMEdmUDJ4TnlHQnp6TXJxbXdZcnJLRW02VXJhano5OVg4U0N1TGpqU19OUVRxak1j?oc=5",
-        "topic": "general"
-      },
-      {
         "title": "東京海上・世界モノポリー戦略株式ファンド(毎月決算型)【49313203】：基準価格・投資信託情報 - Yahoo!ファイナンス",
         "source": "Yahoo!ファイナンス",
         "published_jst": "2026-11-25 07:37",
         "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1rVEhkU25XYlo1bjkyTjFEanptMEZRWkdQb19wWEpUQ19ldlo1OWthNF9HU0dQWmd0SjFyUmlsbllWdmZiTEhkdjBEcnB4LWFaT2dBVQ?oc=5",
-        "topic": "general"
+        "topic": "analyst_earnings"
       },
       {
         "title": "バフェットはなぜ日本の損保を選んだのか。\"バークシャー基準\"で選び直す、10年持ちたい日本株 注目銘柄ベスト20 - note",
@@ -2260,28 +2316,35 @@
         "topic": "business_risk"
       },
       {
+        "title": "前場コメント No.6 アサヒインテック、データＳＥＣ、ダイワボＨＤ、ＫｅｅＰｅｒ技、正興電機、セリア(トレーダーズ・ウェブ) - Yahoo!ファイナンス",
+        "source": "Yahoo!ファイナンス",
+        "published_jst": "2026-11-24 11:33",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQU3p3UXZiams0dmoxM0xOVUFNRlpQWDhVTTdpS0VrMVRuS29lOHg2M1ctZnNnRV9mY3Z1UXJwek04ZDdoN2Z5YWk4RnFwWEFaN2pLNUp5SmlrWFIxTVdBa3pjSldzR0h1V0FFSS1Db3hOeTFaQzQ1alg3Yy1SY3VQTUh4WG1RT1U?oc=5",
+        "topic": "analyst"
+      },
+      {
+        "title": "前場コメント No.7 グローリー、イビデン、日精工、キューデンＨＤ、丸一管、メルカリ(トレーダーズ・ウェブ) - Yahoo!ファイナンス",
+        "source": "Yahoo!ファイナンス",
+        "published_jst": "2026-11-24 11:33",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQSWRJNnNnd2k0RnJtOEdhcXY0RGVnLU1QUE1oMjlhOUlzbGNhMVF6cmpzV0QzSnRwc1FEczJraEJjeS1LRDRWdmNUN1hsbzZ4VUZwYWhJMW4zTmJvaml0MXF2RVdBdHpNV3ZwNlN6SWd2VTh5SnowM2JIMDdnMnUxbGsxWlFCZ28?oc=5",
+        "topic": "analyst"
+      },
+      {
         "title": "東京海上HD(8766)の株価を支えるのは何か｜自社株買い2,800億円と今後の保険利益 - 日本投資機構株式会社",
         "source": "日本投資機構株式会社",
         "published_jst": "2026-11-24 11:05",
         "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE02Rl9zZHhhMEJzOEpSaDFidWE0SmFQOEtHOW9FMkhMTUxLaFk0WWtIOU9wY3hBR3MwMEIwS3VHVWhJNDNxOGVnU3BPX2VkOUVSbVdVaURrMlhHZw?oc=5",
         "topic": "analyst_earnings"
-      },
-      {
-        "title": "東京海上ホールディングス(株)【8766】：株つぶやき - Yahoo!ファイナンス",
-        "source": "Yahoo!ファイナンス",
-        "published_jst": "2026-11-23 16:50",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5MZVNxaTZlRjl2dHhvMzMwM2pvT2Z2dWs3bHBoaDdndUxkVmQyRzZwWEdCbjU4aHBIeU1YTDFmUGEzcTlkWVdvNDRKVWVKeDZ6VWMtZmtLRV8?oc=5",
-        "topic": "analyst_earnings"
-      },
-      {
-        "title": "損保3社、2社減益でも自社株買い最大4830億円―配当利回り・100株投資額を比較 - 財経新聞",
-        "source": "財経新聞",
-        "published_jst": "2026-11-22 12:28",
-        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8xcE9ydENDV0pSdzdFY21IQnVTVkZzSnVVM1FZSnlqRW5OdlZqWG5BUzU5UzhHQV83eExUbHN2Qzh5bzZuZl85cXRISmZxSEJkLWJyYU9CaUIzemFKczhtdGtEbFl0YXVE0gFoQVVfeXFMTzFwT3J0Q0NXSlJ3N0VjbUhCdVNWRnNKdVUzUVlKeWpFbk52VmpYbkFTNTlTOEdBXzd4TFRsc3ZDOHlvNm5mXzlxdEhKZnFIQmQtYnJhT0JpQjN6YUpzOG10a0RsWXRhdUQ?oc=5",
-        "topic": "analyst_earnings"
       }
     ],
     "3436": [
+      {
+        "title": "前日に動いた銘柄 part1イビデン、野村マイクロ・サイエンス、村田製作所など - まぐまぐ",
+        "source": "まぐまぐ",
+        "published_jst": "2026-11-25 07:19",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB5bUh6SjFZUXRKYlB0TEJxUUNaZXZlU0RTODZjdkExZXBaY29vOVdNNWRXTDJLb2pGRWU0UlZEYlM2c2s2NGZZNmJxSHdIbkFEQmfSAVJBVV95cUxQeW1IekoxWVF0SmJQdExCcVFDWmV2ZVNEUzg2Y3ZBMWVwWmNvbzlXTTVkV0wyS29qRkVlNFJWRGJTNnNrNjRmWTZicUh3SG5BREJn?oc=5",
+        "topic": "general"
+      },
       {
         "title": "【アナリスト予想】デクセリアルズ、27年3月期経常予想。対前週1.2%下降。(アイフィス株予報) - Yahoo!ファイナンス",
         "source": "Yahoo!ファイナンス",
@@ -2295,6 +2358,13 @@
         "published_jst": "2026-11-24 15:45",
         "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1JMkVOZXdoRXNzZmw5bEdzVWliZ29SaTQtS3FqUC1PZE5Nc1F6SlljYms3M1M4QU1jMFk3MFFQSkFIOGZpTVg0Z3d5SXgyZWk3OUJTMndUanVEdHUwS2xYcEN6MHlmZUNQMFBNbV9RYXE?oc=5",
         "topic": "analyst_earnings"
+      },
+      {
+        "title": "後場の日経平均は2150円高でスタート、太陽誘電やアドバンテストなどが上昇 - ｄメニューニュース",
+        "source": "ｄメニューニュース",
+        "published_jst": "2026-11-24 13:01",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNd0JyRjBjcEVSV1A5RnVHWmkzelJya1Y1T2h5MjZRQlZHX19RV2c1dkNZdXdBaDBFX0tDQXNnZ3lnWV9tcXFsc3Z3V3liZnBsX2c2alE5cVczN0NFYTllZUlCQU4za21FTU4tQzJ5aDYybGhCNzRYd24xT1h2V2YwdWtPNDlPLTF0M2lrd9IBjAFBVV95cUxNd0JyRjBjcEVSV1A5RnVHWmkzelJya1Y1T2h5MjZRQlZHX19RV2c1dkNZdXdBaDBFX0tDQXNnZ3lnWV9tcXFsc3Z3V3liZnBsX2c2alE5cVczN0NFYTllZUlCQU4za21FTU4tQzJ5aDYybGhCNzRYd24xT1h2V2YwdWtPNDlPLTF0M2lrdw?oc=5",
+        "topic": "general"
       },
       {
         "title": "米AI株高で半導体・AIに買い戻し【今日の市場はどう動いた？】 - Yahoo!ファイナンス",
@@ -2311,18 +2381,25 @@
         "topic": "general"
       },
       {
-        "title": "【アナリスト評価】デクセリアルズ、レーティング強気を継続、目標株価3,000円に引下げ（日系大手証券）(アイフィス株予報) - Yahoo!ファイナンス",
-        "source": "Yahoo!ファイナンス",
-        "published_jst": "2026-11-24 11:17",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQREVGdy1UOVgyS1BsQUVhaEtpamtmNGVna1Y4MTR1UDRoUTJDbEdJc2NhVW9idmRwOGVjbDRHMG9meFR4RXZXeVZabjlpMlJiU3NXUl9EZG9YeHFKTEgxZWh3Y0hMelUxNVNrMlpTX0NFUWRBejJUbTFZQjc3c25aMUljUmhvdDQ?oc=5",
-        "topic": "general"
+        "title": "前日に動いた銘柄 part1ソフトバンクグループ、三井金属、イビデンなど - 株探",
+        "source": "株探",
+        "published_jst": "2026-11-24 07:15",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5lbUJIOHVvSDJfUGM4aEU5enpLTzN1cGtBVlowVFNfSFpXME44OHdmbDVpTEtRN1BNT1VnYldhVWRwcjRtRnFMR2JfaEhsUkVFMFI0bXhsMDBxVl9rSXNDSg?oc=5",
+        "topic": "analyst"
       },
       {
-        "title": "(株)オルトプラスホールディングス【3672】：株つぶやき - Yahoo!ファイナンス",
-        "source": "Yahoo!ファイナンス",
-        "published_jst": "2026-11-23 11:06",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1iV3FNXzRQX3BZVjZSNElDbTluU3FBOFlORlB4QXFDMEs5Z0VBWFVWaC1QQnV5SWFqLXVHMHZDT1VJRFV1ZTFkNUJKWk5PTU4tM3ctbGxDZWk?oc=5",
-        "topic": "general"
+        "title": "Sumco Corporation株価予想：今日、明日、来週 (3436/JPY) - Traders Union",
+        "source": "Traders Union",
+        "published_jst": "2026-11-21 15:26",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5FdkNROVhtLTBUcXQ0d2RYdlBfR2FZX09tR21LVkttY0lKckN5YU0zbm4wQ0FEMndyV1puWnNaS0hUZ1hfVU9EdjNwbnhHSS1wWi1nakhNYmZMb082d0NXWGRDMmxxTFYtS1hINEc3S3lkcnJHaEJ4UzV3RzN2UGc?oc=5",
+        "topic": "analyst_earnings"
+      },
+      {
+        "title": "味の素 (2802) の株価・株式 - QUICK Money World",
+        "source": "QUICK Money World",
+        "published_jst": "2026-11-20 17:00",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5vV05VOE5hdy1uSFVWZ2pQOW1WenllV1RlMHNDZVpRQ252d2tuVWZRVkpUQlF4a3Z2TS1nNEFmUVI0Z25mMEFsS1c4d1VPem4wTFZZQjIxRQ?oc=5",
+        "topic": "analyst_earnings"
       },
       {
         "title": "サムコ(株)【6387】：今の株価の理由は？値動きの背景をAIが解説 - Yahoo!ファイナンス",
@@ -2346,70 +2423,63 @@
         "topic": "analyst_earnings"
       },
       {
-        "title": "【アナリスト予想】ＳＵＭＣＯ、26年12月期経常予想。対前週18.8%上昇。(アイフィス株予報) - Yahoo!ファイナンス",
-        "source": "Yahoo!ファイナンス",
-        "published_jst": "2026-11-19 22:46",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQX0drajF0dTNDeU51d0IwNEQxNExsY2J4SjZFdGJTa05hWGxOa0Z4d3JIMjRTVG14elRjQmE5YVowbWxhTDh0bnVwYzg3ZUtZY09TUm1lRGpCay1qWXk1WHJhcEsxZkkwNExJSndXRWdJUWdSVFpCd0hBdlV0bDRtYzBiUlBXLXc?oc=5",
-        "topic": "analyst_earnings"
-      },
-      {
         "title": "【アナリスト評価】ＳＵＭＣＯ、レーティング強気を継続、目標株価4,500円に引下げ（日系大手証券）(アイフィス株予報) - Yahoo!ファイナンス",
         "source": "Yahoo!ファイナンス",
         "published_jst": "2026-11-19 18:15",
         "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPblFiNFF5NUEybjhGWXVEQUhONURlNnQtUkVjV1B5TjhFRzJqQV9OSlN4YVlKS3BtQjdPTFJJQUxfVWpoYXBYeENyRmNxNFg2MHEtaE5JY21qUkZSVzV4TWNfZ1diVjdJdkhock94OHduYlZONk1CdnZwd1AxbnJDdHpMNGdLQjA?oc=5",
-        "topic": "analyst_earnings"
+        "topic": "analyst"
       }
     ]
   },
   "market_news": {
     "japan_market": [
       {
-        "title": "後場に注目すべき3つのポイント～米半導体株安でAI関連株に売り(フィスコ) - Yahoo!ファイナンス",
-        "source": "Yahoo!ファイナンス",
-        "published_jst": "2026-11-25 12:35",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNM1lHbUhGbTk3ZlhPQnBzTXNSNU04Rmh5dXFQclZxTlU3bGZLWG1POVBmVFBYdEpDWFlHMmJfemR1ZVpTV2lFUXd1cWNWUnRfdGkwYWppRUQyTVc1MlA2ZzU4LXFxaEFhcnNGbDBiMmxMZEJoWVk5YUdqZjAyMFpLTmxGQnJFUVk?oc=5"
-      },
-      {
-        "title": "東京株式（後場寄り付き）＝日経平均株価は前場終値比でもみ合い圏推移 - 株探",
+        "title": "14時の日経平均は1576円安の5万7068円、アドテストが750.8円押し下げ - 株探",
         "source": "株探",
-        "published_jst": "2026-11-25 12:31",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5ZanlvTUNLT3pMT0pKN2ZPVkg2WDRnSlY5X09PYk52NUU2STBrLXhEdEdfZmREZTYyZTFYVG1fZldzVjFWbFVHZmhnaGtadFhPM2c?oc=5"
+        "published_jst": "2026-11-25 14:01",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9oX2FhbEhwR3F4cXctQ3l5VGpyMEJISjkwUkJlZkE4THBKeUc5d2tzbUM1UzlSMi1aMHI0UVl1Uzl1SFRqUVpLdGJJNVhPSEhtcUE?oc=5"
       },
       {
-        "title": "日経平均、1974円73銭安の5万6669円90銭で始まる＝東京株式後場(時事通信) - Yahoo!ファイナンス",
-        "source": "Yahoo!ファイナンス",
-        "published_jst": "2026-11-25 12:31",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUUxBY3RvSkVPWFBNLXFKei02TGc4NUUwemlYQTFCZExTaHR3T0ZzbzB0TFJXWXdqcUpwNUlmSWNXNERHcUtGNkxmLUpLQnZWM0xPdWFyRWhrZlBRS01PYUd2eF9WZi1yWENpVzZVTk1fM0RUaEpLNi1VZ2paa1kzNEd1NVlKd2c?oc=5"
+        "title": "日経平均は1635円安、韓国株安など重しに - 株探",
+        "source": "株探",
+        "published_jst": "2026-11-25 13:51",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5qYzREWTFiMEt4cFh0Mzh6RjhmN2s4NlEzRkZLSmlPUHlvVjRLMm1GOEJEMGRRY0VLS3FaMTZyTXl1OTQya0RnUndENTdhLVJZcnc?oc=5"
       },
       {
-        "title": "日経平均 一時2100円超下落 AI半導体関連株中心に売り - TVer",
-        "source": "TVer",
-        "published_jst": "2026-11-25 12:17",
-        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFAzNkhtb0MxYXJKNzVJcGZBVjdoMUZsVkQxbUpUMllNZ1ZzVU0ycWRneUZocW9ORWdfYWhsS2owZUd3ZUxRUWVkclNkUQ?oc=5"
+        "title": "日経平均、後場は1974円安の5万6669円 半導体株に売り先行 - BigGo ファイナンス",
+        "source": "BigGo ファイナンス",
+        "published_jst": "2026-11-25 13:26",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9IUTR6TU5oSlA5Qzd2c2pPcHRwU2E1OTNRSC1neEtfTVhabFpNa1hRN3FPMXZNY3N6WjlRQ3p2NjZFS0NLWGNTWkV4S09DN3hWV09sbU9PVmxIak82VzlBd1BmcW1WX0hHN0Q1WFNwNVlJUGlT?oc=5"
       },
       {
-        "title": "日経平均は大幅反落、米半導体株安でAI関連株に売り／ランチタイムコメント(フィスコ) - Yahoo!ファイナンス",
-        "source": "Yahoo!ファイナンス",
-        "published_jst": "2026-11-25 12:02",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOYlVjZ0JCY05vWFcxLXc2OWxUdGVvNHA4cnhwX3NXUjJmUG5WQ2RSeGhfTjdBRHJkX3dPd0Z6V210eDhDYXA0VXJsY1ZvT2kxbFpVVjJxOGhQZ2V2MEpLRDBzT2g3d3hteGR1UVNhM3ZRZ3VkZF92U0VHNEpud2xmR0Vha2NnSEk?oc=5"
+        "title": "東証後場寄り 日経平均は下げ渋り 5万7000円下回り押し目買い - 日本経済新聞",
+        "source": "日本経済新聞",
+        "published_jst": "2026-11-25 13:02",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBIWXl4N1IwYXpNQ1dia1g0eVJYX2tkQkJKcFNDeXJfUHhETUZ3WHZCTnZ0QllqTlllX0R3Qi1lZDBLdzZnUkZNbVh4aXBFM1ozRjRpRWZIenJDbm5XaWV1NUxLMzZMY3RfNnZvdQ?oc=5"
       },
       {
-        "title": "午前の日経平均は反落、米ＡＩ株安を嫌気し3％超安 アジア株安も重し - Reuters",
-        "source": "Reuters",
-        "published_jst": "2026-11-25 12:00",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPUy1ydkZ2aEc1ZzRReWFZMWNYUkdNeGstLTdqTXdJVGZCZkRaVnFlUTBlOGp2Q0V6V0xrWExSclo3aTdMQnBfNVFYdnpRMHJNNmpCY3k3NWFIeXFjTG9wZEV5MjVkSE5yQnVCZzNtSGNQd2l4bTdhXzVObk1DUHFCSUoyNUgtUQ?oc=5"
+        "title": "後場の日経平均は1974円安でスタート、KOKUSAIやソフトバンクGなどが下落／後場の寄り付き概況 - 株探",
+        "source": "株探",
+        "published_jst": "2026-11-25 13:02",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE03ZDI2ZldsNW5rMnJtUkdRdkhjMkFTN2Z1YXNlYm5xU2RhRnY3MWNZUWRXeVlIbjBjeDhPeEl6Z3Fja25HS3pKWWZwdDQtVlhIQUE?oc=5"
       },
       {
-        "title": "日経平均、1934円20銭安の5万6710円43銭で終了＝東京株式前場（時事通信） - Yahoo!ニュース",
+        "title": "13時の日経平均は1653円安の5万6990円、アドテストが769.14円押し下げ - 株探",
+        "source": "株探",
+        "published_jst": "2026-11-25 13:01",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5CMVVxa2FOM0tmZnpvQzYtN3lUS1h0Ti1lV1JkNVJ4aEJmSnZLcTBnWDB5c01QMTMtYy1xSUV2TWhLN04xYklTNXNVTHpPcm9TRHc?oc=5"
+      },
+      {
+        "title": "日経平均、1974円73銭安の5万6669円90銭で始まる＝東京株式後場（時事通信） - Yahoo!ニュース",
         "source": "Yahoo!ニュース",
-        "published_jst": "2026-11-25 12:00",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Ka3gtVkRUQUM1bjlRWi1hOFZZZWlTTVhGOGNqTFVaRHJJcEREQTFqVklnTU1mUmdWMUdBaWRCZVQ1ZjdfMWJ3Wnk0WnJ1UUVUNk1WQXRKNVdGTlpJcFJkM3VILV9va3RHaUxZWXFjOE1heWZnb3FQNWJ1X1o1d2M?oc=5"
+        "published_jst": "2026-11-25 13:00",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBWOGl6QnZYWVlKU0ZNbHdNQXRDdGFtem14LXN1clhUaUJJam9xUTlGemlicnAyT21zZTZzSGxNb3I4S1NsdkNMZENFZXItaVFtaVhoMy1TdzY2RnUxTzltQjQ5SE5zZldldzl2VWR4azhPTG56bVhITEVkblJBVzg?oc=5"
       },
       {
-        "title": "午前の日経平均は反落、米ＡＩ株安を嫌気し3％超安 アジア株安も重し（ロイター） - Yahoo!ニュース",
-        "source": "Yahoo!ニュース",
-        "published_jst": "2026-11-25 12:00",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5LbUt6WXdndUlrRlpDZGt2Wm5jbWRPNENlZ3pXZzlDek03c0ZPWTBzLTd1UjczaWlXQmF0bjJYR1oydXFRQVhIV0FYeENIYU1rNXA2U1FGc1J6S1dNRGNwYmotZmxhOWZjbVc0WFhNai01eGJwV2ZXWHB4RFc3ZU0?oc=5"
+        "title": "日経平均の今週の予想レンジは5万3000円-6万円 - マネクリ",
+        "source": "マネクリ",
+        "published_jst": "2026-11-25 12:50",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4yaGhFbHhYUkdZcVhjZERIeGRidDFTXzEyZVFqbW5EcjNaTkdLUC1kNnVaNHhhVGFhWk5nZm43WW1RbmswUGZwbEdCRUM1RlBxZENIWNIBV0FVX3lxTFAtVUZWZWFMekEzZGx2WVpOUTU5ODhWWXBRY2xYVGJIV0plUFRCV3VUelRucHNFalpDQnpvWGl6elNEUm9kT0tlbllFRUtxLWg1VkFLS1M5cw?oc=5"
       }
     ],
     "us_market": [
@@ -2444,6 +2514,12 @@
         "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1VYURGWGxGSHdzVTF5QkxaM09pVFJLbjlyRzlwb2JuUTBDNmw3WHRUdDNVSUVQQ0V3cGctaWZmUkNYeXZ6WTNsQ0hTOWY4VlFRdldoaGxiclJtLXNaSHNR?oc=5"
       },
       {
+        "title": "【米国市況】テック株急落、AI警戒強く高揚感薄れる－関税懸念も再燃 - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "published_jst": "2026-11-24 23:52",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBtYkM2eXZ1dEpBTUtFcHYycWZJak1obWUwUlJDSElrVkNsS1VIZXlnSDVoWkRuam1XcjZkVlZWR1laSjIyVUYxb214Y3pIbFlSaDVDQklNWFA2d3FUYmhuRTRYYVZNaC03d1V6clNXV3Y1OWlNd1dZ?oc=5"
+      },
+      {
         "title": "【日本株】エヌビディアCEO復帰で株価は急反発したものの下落基調は継続!? 日経平均株価が200日移動平均線を上回るまで警戒を解かずにリスク管理を厳格に - ダイヤモンド・オンライン",
         "source": "ダイヤモンド・オンライン",
         "published_jst": "2026-11-24 20:20",
@@ -2460,6 +2536,24 @@
     ],
     "boj_fed": [
       {
+        "title": "金利上昇「経営にマイナス影響」企業が約6割、日銀利上げで借り入れコスト警戒－帝国データバンク調査 - Bloomberg.com",
+        "source": "Bloomberg.com",
+        "published_jst": "2026-11-25 14:03",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNM3o2R3FBQVNOR0VwMWl2dUNYUUlhbVd4STdkTUgwU2hPU3hEamdzakVuXzV6QXRBcVBWUENBdVBYa0RsSEdaVjMxQlhfdDIzbm9GYjVkcWdZMjhRT3FOMlZqdHppdG9MVGdDSFlNMlB0cHBhQmptbURyNVA0SU9nZ0YxbW9fQ2Q2elBTTjd3?oc=5"
+      },
+      {
+        "title": "日銀利上げでも円安地獄が終わらない…住宅ローンは苦しいのになぜ円は買われない？ - ダイヤモンド・オンライン",
+        "source": "ダイヤモンド・オンライン",
+        "published_jst": "2026-11-25 11:00",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9SazNJQTFMWDBlZk44SkRWNzVBbk42LWFQbWV4MDdDR3paTERWX0VCcG1JOGxFUEo5Y0xITXEzajhuZ19fRDdtanBwVEMyQmtPNVRJM3J3?oc=5"
+      },
+      {
+        "title": "今日の為替市場ポイント:◆ユーロ編◆リスク選好的なユーロ買い・円売りはやや抑制される可能性 - TradingView",
+        "source": "TradingView",
+        "published_jst": "2026-11-25 08:23",
+        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9QTUpXQzQ2TXpsczNXOG1hWm5zenNnLUYtbk0yRER1SkgwdlRrM3I2TTZmdTJaNDVRQmkzemJpRW1tX1ZxUld3Z1ZtRll6T1hOTm56NDUzNmNQcDRDRjlYc3lQX0U?oc=5"
+      },
+      {
         "title": "東京為替見通し＝ドル円は10月特殊要因除くコアCPI、豪ドルは豪10月CPIに要注目か(トレーダーズ・ウェブ) - Yahoo!ファイナンス",
         "source": "Yahoo!ファイナンス",
         "published_jst": "2026-11-25 08:00",
@@ -2472,7 +2566,13 @@
         "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPM0NmUldlTnBiNUR2cmFHbDhlSVo4STNiUzVMNWlxTXBDaVgwNHBnWmRwSkc0SHpuSW5BczVRTjZtakNZdlpxb3ZrR0dBaExVM0VvUEk5WHRQcmFNUVdtTFN4bUd3dFNWTS11LTNZN1RIZTFwMVhudXdkNURYY3FVcC1oU3RLcEVDNDFMVjl3?oc=5"
       },
       {
-        "title": "インタビュー：日銀は来年2％まで利上げか、経済・株価絡み判断難しく＝安達元委員（ロイター） - Yahoo!ニュース",
+        "title": "日銀ETFの巨額売却益で将来の日本財政をサポート､高市首相は重要分野での新たな特別会計の財源に位置付ける考え示す - 東洋経済オンライン",
+        "source": "東洋経済オンライン",
+        "published_jst": "2026-11-25 05:50",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBsbTl1aWNvTjZqU2M4TkdfZWlIZmxybFItRjQ1QXJVLUtOaGYzb2JpSzVqdmRVejljZFNhMk9CTTJOTTQ1NmtVZzU5aEFYMXJmUGE0eXNTem9wSkxidm5B?oc=5"
+      },
+      {
+        "title": "再送-インタビュー：日銀は来年2％まで利上げか、経済・株価絡み判断難しく＝安達元委員（ロイター） - Yahoo!ニュース",
         "source": "Yahoo!ニュース",
         "published_jst": "2026-11-24 18:28",
         "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9vWDRLOWhyRmY4RTZtRHgyWUR0UGllQk1NOVc1eFNkNW5FX2RGVFFZdlNUeDRGUk9MemRyN0dOZkY5c3lUa01zNU4wWEhBV0x6OENQM1RScGZIN3VCTk9FVVUyRDZaVHBWZkFnbzF2ZldCaV80ZFNFUWNjODlkR0E?oc=5"
@@ -2482,83 +2582,95 @@
         "source": "Yahoo!ニュース",
         "published_jst": "2026-11-24 18:28",
         "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZndyLXNmSFFzdG0wUW9NWVI5SS1MSTdGVUdxai1ldktrQkpkdC1SeHdBRjVuMWtEcXRnRWhQNmRXZVdwdDlDTHc0RnZnTU9rOE05bC1qd0ZTbnVZTk9JV25EVmdRUmVkQUg2eFRZX09FVmhIV0tTeUkzZnBXQ2w4eDBXM0xLV0VwTVFyY0xn?oc=5"
-      },
-      {
-        "title": "12月FOMCの注目点｜0.25%利上げが大勢、0.5%は1割未満 焦点は1月以降のペースとドル円 - OANDA証券",
-        "source": "OANDA証券",
-        "published_jst": "2026-11-24 17:15",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5PcFFZWWF3RlZWWnV0YW1KNHJtb09rd29KS3RUMnBRenZHX3FIMzhqNUNXaFptb3ozeWxQalBYQVI4alBqbTROMFhtQXhLX3ZMcGtiTDJVN3VBNHVlYjFKd1dJbXlLUHVpckRUTXI1WGhReFM1OFVuVDJVN0I4QQ?oc=5"
-      },
-      {
-        "title": "長期金利、一時２・９３０％ ２９年１０カ月ぶり高水準 - 山陽新聞",
-        "source": "山陽新聞",
-        "published_jst": "2026-11-24 09:52",
-        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAyUV8xSjhtRFVYWUtIWWhZTUd4aUJocXZjNEpWbzR0UWl5Z0tjdW01TmNkNGN3b2E4QlBZcmNFNEZfLUJEX3pBd1E4eHBsRE41SjNXS01qcEJtZElreU1TM0NNeEx3Mnphd3IwUEozcw?oc=5"
-      },
-      {
-        "title": "【債券市場】12月利上げ観測が強まる日銀、物価2％定着のカギを握る認知度(週刊 金融財政事情) - Yahoo!ファイナンス",
-        "source": "Yahoo!ファイナンス",
-        "published_jst": "2026-11-24 09:30",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQd1p3LWRQa2ZfdzhMd1ViRzBweEJsM0VmLS1ZdU1QOVR3Y0kycGZCRlhNY1B1ZnVxRXVUc1h0Rm9CYmgxYlA5LTdvcHBtZVZLb1ZqbzNscEZBYlBXX2F4cVZsaFl2bDBYOHFoQXp0Nm1rQ1habzZIbzNWVUt4NUJ0ZEU2bFdQUzg?oc=5"
-      },
-      {
-        "title": "今日の為替市場ポイント:◆ユーロ編◆リスク選好的なユーロ買い・円売りはやや抑制される可能性 - TradingView",
-        "source": "TradingView",
-        "published_jst": "2026-11-24 08:43",
-        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBzUklvQVpNQU5EaHlZX01lb2RSVEpTcVR5R2VTZVZ3NlY5UTJhMXY1dFI0U2sxRnVzbHJiRzd3SVVmZUdRLTVEMTF4c3VIbjVZT2w3T0ktMkkyY2Q0c3JfUlZoOC0?oc=5"
       }
     ],
     "analyst_moves": [
+      {
+        "title": "アズビル－みずほが目標株価引き上げ 業績ディフェンシブ性や資本効率重視の経営徹底を評価〔DZH 個別株情報〕(時事通信) - Yahoo!ファイナンス",
+        "source": "Yahoo!ファイナンス",
+        "published_jst": "2026-11-25 14:30",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOY2hQWGs1T0tqNDUxOEgzaXlyT2FxYlhXNWV6NVR3ZjE5RkQ0cXBGcFlaY0t4R1c1d3VObnBXS2pYc1hHQzQ2dUd5SkVTVUFjdXRjVXlDYTlBSzJoWk5aUTByc1FEZGo4bjByYTgzdGdjSXd6MWFsTGNOSXF0VERLT3N5UVlZR3M?oc=5"
+      },
+      {
+        "title": "リクルートHD－みずほが目標株価引き上げ 中期的な業績成長局面を迎えた〔DZH 個別株情報〕(時事通信) - Yahoo!ファイナンス",
+        "source": "Yahoo!ファイナンス",
+        "published_jst": "2026-11-25 14:24",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSjU5aEU2anpGQVBTSG1Xd2d2WDQ3blU2a0dQaFhPZnBYdjVvT3FRMUhOQlhwal96WVNMeFVNU2w2dlhhRnl2cXBYdUtPU2FWYnMySDgwNEpZRGo4bUphWXc1NnhWNVNDS2hiUVRocF9sQldaV2NHaDRuMHpadWNhZ1RFbFpVMkk?oc=5"
+      },
+      {
+        "title": "不二製油－みずほが目標株価引き上げ 27.3期2QもCBE/業務用チョコレートの貢献で好調〔DZH 個別株情報〕(時事通信) - Yahoo!ファイナンス",
+        "source": "Yahoo!ファイナンス",
+        "published_jst": "2026-11-25 14:24",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOaWRGY2hOYk5NcnNpTUZrN2dPWlY5aTUyQWQzRlRfNVNtbkFXTTVrVndQMnowNVY3QUZvemUzaDN1c01aQ2tBWDRjenBTVUYwak9JMkR0M0JEc1BkRnNISURhbmU3aER6dUpYM2hMUHJSZDgtNVA2WDIzOTNmM1o4TUo3VGhQNk0?oc=5"
+      },
+      {
+        "title": "【アナリスト評価】ｉｓｐａｃｅ、レーティング弱気を継続、目標株価320円に引下げ（米系大手証券）(アイフィス株予報) - Yahoo!ファイナンス",
+        "source": "Yahoo!ファイナンス",
+        "published_jst": "2026-11-25 14:14",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQSXhwcGFYWkxmaGlQQUNuc3VHVUltaFBuVUxEaWpWOVpwN1FrNDhGRVI2Y2dmdjd3ZHNaWVZ4Nk9qVFZwcXZGWjlqbWhOLTVDOXFxSWw5WnhQWFVMc2M5Z1ZGdGhPTnMxdVJNZjgzR3JIUnlWVXRKYTdXZXN3X2RPZ0Q3cjVVZ00?oc=5"
+      },
+      {
+        "title": "【アナリスト評価】エン、レーティング弱気を継続、目標株価1,100円に引下げ（米系大手証券）(アイフィス株予報) - Yahoo!ファイナンス",
+        "source": "Yahoo!ファイナンス",
+        "published_jst": "2026-11-25 14:08",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWHFoQTVxRXpudGN4ckZJaTNzX0M1dExSX08zTjM3QzAycW1EZkVvU0U3TF9wSkJkYncxZ0swdnlUTUhVMXJid3lONEI2dUl4RzdSYzdkWXVtNkwtbzJqZDRCWTduSVM3VVQyelNNZ3VHWTI5WlZqQWM0T0tNQ01DeTFQTHRpSDg?oc=5"
+      },
+      {
+        "title": "キオクシアHD－岩井コスモが目標株価引き下げ 需給要因は注視が必要も株価急落は投資機会〔DZH 個別株情報〕(時事通信) - Yahoo!ファイナンス",
+        "source": "Yahoo!ファイナンス",
+        "published_jst": "2026-11-25 13:24",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPV2ZKVkhHVER0dkpfc20wcXdXek1wLV9pMkdnczlmU2w1OHdnNDU1TFNWS3NqNVYwTld6dzZ2eF9BUmpOVlBYQ0ZFTklQOExmU1FtdDAzWk1hWXI5QVdNaktWemFsR2c3RURVMlVQSXdreVdZVGM0TGVDSnlzd0FMeWg2d0pXLTg?oc=5"
+      },
+      {
+        "title": "オービック－岡三が目標株価引き上げ マンパワー拡大等の恩恵を享受する局面へ〔DZH 個別株情報〕(時事通信) - Yahoo!ファイナンス",
+        "source": "Yahoo!ファイナンス",
+        "published_jst": "2026-11-25 13:00",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPXzlBRThGN2M1SnlIejRHcHdUUV9icW9QQ203R0RDa3ZKX09zM29oYjJ2SmRkTkpWTkg3SEhydDRKYmZqS1h6TUcxcFV0R0s5WDJzNGpNdHYwOGlxcFRKdzlNVzlxRS02aWNoWk1ldEVsamVxbTQxb0pRd3QzZGt1LTQybmlVYUE?oc=5"
+      },
       {
         "title": "AIメモリ好況のピーク論争…Micron目標株価半減で半導体株が動揺 - BigGo ファイナンス",
         "source": "BigGo ファイナンス",
         "published_jst": "2026-11-25 12:00",
         "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE55cGFGU0c4eGhKSy1sbWVFR19LcnJJWHRQQ21CbkhMcjVOakxQSjV1MHBnRnFwLTRSUmlHVk93YTF4dnpXbDNsNmYxNC1xUVNSZVlVb3VIeVlmQVhKbUJXdm9rLTRXQlZrRjZQS2VMYTZWdjUz?oc=5"
-      },
-      {
-        "title": "【アナリスト評価】京セラ、レーティング中立を据置き、目標株価3,000円に引上げ（日系大手証券）(アイフィス株予報) - Yahoo!ファイナンス",
-        "source": "Yahoo!ファイナンス",
-        "published_jst": "2026-11-25 11:08",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSjM4STZXZzNnUFZQQUI2RVZtV3VTNlhQTkdOQ1dUUDdfTjJrblBEOGtYazBDemdFbXRtUFNtNEZ6ZVNpWkNaa3R0ZGxObFhpXzl4VVFnYXRMNDlpRW9hZmZ6TVE1bnFFODdkV1JmaXpwUEU4dDV0dzd6OFFwWFIxSWhIbGFzb0E?oc=5"
-      },
-      {
-        "title": "日本曹達－SBIが目標株価引き上げ 業績予想を増額〔DZH 個別株情報〕(時事通信) - Yahoo!ファイナンス",
-        "source": "Yahoo!ファイナンス",
-        "published_jst": "2026-11-25 10:48",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPa3hPY051SHpjRklfYWdHd3RVR0xLVjVHWTlhd0tGTU9jWkxwU3dSNEgxV0hyMXM2YVhoU01pWUZGMEEwTTMzSU9raXZCZ3NkZWlBZ3VUSDNNay1MVXhhSlIyNkV1bXphRFRVejEtSTlWNTVvTHpocmhteEhZOVRocEJCaXI0bnc?oc=5"
-      },
-      {
-        "title": "ブシロード---大幅反発、SBI証券が目標株価を900円に引き上げ、投資判断「買い」継続 執筆 Fisco - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
-        "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
-        "published_jst": "2026-11-25 10:17",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5XMGx5RUZCMUZsd19EZGt0TkRMVmlPckppd0Zpc2Y1UlBCcjJYVVBzYUJVYkxyZzEzUk1uczZDZjlteFozUHRZMC1TbUZwc21PV2tsbFBhRERHdE9sNHF3eHZZbGExQnpXVEtnSjlGdGE?oc=5"
-      },
-      {
-        "title": "オンワード－大和が目標株価引き上げ ファッションとウェルネスの両輪で利益成長へ〔DZH 個別株情報〕(時事通信) - Yahoo!ファイナンス",
-        "source": "Yahoo!ファイナンス",
-        "published_jst": "2026-11-25 10:12",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOc0dKUzM2WTY4YzhUUmZNQnZZTVN1NHBibUZOT3A0bE9NemxBZV95dWcwNlZqWW9kcUtBSXdtLWtOTlVWdkhmdmx5RDhVelhvSHVfYVAzekpIblV2WXZXb0M3TDZsNjdUV3pZUmI2Wi1YLWlwX0RIclVQZFNqdzM0RjNqdGFGd0k?oc=5"
-      },
-      {
-        "title": "ウォール街、エヌビディア目標株価を25％下方修正 - BeInCrypto",
-        "source": "BeInCrypto",
-        "published_jst": "2026-11-25 10:12",
-        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9pN2ZEYnItMFZPV1E2RERPNWNwNVFjWlRLZlpVeGlfZk9oZVNGdjVFZThycmQ0RE5BTWRmX28xRWhVOEJLUWc5R3JiVGowc2hKbWp3SE1TenBTRUpJR0tidXNYZU1KSGtfXzNKYlU3SndEV0ZLRG1CbWpZczk?oc=5"
-      },
-      {
-        "title": "THK－東海東京が目標株価引き下げ 受注堅調は続きそう〔DZH 個別株情報〕(時事通信) - Yahoo!ファイナンス",
-        "source": "Yahoo!ファイナンス",
-        "published_jst": "2026-11-25 09:27",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPM1IzcVA4cEFjMjRTMmdSTXRwUmlGZmhLZEx5UHpfc1dRS3ZqT3VlaXFEZ2RYNHBKTHo0dUpmTnBYWHlRUmtkTDFkTmluM3NESm11LXRQYTlSV2Zhb3lkOGpFMjM5eC1EN21xSE9JWXVTT1pVSHB3UzRCWW1WenM2c2p1MGd3eFU?oc=5"
-      },
-      {
-        "title": "CKD－東海東京が目標株価引き下げ PERなどに割安感が出てきた〔DZH 個別株情報〕(時事通信) - Yahoo!ファイナンス",
-        "source": "Yahoo!ファイナンス",
-        "published_jst": "2026-11-25 09:24",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPUVBOTFo3T1lmbVhjY2VWZUZVeVFoWm1uWkVCNUpRMDNDcDBOOXMwa2dWUkw4RGcyamVEd05VemZiY19jSm92VXVhT1pHU0JKZF9SaUhkTkpsZ1VxM0xEU3JfZlRRZDFQMjMtVmJsemFUQ0RvdEVzUHp6TzdzVUZOWUNldFNYcVE?oc=5"
       }
     ],
     "semiconductor_ai": [
+      {
+        "title": "NvidiaとAnthropicの株価が急落、AI関連株の売り浴びせが再び発生。 - Vietnam.vn",
+        "source": "Vietnam.vn",
+        "published_jst": "2026-11-25 13:51",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNd3ZhZWg2ZkxfZ3JVQnAzdHhDdG5qZmxCOVNEaXZfY2JZTUlwWDhoTW1KVExxOG5MVldYM3NBNksxSENUbFFVYU9PejhoVk1CdnNzSVpySXRRLTdvOXNEUWNONDNGMGhyZ0xDcTE4SXlGSHlKYnVPMVY1aTg1bklzbXNVZlUzb193bzExT2pLZEdsQjJCUTdFZkJrMWM?oc=5"
+      },
+      {
+        "title": "上場インデックスファンド日経半導体株【213A】：株価・株式情報（夜間PTS含む） - Yahoo!ファイナンス",
+        "source": "Yahoo!ファイナンス",
+        "published_jst": "2026-11-25 13:18",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5oMktqQW01NHFYNTF4R1VCTUc5TUs2N2p3dndTTVQ5cmRaMmVielNUNFZvSTZHbWNHM1lWX2tqQ3NZSGVKU2RONWdMWUxXNzd2enc?oc=5"
+      },
+      {
+        "title": "米半導体株安でAI関連株に売り - まぐまぐ",
+        "source": "まぐまぐ",
+        "published_jst": "2026-11-25 12:45",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1TSlBpMlhRbkJmSTdhOG1pU0N6djRLX3AxY09wSzNETWxJVG9IVnZNal9uWkJjNFllbV9RQUpkbzFvdlV5WHRpeXR4QU5jaUlJaGfSAVJBVV95cUxNU0pQaTJYUW5CZkk3YThtaVNDenY0S19wMWNPcEszRE1sSVRvSFZ2TWpfblpCYzRZZW1fUUFKZG8xb3ZVeVh0aXl0eEFOY2lJSWhn?oc=5"
+      },
+      {
+        "title": "GX 半導体関連-日本株式【2644】：株価・株式情報（夜間PTS含む） - Yahoo!ファイナンス",
+        "source": "Yahoo!ファイナンス",
+        "published_jst": "2026-11-25 12:32",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9QdDNtZ2U2X3c4VW9lMVBvRlg2UkljLWl6UER4cWVGYTU5S1piOWhTNEVwakp6bHlLZlZQQjhkZjEyUHNPQjVLX3dWNUtfdmhQTUE?oc=5"
+      },
+      {
+        "title": "GX 半導体【2243】：株価・株式情報（夜間PTS含む） - Yahoo!ファイナンス",
+        "source": "Yahoo!ファイナンス",
+        "published_jst": "2026-11-25 12:30",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE00eDY0c2tGWFU0djhzOERNbTZWa2VnMGhiWUhKeFhnbWNmYUJLS0p5UjE5OThsQkVIQWpZb0RMWGpXUDhZdHBxSkdvWXl6cXJLTkE?oc=5"
+      },
+      {
+        "title": "米半導体株安でAI関連株に売り - ｄメニューニュース",
+        "source": "ｄメニューニュース",
+        "published_jst": "2026-11-25 12:10",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPYmlzWWt3b1R6bkhTODZzNTNuS1hWMFRiUWtKWWFKNjZBcjJSbHNXOE1PaDBtUzFRNEtGa0JreFNUaXllN2s1dmJsWDBGU2tzT3NjWFVUYzBDSkNSallzbTY1Ym5Scjd3TW1aeDRSNXRVNDU5N0FhOHpLemJ1WmFNc3c5SDVYUW04b1RWX9IBjAFBVV95cUxPYmlzWWt3b1R6bkhTODZzNTNuS1hWMFRiUWtKWWFKNjZBcjJSbHNXOE1PaDBtUzFRNEtGa0JreFNUaXllN2s1dmJsWDBGU2tzT3NjWFVUYzBDSkNSallzbTY1Ym5Scjd3TW1aeDRSNXRVNDU5N0FhOHpLemJ1WmFNc3c5SDVYUW04b1RWXw?oc=5"
+      },
       {
         "title": "株価指数先物【昼】 半導体・AI関連株の下落で-2σに接近 - 株探",
         "source": "株探",
@@ -2566,49 +2678,19 @@
         "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBGNS1lNkdFaXJQaG1rM2h3cVBwVXQ1OEpRX0JvZUw2aVVJcDVCcERQOTZ1ZXJLNHpqOVlaZFp5eDV2OVJySWhuM3ctRFhJQkFCbTZEYkJ2S2JTY09WdjNzRw?oc=5"
       },
       {
-        "title": "AIメモリ好況のピーク論争…Micron目標株価半減で半導体株が動揺 - BigGo ファイナンス",
-        "source": "BigGo ファイナンス",
-        "published_jst": "2026-11-25 12:00",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE55cGFGU0c4eGhKSy1sbWVFR19LcnJJWHRQQ21CbkhMcjVOakxQSjV1MHBnRnFwLTRSUmlHVk93YTF4dnpXbDNsNmYxNC1xUVNSZVlVb3VIeVlmQVhKbUJXdm9rLTRXQlZrRjZQS2VMYTZWdjUz?oc=5"
-      },
-      {
-        "title": "日経平均株価 2000円超下落 AI関連株の調整続く - Howl.Link",
-        "source": "Howl.Link",
-        "published_jst": "2026-11-25 11:55",
-        "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE96dDFTQmJPaUcxUmpSdWlUQzlYMGtxZ3lkVGtmNXlCMHlEVGtWZjFCczdudkZpMGo3Q2lV?oc=5"
-      },
-      {
-        "title": "【速報】日経平均株価 一時2000円超値下がり AI関連株の調整続く - khb東日本放送",
-        "source": "khb東日本放送",
-        "published_jst": "2026-11-25 11:19",
-        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5yX0doMTA3MEgtS19fV052SjhzOUJYWWlrMmhzaHR5TWZiUkNWT19IZkNqcUV1azhiQjVZQnBRMnpwbmlVdlBGeEJfdDJBeGM?oc=5"
-      },
-      {
-        "title": "eMAXIS 日経半導体株インデックス【03311247】：基準価格・投資信託情報 - Yahoo!ファイナンス",
-        "source": "Yahoo!ファイナンス",
-        "published_jst": "2026-11-25 10:19",
-        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1WcnBkNXkzRS1PdnNIWkxieGVIMWw3YjRKMXZON1NIZlpIQjd1Z09ETlVHUWdXUmthamQ3LWdyakFSd1hMU0Z5cWVuSkF3Z0tGY0Q1Vg?oc=5"
-      },
-      {
-        "title": "日経平均、一時5万7000円割れ 米SOX急落でAI・半導体株に売り - BigGo ファイナンス",
-        "source": "BigGo ファイナンス",
-        "published_jst": "2026-11-25 09:55",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE12YzN0emNXVUJ1ek1SWDNvOXYzWURaRnQ1R2hOb21uQVNLZ0lwd1RKVFBtaUVVb3JCa1VHV0lYQWZWUG41ZmxSVUJ6LXhVRGxmUGNQaklTMEhGc3RRWWFHSkd3TnJGRVF1X0x1Um9hb2Zpd3FC?oc=5"
-      },
-      {
-        "title": "【速報】日経平均株価 一時1600円超値下がり AI関連株の調整続く 最新の経済ニュース【随時更新】 - ABEMA",
-        "source": "ABEMA",
-        "published_jst": "2026-11-25 09:45",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ieDhaemFTQ1k1R0VGWDRDNWZPWl9jYVFaVlRIbURvUUVDOFVEV1ZqbFo5UkxheGFVQXJGaXRrd2FaYnlTS3hjdFhJeUV6WkRiMVZWR0hpcEpwN1k?oc=5"
-      },
-      {
-        "title": "GX 半導体【2243】：株価・株式情報（夜間PTS含む） - Yahoo!ファイナンス",
-        "source": "Yahoo!ファイナンス",
-        "published_jst": "2026-11-25 09:27",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE00eDY0c2tGWFU0djhzOERNbTZWa2VnMGhiWUhKeFhnbWNmYUJLS0p5UjE5OThsQkVIQWpZb0RMWGpXUDhZdHBxSkdvWXl6cXJLTkE?oc=5"
+        "title": "株価指数先物【昼】 半導体・AI関連株の下落で-2σに接近 - ライブドアニュース",
+        "source": "ライブドアニュース",
+        "published_jst": "2026-11-25 12:04",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1BWjRMTXhrU1pRUWQzZXhNcW96eFUyS28ycFJwWWpFMHJLb3R4MkNRdDIzUGoxSlVPNkw1QkRGM2dqUFVTTGFfbHZaOVZiSjkzbDBnY21OeERDN0ltYXJ3?oc=5"
       }
     ],
     "nonferrous_wire": [
+      {
+        "title": "「AI銘柄は今が買いか？」業績上方修正でも株価下落「フジクラ・古河電工・住友電工」電線御三家…需要の先に潜む落とし穴に迫る - ｄメニューニュース",
+        "source": "ｄメニューニュース",
+        "published_jst": "2026-11-25 12:00",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE44dG9IVl9ydkVzaU9uMklZZExCQ1ZQeF82UGw4QmhMWHJjTEVVU3FReUgwWVVIRWhJVXVjRF9xVHdtZGVsMnVia0kxTWh4M3FUNkFMNm9YR25qNEM0TEpTUTcyZjd4ZWZEV21lcFVyNms4TzVyc0ZENU0tZDBBa3PSAX9BVV95cUxOOHRvSFZfcnZFc2lPbjJJWWRMQkNWUHhfNlBsOEJoTFhyY0xFVVNxUXlIMFlVSEVoSVV1Y0RfcVR3bWRlbDJ1YmtJMU1oeDNxVDZBTDZvWEduajRDNExKU1E3MmY3eGVmRFdtZXBVcjZrOE81cnNGRDVNLWQwQWtz?oc=5"
+      },
       {
         "title": "日本光ファイバー市場：5Gインフラ、AIデータセンター、次世代光ネットワークが業界の成長を加速 - Excite エキサイト",
         "source": "Excite エキサイト",
@@ -2626,12 +2708,6 @@
         "source": "IndexBox",
         "published_jst": "2026-11-24 00:21",
         "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOa29mNGpWZ3Nyam9sTVV0cElVOHNlQ3dDLTlTZl9EbERhWUVjbEpoVE45WDh2SWNpdG8wQVRaeDBPQlBPNGJfYzQxT01kQy1tdGF5SzdQOGhCcGdIYWM5OFhtRXlwUTlhZHhSLUREcHFDcmdoRlhRVXN2a21BdnBiRXlRZjNMQ1dxMzZJVDNrejluUlFQN0wzS1Q4MjVrWXJiSzRLNmw5NmdsTXVzMWlpMTQxT3dwQm92bDQ2R3VaN1BIcGM0UGZuUHR2cGFOTGczVjBFd2tUY1kySElv?oc=5"
-      },
-      {
-        "title": "精密光学部品市場の2035年予測：半導体リソグラフィーと産業自動化が需要を加速 - ニュースと統計 - IndexBox",
-        "source": "IndexBox",
-        "published_jst": "2026-11-23 23:26",
-        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxObEtYeDVMWHpjMjlDekVsNmdpdlkzUktwckNydnRLbklNZURTbW5temV0WENlMXI4OFNvdVE0VEkyWktrZVFxWW8wLWhGZUJ2RDRqamNpaVJLT0dNSjVSaFVwMHc1NlN4S3dSSFpEMEFnNXI2MWlTNEZUMlZ3bk1XdGFQRGoybTRMQThXcEtOZjZXWmpLQWozLTlPX3UxR1RRckY1cmJHc3E4NHR4UDVqWWtDNjRnR1l1VG9hUy1pT3p3aXdVTE04OVdhWHhNRnAzNjVYaFc1MmdxeXpGRExzVGk1a1JHaUxKUnc?oc=5"
       },
       {
         "title": "光ファイバー端面洗浄機の世界市場（2026年～2032年）、市場規模（ドライワイプ式、ウェットクリーン式、粘着テープ式、その他）・分析レポートを発表 - アットプレス",
@@ -2660,102 +2736,102 @@
     ],
     "us_earnings": [
       {
-        "title": "Ｆブラザーズ、今期配当を17円増額修正 - 株探",
-        "source": "株探",
-        "published_jst": "2026-11-25 11:35",
-        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1Fem92bEEtU2xXNkZfWW4xRFRTM3BqZ0hETmlLMEgwVm5Wa0xMcnF6RW1lRGFJcmJHeFp2TkdCQjhGVlFHN08xU19JenpTd3VBOHRvUFMzOEpBU0l3WFhDMl9B?oc=5"
-      },
-      {
-        "title": "テスラ【TSLA】：株価・株式情報 - Yahoo!ファイナンス",
-        "source": "Yahoo!ファイナンス",
-        "published_jst": "2026-11-25 11:31",
-        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5vR2owRXJLX1dwYUtHY05wNjVKVmVrTHNXdm5yRGJ0NHJzSzZTaEgxWFo0WmNBOWUxV2tXcHljUWlYaG92bll2YUNIQzJlVE0?oc=5"
-      },
-      {
-        "title": "アライアンス･バーンスタイン･米国成長株投信Dコース毎月決算型(為替ヘッジなし)予想分配金提示型の基準価額・投資信託情報 - Yahoo!ファイナンス",
-        "source": "Yahoo!ファイナンス",
-        "published_jst": "2026-11-25 11:09",
-        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1zckZSdHVvbExXV2xBc3Qtdk51MGlVVU9UNHZWeVRPMnRTNFJ6RTlfMjByUlZ6UEc4WGhvVURYd2RIRW5Oa0hXeXVMd0xETDdqamdPZw?oc=5"
-      },
-      {
-        "title": "シールエスキュー【LAES】：株価・株式情報 - Yahoo!ファイナンス",
-        "source": "Yahoo!ファイナンス",
-        "published_jst": "2026-11-25 11:09",
-        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE95cm44Sk1LdUxvWTF1M2x2ekk2V1VjNkVGQlV5QWFJcHpHTFAxXzcwMzZuUnJCSkY1Q0x4YnM1QjVpTFVHbjJyS0w2ZXJoNjA?oc=5"
-      },
-      {
         "title": "台湾積体電路製造股分有限公司【TSM】：株価・株式情報 - Yahoo!ファイナンス",
         "source": "Yahoo!ファイナンス",
-        "published_jst": "2026-11-25 10:45",
+        "published_jst": "2026-11-25 13:46",
         "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE4xdTcxNWFHTmcxM1RUcWhCWktEeDJHeGc1eEFjZ0FqUWlhT2laQmRtcW1DNk1LMDZBOVMzTjNxUW5oVnB1SlpGQ0hGc3ZDZw?oc=5"
       },
       {
-        "title": "中国の自動運転大手ウィーライド、株価が急落──売上高88％増でも赤字が拡大 - Yahoo!ニュース",
-        "source": "Yahoo!ニュース",
-        "published_jst": "2026-11-25 10:45",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA0S0FQY0ZldC1pWGt1YzlHTlR6elBzTE1RY1BKR1FNY1Y2VHJMSzBVZElHYTNVc1ZfcGxYR2pBUUlCZThGWjBsYTA1MXVrYkpUS2xjLWJxTHJVZ1ZYel9kY1R5cmREcElwYlMxdG9PNF9yVzZjUWFpUEtzRWR3M28?oc=5"
+        "title": "マイクロン・テクノロジー【MU】：株価・株式情報 - Yahoo!ファイナンス",
+        "source": "Yahoo!ファイナンス",
+        "published_jst": "2026-11-25 13:18",
+        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1BWGZRaUxVc1QtTUlxSzBRTXVrVlFPSlBBUEx6QVJSZG9nOXd2c3ktRHh4SjVtd2NESGRoT2JyX1IyQTRtZ3kzRVEybkg?oc=5"
       },
       {
-        "title": "オラクル【ORCL】：株価・株式情報 - Yahoo!ファイナンス",
+        "title": "ソーファイ・テクノロジーズ【SOFI】：株価・株式情報 - Yahoo!ファイナンス",
         "source": "Yahoo!ファイナンス",
-        "published_jst": "2026-11-25 10:37",
-        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1SQmQ4N05lVFdaUjduSkVINTctQXNiV0MyRzVRVmowcVo4SnU3ZWROcWtDdm1MNVRabV81OTkxZUJkS0dzcDVsM29GUTNqekE?oc=5"
+        "published_jst": "2026-11-25 13:10",
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9CN3M2My1udE1kY1l2NDZRdVJaTUU1ekRIcVJ5UEpFelgzZExGaWxwR0dYR3JFQXo1dnVpcmZJcVBIQmdVeHpNYWRIbzl1WFk?oc=5"
       },
       {
-        "title": "楽天・米国成長株式・プレミアム・インカム・ファンド(毎月決算型)【9I311258】：基準価格・投資信託情報 - Yahoo!ファイナンス",
+        "title": "フィデリティ･米国株式ファンドDコース(分配重視型･為替ヘッジなし)【32315185】：基準価格・投資信託情報 - Yahoo!ファイナンス",
         "source": "Yahoo!ファイナンス",
-        "published_jst": "2026-11-25 10:23",
-        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5GVGVNaW1DS3hZLXp3Z0NVOEZZcV8yRzVpOFZJTnlhY0pOZmhkYmo3a05IRDJFNDdYZGlkYzdaWV9vT2w4Tmw5bkdWelV4YXA0UW5iNg?oc=5"
+        "published_jst": "2026-11-25 13:02",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA2UDZ1QjZ4bTBDbE5tRzBTcEpJVktPdWtXV3M1RWNDRXJhd2JRQnRoUXFWbXNwUUdjMWV2NjNCaE50RkRRT2hCN29jdjNyanJZQ0E5Qg?oc=5"
+      },
+      {
+        "title": "iシェアーズ ゴールド ETF【314A】：株価・株式情報（夜間PTS含む） - Yahoo!ファイナンス",
+        "source": "Yahoo!ファイナンス",
+        "published_jst": "2026-11-25 12:52",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9OQlkyNHBHM2RtX2VYLTNoSDEtU2xOU1l5ekZwck5kdVo5eHlkUmZMQ0FiX3BTS2ZHdXRxVEI3cU5zNWdYLU5BVkFUcXhUSjZCZlE?oc=5"
+      },
+      {
+        "title": "iシェアーズ AI グローバル・イノベーション アクティブ【408A】：株価・株式情報（夜間PTS含む） - Yahoo!ファイナンス",
+        "source": "Yahoo!ファイナンス",
+        "published_jst": "2026-11-25 12:50",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE84dXppanVrNENHYmJBZVFMVTktQUhybk1LYzVXNXBmM2RSbXJsa1lOenBUZW1PRTVwQS00Nmp1akY5QmEya29Yak1pVWYzUjNzUUE?oc=5"
+      },
+      {
+        "title": "フィデリティ・グロース・オポチュニティ・ファンドDコース(毎月決算・予想分配金提示型・為替ヘッジなし)の基準価額・投資信託情報 - Yahoo!ファイナンス",
+        "source": "Yahoo!ファイナンス",
+        "published_jst": "2026-11-25 12:36",
+        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBmRDBqUy1NN1RvMWxlUlktYXF5c0ktZXJvQm9FS00wVDk4SlhWa0VwM280ZUdadjIzODVESVVmXzhjMzY5Y2h2cmxDT3dWVzJaWE5odg?oc=5"
+      },
+      {
+        "title": "イビデン株価は15%下落、ストップ高翌日の急落理由と今後の株価予想 - EBC Financial Group",
+        "source": "EBC Financial Group",
+        "published_jst": "2026-11-25 12:35",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1LeVlnaGROdDREelpKR1VuM2lBbEtPbzZwRXFwclFVeG00VnJfd3lNODNKcjVRODU2R281X194OG9XTlloTVNfSS1OeDhuYlp4UHc?oc=5"
       }
     ],
     "forex_rates": [
       {
-        "title": "円相場、１５９円１３～１３銭＝２５日正午現在 - 時事通信ニュース",
-        "source": "時事通信ニュース",
-        "published_jst": "2026-11-25 12:09",
-        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5qcnlqWmQ0QkdLcDNULURWVW8ybjgydDBWdnZEUG54aTlwSmJTZ0hQS1JGbmNuVkxuM0NtTVA1dGxqT05iS29uQ2tvWnRkQkxuNXB6Vg?oc=5"
-      },
-      {
-        "title": "東京為替：ドル・円はもみ合い、上値の重さを意識 執筆 Fisco - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+        "title": "東京為替：ドル・円はじり高、ドル買い継続 執筆 Fisco - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
         "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
-        "published_jst": "2026-11-25 12:09",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE90b3FOVm1FVkdUYU5uVVM0VXJKczFHaVlRTnpWeUZITXVRU3U4UFRkcGNCeHl4aklyRDZnVFVTanZFeS1reVc5UDc4TDlMcTdMaU01N29mUnNXWVVqVDd4d0lSMXdoTWM?oc=5"
+        "published_jst": "2026-11-25 14:09",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBtalVmc281bk1RMWFtcWdQWW80cTgyQk1EcE00R1d2SENvU25MdGt0dmd0VWNNNUhlOTZtR3NBbllqVmphdUZ5Qkg3cmtRNmdDY252TEg2bWlQM0twcVpka1VqSEw4UGs?oc=5"
       },
       {
-        "title": "円相場、１５９円１３～１３銭＝２５日正午現在 - Infoseek",
-        "source": "Infoseek",
-        "published_jst": "2026-11-25 12:09",
-        "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ScU9oNEtKNDFJQl9HVGhvVW5tcGhXb25hRnhneGNEWmIwYzRLQkMwTEpmQ3pUaS01dzI1V2Vhcmt3TTFrYnN0SEt2UDNkckZrdjY1X3NkWUVoUEdpVHF4N25fcldqUdIBa0FVX3lxTFB6SEp6djZlQ1pKVnFxbEhNQ2Y5NjE0c210QjlOSFdKUFZSTjlvN2pmeFR3cnYwclJmR2lidFRlaWxSRmhxRFlaaEtsSExqNG0wX21FaTlnU3Y4V01RRVhrZGlsUl9rd1ZVV1Zj?oc=5"
-      },
-      {
-        "title": "東京為替：ドル・円はもみ合い、上値の重さを意識 - ｄメニューニュース",
+        "title": "東京為替：ドル・円はじり高、ドル買い継続 - ｄメニューニュース",
         "source": "ｄメニューニュース",
-        "published_jst": "2026-11-25 12:09",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUVhuR1MxNmlQdXFRcXlJV1p3S01FNjdmWG0xVDZGQ0ptR1RPS016N2xmUFg3ZnFxZGNUUmJaU1FKa1dHOFhMb2JIZ3hlQ0RDRVJMczNjRmFwTFpDdUV0R1hVUWtaVzRacWZDbzlwS292QmhpaXY4ODFteFpGRll2UFEtbE5weXfSAYwBQVVfeXFMTkw0LW9LWG1kRDVIM3N2bzF1ZWhrZ2QyMmZCbFF1OElYd01ZSk1CdHN0Z01FNjFZNG5uUExzSDl6Q3d6elRqbFkzTlliejhISnFIZW1RZHhpa0NZUjZpVExWRHdtRmwwU1ZsNW0wRW0tZ2hrcndBelBtMGdGTjVMSnZQZTZYaHA0ZHJRVXI?oc=5"
+        "published_jst": "2026-11-25 14:09",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQN2NTdkN2am5KYk56UDNWZERURXpJU2JMQ0dqZE1KY2VOUFdSWl92YW1VYTdMOUNkLTNPcFpDLU9uRkR0V1N2M1RTQnFwWkhJZ2FjOER0ZTVaNVBva0hBTjVzUTMxVG1RTmkyN21FVmJYTjhzTTM2Q1BFMGlkU0tnd1BBbXY4X03SAYwBQVVfeXFMTjNwdDRGbnpYaEdNMVhfanBGbWMtS19XWEw5WnFWM256cnJOQkxsNEJxMHNDa2VPSmpGUHpfTkxMOHd0NDZMdjMxYXljSnVlcGYxTE1jUndJck1RclZUQWs4RFZtTF83YkNQMmFHcEF0UVRwY0dCeUZ4aWcxaDhQblBTMmVOaGc5R2hwOXM?oc=5"
       },
       {
-        "title": "東京外国為替市場概況・12時 ドル円 やや重い(トレーダーズ・ウェブ) - Yahoo!ファイナンス",
-        "source": "Yahoo!ファイナンス",
-        "published_jst": "2026-11-25 12:07",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUUJXSGhfaHdhekF6Nzh3TVVjazN1dnlUQmNzeEVqSUg5czRveWNiN2RFSlJaQ1BFOGk3TVNQRENqQ0FVaXZtMS1tZU85c3ZQVzFZTVJac0ZIckNxRXZueUpXMmFHWWs4OFB0TTJJZFhjaWJlS0FjU29yV3JXMl96dkdCSTBXVjQ?oc=5"
+        "title": "東京為替：ドル・円は小動き、日本株にらみ - 株探",
+        "source": "株探",
+        "published_jst": "2026-11-25 13:52",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5Zay1IdGV3VkFHSEdpMTUxS2ZWZFdDTEhjbTc2TUdrOE9rY0RBNG84SEZfelFUNWRKRWtid1pkWGdZdHFyclpyMHJIelJlMU9PQ1E?oc=5"
       },
       {
-        "title": "テクニカルポイント ドル円 200日線目先のポイント - みんかぶ FX/為替",
-        "source": "みんかぶ FX/為替",
-        "published_jst": "2026-11-25 12:05",
-        "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBOR2hJMGpIUllzeDNxYjEyY0JWTzluMEZwc0NoRnNDYU9HTV92TDJfbEQ5dU41VkJObXNqWU9zZ0MzbGs0RVNMTQ?oc=5"
+        "title": "東京為替：ドル・円は小動き、日本株にらみ 執筆 Fisco - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+        "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+        "published_jst": "2026-11-25 13:52",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1uSWlldm5JdUhRQUFHWDRnbFhqc0hyTUJIazZDRGFVOXNaVHJrR0c3YXRTVGJsaVlQenpZVkY3YkJjZThfUEpiMkZyVmtydXlTMnQtV3NYbTVUZHNETFFhRzBzbnFMRlE?oc=5"
       },
       {
-        "title": "ドル円159円台でもみ合い、輸出株の手掛かり難【今日の市場はどう動いた？】 - Yahoo!ファイナンス",
-        "source": "Yahoo!ファイナンス",
-        "published_jst": "2026-11-25 11:57",
-        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBrbjlkR3hkOUNUb1FmM1ljMTFhQ1RWX0k1eU5BWC1idEI2T1J6T2JaeFFybmR6RUR1RjR2UkZFMG84WXlxeHJwa1dIU0t0RUQ5M0tSdy04bjZpMVo3T1VINUFCNkI?oc=5"
-      },
-      {
-        "title": "東京円、159円台前半でもみ合い AI株安と原油高が綱引き - BigGo ファイナンス",
+        "title": "ドル・円は159円台でもみ合い、米PCE待ちで上値重く - BigGo ファイナンス",
         "source": "BigGo ファイナンス",
-        "published_jst": "2026-11-25 11:36",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB5ZUVldTFsc0MzWkRzWTR2aWZ3aU9EaTBXVkxZVXk5N3BJVk9ESDBoUVZhRnI4M2FvYnVOekdodjlDeEhqb3J3WDYtMktEelM3WkpxUS1BRmxfZ2NmN3BjODJCUWEtOWdkNEQwbVFRdGY3T3lM?oc=5"
+        "published_jst": "2026-11-25 13:25",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1kNDk4ODNpVEc0bTM3dW5saUx6a19ON2hVaWFHWkxSUVFILWpzVDQ1cEJvX0htdnB2dWNhc1R3X203TlBsUDJKNjVzbksycUxhbklzc0hURTdnYTVfbEJGOHQ1XzNCbHdxbDZSdzEyWl83bkZO?oc=5"
+      },
+      {
+        "title": "東京為替：ドル・円は下げ渋り、ドルに買戻し 執筆 Fisco - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+        "source": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+        "published_jst": "2026-11-25 13:21",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1uQ19EUmQyUzk5dDZwWmFob2FDcUVzb3lVM3hnSWFqdG05Mnl3TkFoN3RkN29Na0Nhb2VrenIzQmpjTGN4X21PU0pvUzJMTlZRbzVQUTBOZmF0ZTE2U3NicGpCVHpPUkU?oc=5"
+      },
+      {
+        "title": "東京為替：ドル・円は下げ渋り、ドルに買戻し - ｄメニューニュース",
+        "source": "ｄメニューニュース",
+        "published_jst": "2026-11-25 13:21",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNZVV0dkxqRmRRcmt2ZlNIcGh6cFEybTJzQlpZVUZtcmVpbm1VR2RPWTh5R2VXMVNzaFE3Wkx6TmVXamJSM1lzR29mSE5PdEF3YnZheUJVTmtaQjdrVlUxazdtbU5yMmRsR1dwRVk3Rkc0c3RDMTk5Qm5vVjlSakN5NnJFRmswOEXSAYwBQVVfeXFMTk0xRURfZVR1ZERFaEJlZHJJQmk5Z1pYamNuTTBWOXh5NnN3ZkQxSURCRV9qT09mTEJEa1MzbGxNSVhQU2pKaEx5S0FZTWVBUFhjQzBrM0FjRHNka3lFdHRqbUZnOFNONXVHZF82TldCLVppS1JhNEV2MEVpbkllakZtRUVCd2tfMXB5OUg?oc=5"
+      },
+      {
+        "title": "欧米為替：デイリー見通し カナダドル・円／カナダ物価にらみ(フィスコ) - Yahoo!ファイナンス",
+        "source": "Yahoo!ファイナンス",
+        "published_jst": "2026-11-25 13:12",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNN19wUTJlVVNqUTRCMER2OHRGYy1OZ0hGUFo1Zng0a24zUU0zRXd5MjRCUTNnYk42bG1FdlUzTm90RnV5NXlST2tMR0Z5ZmpDbElRczVSOHNESEZkRjlOS0I2RUZKaE9ldHA0aTFhdGxBeGYwSWZyc1hOTEVfZS0tTGFNNHBEdkE?oc=5"
       }
     ],
     "nhk_economy": [
@@ -3007,6 +3083,15 @@
         "text": "2027年３月期 第２四半期（中間期）決算短信〔ＩＦＲＳ〕（連結）\n2026年11月10日\n上場会社名 ソフトバンクグループ株式会社 上場取引所 東\nコード番号 9984 ＵＲＬ https://group.softbank/\n代表者 （役職名）代表取締役 会長兼社長執行役員 （氏名）孫 正義\n問合せ先責任者 （役職名）常務執行役員 CAO 兼 CSusO 経理統括 （氏名）君和田 和子 ＴＥＬ 03-6889-2000\n半期報告書提出予定日 2026年11月11日 配当支払開始予定日 2026年12月２日\n決算補足説明資料作成の有無：有\n決算説明会開催の有無 ：有\n（百万円未満四捨五入）\n１．2027年３月期第２四半期（中間期）の連結業績（2026年４月１日～2026年９月30日）\n（１）連結経営成績（累計） （％表示は、対前年中間期増減率）\n親会社の\n中間包括利益\n売上高 税引前利益 中間利益 所有者に帰属する\n合計額\n中間利益\n百万円 ％ 百万円 ％ 百万円 ％ 百万円 ％ 百万円 ％\n2027年３月期中間期 4,235,037 13.3 △438,705 － △541,648 － △768,007 － △1,009,002 －\n2026年３月期中間期 3,736,843 7.7 3,686,382 152.3 3,320,354 168.3 2,924,066 190.9 3,239,811 －\n基本的１株当たり 希薄化後１株当たり\n中間利益 中間利益\n円 銭 円 銭\n2027年３月期中間期 △136.47 △136.83\n2026年３月期中間期 510.37 509.89\n（注）当社は、2026年１月１日を効力発生日として、普通株式１株につき４株の割合で株式分割を行いました。前連結会計年度の期首に当該株式\n分割が行われたと仮定し、「基本的１株当たり中間利益」および「希薄化後１株当たり中間利益」を算定しています。\n（２）連結財政状態\n親会社の所有者に 親会社所有者\n資産合計 資本合計\n帰属する持分 帰属持分比率\n百万円 百万円 百万円 ％\n2027年３月期中間期 69,387,194 19,396,285 16,396,610 23.6\n2026年３月期 60,749,547 20,468,432 17,621,823 29.0\n２．配当の状況\n年間配当金\n第１四半期末 第２四半期末 第３四半期末 期末 合計\n円 銭 円 銭 円 銭 円 銭 円 銭\n2026年３月期 － 22.00 － 5.50 －\n2027年３月期 － 5.50\n2027年３月期（予想） － 5.50 11.00\n（注１）直近に公表されている配当予想からの修正の有無 ： 無\n（注２）当社は、2026年１月１日を効力発生日として、普通株式１株につき４株の割合で株式分割を行いました。上記の2026年３月期の中間配当\n額は分割前の金額を記載しています。年間配当については、当該株式分割の実施により単純合計ができないため、表示していません。な\nお、当該株式分割を考慮した場合の年間配当金は11.00円です。\n※ 注記事項\n（１）当中間期における連結範囲の重要な変更：有\n新規 308社 （社名）DigitalBridge Group, Inc.ほか傘下子会社307社\n除外 －社 （社名）－\n（注）詳細は、決算短信（添付資料）31ページ「２.サマリー情報（注記事項）に関する事項 2026年９月30日に終了した６カ月間に\nおける連結範囲の重要な変更」をご参照ください。\n（２）会計方針の変更・会計上の見積りの変更\n① ＩＦＲＳにより要求される会計方針の変更：無\n② ①以外の会計方針の変更 ：無\n③ 会計上の見積りの変更 ：無\n（３）発行済株式数（普通株式）\n① 期末発行済株式数（自己株式を含む） 2027年３月期中間期 5,711,848,120株 2026年３月期 5,711,848,120株\n② 期末自己株式数 2027年３月期中間期 12,541,457株 2026年３月期 12,924,419株\n③ 期中平均株式数（中間期） 2027年３月期中間期 5,699,018,774株 2026年３月期中間期 5,711,897,190株\n（注）当社は、2026年１月１日を効力発生日として、普通株式１株につき４株の割合で株式分割を行いました。前連結会計年度の期首に\n当該株式分割が行われたと仮定し、「期中平均株式数（中間期）」を算定しています。\n※ 第２四半期（中間期）決算短信は公認会計士又は監査法人のレビューの対象外です。\n※ 業績予想の適切な利用に関する説明、その他特記事項\n本資料に記載されている将来に関する記述は、当社が現在入手している情報および合理的であると判断する一定の前提に基づいており、実\n際には様々な要因により大きく異なる可能性があります。\n当社は、2026年11月10日に報道機関および機関投資家や金融機関の皆様を対象とした決算説明会を開催予定です。決算説明会については、\n当社ウェブサイト（https://group.softbank/ir）などにおいて日本語および英語でライブ中継する予定です。\nまた同日中に、「決算データシート」を同サイトに掲載する予定です。\nソフトバンクグループ㈱ (9984) 2027年３月期 第２四半期（中間期）決算短信\n（添付資料）\n添付資料の目次\n１．当中間決算の経営成績等の概況 ………………………………………………………………………………………… p.3\n（１）経営成績の概況 ……………………………………………………………………………………………………… p.3\nａ．連結経営成績の概況 ………………………………………………………………………………………………… p.5\nｂ．セグメントの業績概況 ……………………………………………………………………………………………… p.7\n(a）持株会社投資事業 ………………………………………………………………………………………………… p.8\n(b）ソフトバンク・ビジョン・ファンド事業 ……………………………………………………………………… p.11\n(c）ソフトバンク事業 ………………………………………………………………………………………………… p.17\n(d）AIコンピューティング事業 ……………………………………………………………………………………… p.18\n（２）財政状態の概況 ……………………………………………………………………………………………………… p.20\n（３）キャッシュ・フローの概況 ………………………………………………………………………………………… p.28\n（４）今後の見通し ………………………………………………………………………………………………………… p.30\n２．サマリー情報（注記事項）に関する事項 ……………………………………………………………………………… p.31\n2026年９月30日に終了した６カ月間における連結範囲の重要な変更 ………………………………………………… p.31\n３．要約中間連結財務諸表及び主な注記 …………………………………………………………………………………… p.32\n（１）要約中間連結財政状態計算書 ……………………………………………………………………………………… p.32\n（２）要約中間連結損益計算書及び要約中間連結包括利益計算書 …………………………………………………… p.34\n（３）要約中間連結持分変動計算書 ……………………………………………………………………………………… p.38\n（４）要約中間連結キャッシュ・フロー計算書 ………………………………………………………………………… p.40\n（５）要約中間連結財務諸表及び主な注記における社名または略称 ………………………………………………… p.42\n（６）継続企業の前提に関する注記 ……………………………………………………………………………………… p.43\n（７）要約中間連結財務諸表注記 ………………………………………………………………………………………… p.44\n免責事項\n本資料は、SB Global Advisers Limited、SB Investment Advisers (UK) Limitedおよびそのそれぞれの関係会社を\n含むソフトバンクグループ㈱の子会社により運用されるいずれかのファンド（ソフトバンク・ビジョン・ファンド１、\nソフトバンク・ビジョン・ファンド２およびソフトバンク・ラテンアメリカ・ファンドを含む。）のリミテッド・パー\nトナーシップ持分または同等の有限責任持分その他全ての法域におけるあらゆる証券の販売の申込みまたは申込みの勧\n誘を行うものではなく、また、いかなる方法でもそのように依拠してはなりません。\nPFICのステータスに関するお知らせ\nソフトバンクグループ㈱およびその子会社の一部は、その資産の構成および収益の性質故に、当会計年度において、\n1986年米国内国歳入法（U.S.Internal Revenue Code of 1986）のもと消極的外国投資会社（Passive Foreign\nInvestment Company）（以下「PFIC」）に該当する可能性があります。ソフトバンクグループ㈱株式の米国保有者におか\nれては、ソフトバンクグループ㈱およびその子会社の一部がPFICと見なされた場合の米国連邦所得税上の影響につい\nて、税務専門家に相談されることをお勧めします。ソフトバンクグループ㈱はソフトバンクグループ㈱株式の米国保有\n者に関する税務上の取扱いおよびその結果について何ら責任を負うものではありません。\n＜報告セグメントの新設＞\n当社は、2025年11月に半導体設計企業であるAmpereの全持分を取得して子会社化したことを契機に、取締役会が定期的\nに業績を検討する事業単位の見直しを行った結果、2025年12月31日に終了した３カ月間において従来「アーム事業」に含\nめていたArm、「その他」に含めていたGraphcore Limited、およびAmpereなどの半導体関連子会社をまとめて、新たな報\n告セグメントとして「AIコンピューティング事業」を設けました。前年同期（2025年９月30日に終了した６カ月間）の報\n告セグメントも同様に組み替えています。同事業の概要については「（１）経営成績の概況 b. セグメントの業績概況\n（d）AIコンピューティング事業 ＜事業概要＞」をご参照ください。\n- 1 -\nソフトバンクグループ㈱ (9984) 2027年３月期 第２四半期（中間期）決算短信\n本添付資料の社名または略称\n本添付資料では、文脈上別異に解される場合または別段の記載がある場合を除き、以下の社名または略称は以下の意味\nを有します。\n社名または略称 意味\nソフトバンクグループ㈱ ソフトバンクグループ㈱（単体）\n当社 ソフトバンクグループ㈱および子会社\n※以下の略称の意味は、それぞれの会社の傘下に子会社がある場合、それらを含みます。\nSB Northstarまたは資産運用子会社 SB Northstar LP\nSVF１ SoftBank Vision Fund L.P.および代替の投資ビークル\nSVF２ SoftBank Vision Fund II-2 L.P.\nLatAm SBLA Latin America Fund LLC\nソフトバンク・ビジョン・ファンドまたはSVF SVF１、SVF２およびLatAm\nSBIA SB Investment Advisers (UK) Limited\nSBGA SB Global Advisers Limited\nArm Arm Holdings plc\nAmpere Ampere Computing Holdings LLC\nEnergy Global Energy Global, LP（注１）\nロボHD Silver Bands 4 (US) Corp.\nOpenAI OpenAI Group PBC\nTモバイル T-Mobile US, Inc.\nMgmtCo MASA USA LLC\n当第１四半期 2026年６月30日に終了した３カ月間\n当第１四半期末 2026年６月30日\n当第２四半期 2026年９月30日に終了した３カ月間\n当中間会計期間 2026年９月30日に終了した６カ月間\n当中間期末 2026年９月30日\n当期 2027年３月31日に終了する１年間\n前期 2026年３月31日に終了した１年間\n前期末 2026年３月31日\n（注１）米国で太陽光発電所の開発・建設・運営およびデータセンターの開発・建設を手掛ける子会社です。\n為替換算レート\n2026年３月期 2027年３月期\n１米ドル 第１四半期 第２四半期 第３四半期 第４四半期 第１四半期 第２四半期\n期中平均レート 145.19円 147.50円 154.04円 156.48円 160.51円 160.12円\n期末日レート 159.88円 157.35円\n- 2 -"
       }
     ],
+    "6752": [
+      {
+        "time": "2026-10-30 15:30:00",
+        "title": "2027年３月期 第２四半期（中間期）決算短信〔ＩＦＲＳ〕（連結）",
+        "url": "https://www.release.tdnet.info/inbs/140120261030560586.pdf",
+        "older_than_14d": true,
+        "text": "2027年３月期 第２四半期（中間期）決算短信〔ＩＦＲＳ〕（連結）\n2026年10月30日\n上場会社名 パナソニック ホールディングス株式会社 上場取引所 東\nコード番号 6752 ＵＲＬ https://holdings.panasonic/jp/\n代表者 （役職名）代表取締役 社長執行役員 （氏名）楠見 雄規\n問合せ先責任者 （役職名）事業管理ＩＲ・財務部 部長 （氏名）長町 佳昌 ＴＥＬ (06)6908-1121\n半期報告書提出予定日 2026年11月11日 配当支払開始予定日 2026年11月30日\n決算補足説明資料作成の有無：有\n決算説明会開催の有無 ：有（マスコミ向けおよび証券アナリスト・機関投資家向け）\n（百万円未満四捨五入）\n１．2027年３月期第２四半期（中間期）の連結業績（2026年４月１日～2026年９月30日）\n（１）連結経営成績（累計） （％表示は対前年中間期増減率）\n親会社の\n中間包括利益\n売上高 営業利益 税引前利益 中間純利益 所有者に帰属する\n合計額\n中間純利益\n百万円 ％ 百万円 ％ 百万円 ％ 百万円 ％ 百万円 ％ 百万円 ％\n2027年３月期\n中間期 4,092,520 7.1 363,229 120.1 372,979 109.7 286,123 87.7 276,953 94.5 204,916 5.7\n2026年３月期\n中間期 3,820,476 △10.1 164,996 △23.6 177,860 △29.1 152,465 △23.4 142,404 △24.6 193,929 －\n基本的１株当たり 希薄化後１株当たり\n中間純利益 中間純利益\n円 銭 円 銭\n2027年３月期中間期 118.62 118.60\n2026年３月期中間期 61.00 60.98\n（２）連結財政状態\n親会社の所有者に 親会社所有者\n資産合計 資本合計\n帰属する持分 帰属持分比率\n百万円 百万円 百万円 ％\n2027年３月期中間期 10,307,555 5,528,159 5,366,823 52.1\n2026年３月期 10,172,412 5,381,955 5,211,272 51.2\n２．配当の状況\n年間配当金\n第１四半期末 第２四半期末 第３四半期末 期末 合計\n円 銭 円 銭 円 銭 円 銭 円 銭\n2026年３月期 － 20.00 － 20.00 40.00\n2027年３月期 － 27.00\n2027年３月期（予想） － 43.00 70.00\n（注）直近に公表されている配当予想からの修正の有無：有\n３．2027年３月期の連結業績予想（2026年４月１日～2027年３月31日）\n（％表示は対前期増減率）\n親会社の所有者に 基本的１株当たり\n売上高 営業利益 税引前利益\n帰属する当期純利益 当期純利益\n百万円 ％ 百万円 ％ 百万円 ％ 百万円 ％ 円 銭\n通 期 8,400,000 4.4 710,000 200.3 720,000 173.7 540,000 184.9 231.26\n（注）直近に公表されている業績予想からの修正の有無：有\n※ 注記事項\n（１）当中間期における連結範囲の重要な変更：無\n（２）会計方針の変更・会計上の見積りの変更\n① ＩＦＲＳにより要求される会計方針の変更：有\n② ①以外の会計方針の変更 ：無\n③ 会計上の見積りの変更 ：無\n(注) 詳細は、添付資料Ｐ．9「（注記）」をご覧ください。\n（３）発行済株式数（普通株式）\n① 期末発行済株式数（自己株式を含む） 2027年３月期中間期 2,454,737,697株 2026年３月期 2,454,530,697株\n② 期末自己株式数 2027年３月期中間期 119,636,583株 2026年３月期 119,827,990株\n③ 期中平均株式数（中間期） 2027年３月期中間期 2,334,856,410株 2026年３月期中間期 2,334,596,503株\n※ 第２四半期（中間期）決算短信は公認会計士又は監査法人のレビューの対象外です\n※ 業績予想の適切な利用に関する説明、その他特記事項\n本資料に記載されている業績見通し等の将来に関する記述は、現在入手可能な情報と、当社が現時点で合理的である\nと判断する一定の前提に基づいており、実際の業績は見通しと大きく異なることがありえます。業績予想の前提となる\n仮定および業績見通しのご利用にあたっての注意事項等については、＜将来見通しに関するリスク情報＞をご覧くださ\nい。\n当社は2026年10月30日にマスコミ向けおよび証券アナリスト・機関投資家向け説明会を開催する予定です。決算説明\n資料および決算補足説明資料は同日に当社ホームページに掲載いたします。\nパナソニック ホールディングス㈱ (6752) 2027年３月期 第２四半期（中間期）決算短信\n添付資料の目次\n頁\n１．経営成績及び財政状態 ………………………………………………………………………………………………… ２\n（１）2026年度中間期（2026年４月１日～９月30日）の概況 ……………………………………………………… ２\n（２）2026年度通期の見通し …………………………………………………………………………………………… ２\n２．要約中間連結財政状態計算書 ………………………………………………………………………………………… ４\n３．要約中間連結損益計算書及び要約中間連結包括利益計算書 ……………………………………………………… ５\n４．要約中間連結持分変動計算書 ………………………………………………………………………………………… ７\n５．要約中間連結キャッシュ・フロー計算書 …………………………………………………………………………… ８\n６．注記 ……………………………………………………………………………………………………………………… ９\n７．セグメント情報 ………………………………………………………………………………………………………… 10\n- 1 -\nパナソニック ホールディングス㈱ (6752) 2027年３月期 第２四半期（中間期）決算短信\n経 営 成 績 及 び 財 政 状 態\n（１）2026年度中間期（2026年４月１日～９月30日）の概況\n経営成績及び財政状態については、本日（2026年10月30日）当社ホームページに掲載する「説明会\n資料（スライドのみ）」において記載しています。\nURL：https://holdings.panasonic/jp/corporate/investors/release.html\n※上記ホームページの2026年度第２四半期決算に記載しています。\n（２）2026年度通期の見通し\n現時点における連結業績見通しは、2026年７月30日の公表数値の売上高・営業利益・税引前利益・\n親会社の所有者に帰属する当期純利益を、下記のとおり上方修正します。詳細については、上述の\n「説明会資料（スライドのみ）」をご参照ください。\n連結業績見通し（2026年４月１日～2027年３月31日）\n親会社の\n基本的 （ご参考）\n所有者に\n売上高 営業利益 税引前利益 １株当たり 調整後\n帰属する\n当期純利益 営業利益\n当期純利益\n前回発表予想(Ａ) 7兆8,000億円 5,900億円 5,900億円 4,500億円 192.73円 6,500億円\n今回修正予想(Ｂ) 8兆4,000億円 7,100億円 7,200億円 5,400億円 231.26円 7,800億円\n増減額(Ｂ－Ａ) 6,000億円 1,200億円 1,300億円 900億円 1,300億円\n増減率(％) 7.7％ 20.3％ 22.0％ 20.0％ 20.0％\n(ご参考)前期実績\n8兆487億円 2,364億円 2,631億円 1,895億円 81.19円 4,474億円\n(2026年３月期通期)\n（注）「調整後営業利益」は、売上高から、売上原価と、販売費及び一般管理費を控除して算出して\nいます。\n- 2 -"
+      }
+    ],
     "3905": [
       {
         "time": "2026-11-16 21:00:00",
@@ -3021,15 +3106,6 @@
         "url": "https://www.release.tdnet.info/inbs/140120261116581693.pdf",
         "older_than_14d": false,
         "text": "2026年11月16日\n各 位\n会 社 名 デ ー タ セ ク シ ョ ン 株 式 会 社\n代 表 者 名 代表取締役社長執行役員CEO 石 原 紀 彦\n（コード番号：3905 東証グロース）\n問い合わせ先 法 務 部 長 野 澤 祐 一\nTEL. 050-3649-4858\n業績予想の修正に関するお知らせ\n当社は、2026年11月16日開催の当社取締役会において、2026年５月15日付け公表の2027年３月期連\n結業績予想(2026年４月１日～2027年３月31日)を下記のとおり修正いたしましたので、お知らせいたし\nます。\n記\n１．2027年３月期連結業績予想(2026年４月１日～2027年３月31日)\n親会社株主\n調整後 １株当たり\n売上高 営業利益 経常利益 に帰属する\nEBITDA 当期純利益\n当期純利益\n円 銭\n百万円 百万円 百万円 百万円 百万円 179.31\n前回発表予想（Ａ）\n162,193 24,815 58,191 12,542 8,704 ～\n231.45\n今回開示予想（Ｂ） 17,286 4,923 10,202 2,463 △1,479 △37.83\n増減額（Ｂ－Ａ） △144,907 △19,892 △47,989 △10,079 △10,183\n増減率(％） △89.3 △80.2 △82.5 △80.4 －\n(ご参考)前期実績\n33,605 3,544 4,205 3,627 2,801 115.47\n(2026年３月期)\n２．修正の理由\n（１）売上高\n2027年３月期の連結業績予想には、AIインフラ事業における追加受注案件にかかる売上高として79,864\n百万円を見込んでおりましたが、当該案件の解約に伴い、第１四半期連結会計期間に計上した案件組成・\n紹介手数料5,578百万円（35百万米ドルを１米ドル159.39円で換算）のみとなる見込みです。\nまた、2026 年７月からの段階的な稼働を見込んでおりました国内１件及び海外２件の AI データセンタ\nー案件につきましても、フル稼働の開始見込時期に遅れが生じておりました。一方で、その他の大型見込\n案件を複数有しており、これらの案件の受注及びサービス提供により、上記の売上高の減少を補うことが\n可能と判断しておりました。\nしかしながら、足元における各AIデータセンター案件及びその他の大型見込案件の進捗状況が想定より\nも遅れていることを踏まえ、当期中の稼働開始時期及び収益計上時期について改めて精査した結果、現時\n点において当期中の収益計上の蓋然性が高い案件に限定して業績予想を策定することといたしました。\n具体的には、2026年10月27日付「（開示事項の経過）大口受注案件の稼働開始に関するお知らせ」に記\n1\n載の既に稼働を開始した海外１件のAIデータセンター案件にかかる売上高の見込額10,225百万円のみを\n今回の業績予想に織り込むこととし、進捗が想定よりも遅れているその他のAIデータセンター案件及び大\n型見込案件にかかる売上高については、今回の業績予想には織り込まないことといたしました。\n以上の結果、2027 年３月期の連結売上高は、前回発表予想の 162,193 百万円から 17,286 百万円に下方\n修正いたします。\n（２）営業利益、経常利益\n上記（１）に記載のとおり、AIインフラ事業における売上高の見込額を大幅に見直したことに伴い、売\n上総利益の減少を見込んでおります。\nまた、各AIデータセンター案件の稼働状況及び今後の事業展開を踏まえ、当期における費用の見込額に\nついても見直しを行っておりますが、売上総利益の減少の影響が大きいことから、営業利益及び経常利益\nについても下方修正いたします。\n以上の結果、営業利益は前回発表予想の24,815百万円から4,923百万円に、経常利益は前回発表予想の\n12,542百万円から2,463百万円に、それぞれ下方修正いたします。\n（３）調整後EBITDA\n上記（２）に記載の営業利益の減少に加え、各 AI データセンター案件の稼働開始時期の見直しに伴い、\n当期に計上を見込んでいた減価償却費等についても見直しを行った結果、調整後EBITDAは前回発表予想の\n58,191百万円から10,202百万円に下方修正いたします。\n（４）親会社株主に帰属する当期純利益\n当社は、受注案件向けに開設プロジェクトを進めていたAIデータセンターのうち、海外の１施設につい\nて、当該顧客とのNVIDIA製B200搭載サーバーからB300搭載サーバーへの仕様変更等による条件変更協議\nが長引き、稼働開始スケジュールが大幅に遅延したこと等により、2026年８月31日付で当該AIデータセ\nンターの物件オーナーからの施設利用契約の解除にかかる意思表示を受けました。その後の当該物件オー\nナーとの協議等を経て、本日開催の当社及び当社子会社Datasection Australia Pty. Ltd.の取締役会に\nおいて、この解除に応じるとともに、当該物件オーナーと代替物件の提供や金銭補償に向けた協議を進め\nる方針を決定いたしました。これに伴い、当該賃借施設利用にかかるリース解約損として 2,751 百万円、\n通信回線の長期契約にかかる解約損失引当金繰入額として 314 百万円を特別損失として計上いたしました。\nこれに上記（２）に記載の経常利益の減少を加え、当期の損益見通しを改めて精査した結果、親会社株\n主に帰属する当期純利益は、前回発表予想の8,704百万円から1,479百万円の損失に下方修正いたします。\nなお、今回の業績予想に織り込んでいないAIデータセンター案件及びその他の大型見込案件につきまし\nては、引き続き事業化及び収益化に向けた取り組みを進めてまいります。今後、これらの案件の進捗状況\n等により、業績予想の修正が必要となった場合には、速やかに開示いたします。\n以上\n2"
-      }
-    ],
-    "6752": [
-      {
-        "time": "2026-10-30 15:30:00",
-        "title": "2027年３月期 第２四半期（中間期）決算短信〔ＩＦＲＳ〕（連結）",
-        "url": "https://www.release.tdnet.info/inbs/140120261030560586.pdf",
-        "older_than_14d": true,
-        "text": "2027年３月期 第２四半期（中間期）決算短信〔ＩＦＲＳ〕（連結）\n2026年10月30日\n上場会社名 パナソニック ホールディングス株式会社 上場取引所 東\nコード番号 6752 ＵＲＬ https://holdings.panasonic/jp/\n代表者 （役職名）代表取締役 社長執行役員 （氏名）楠見 雄規\n問合せ先責任者 （役職名）事業管理ＩＲ・財務部 部長 （氏名）長町 佳昌 ＴＥＬ (06)6908-1121\n半期報告書提出予定日 2026年11月11日 配当支払開始予定日 2026年11月30日\n決算補足説明資料作成の有無：有\n決算説明会開催の有無 ：有（マスコミ向けおよび証券アナリスト・機関投資家向け）\n（百万円未満四捨五入）\n１．2027年３月期第２四半期（中間期）の連結業績（2026年４月１日～2026年９月30日）\n（１）連結経営成績（累計） （％表示は対前年中間期増減率）\n親会社の\n中間包括利益\n売上高 営業利益 税引前利益 中間純利益 所有者に帰属する\n合計額\n中間純利益\n百万円 ％ 百万円 ％ 百万円 ％ 百万円 ％ 百万円 ％ 百万円 ％\n2027年３月期\n中間期 4,092,520 7.1 363,229 120.1 372,979 109.7 286,123 87.7 276,953 94.5 204,916 5.7\n2026年３月期\n中間期 3,820,476 △10.1 164,996 △23.6 177,860 △29.1 152,465 △23.4 142,404 △24.6 193,929 －\n基本的１株当たり 希薄化後１株当たり\n中間純利益 中間純利益\n円 銭 円 銭\n2027年３月期中間期 118.62 118.60\n2026年３月期中間期 61.00 60.98\n（２）連結財政状態\n親会社の所有者に 親会社所有者\n資産合計 資本合計\n帰属する持分 帰属持分比率\n百万円 百万円 百万円 ％\n2027年３月期中間期 10,307,555 5,528,159 5,366,823 52.1\n2026年３月期 10,172,412 5,381,955 5,211,272 51.2\n２．配当の状況\n年間配当金\n第１四半期末 第２四半期末 第３四半期末 期末 合計\n円 銭 円 銭 円 銭 円 銭 円 銭\n2026年３月期 － 20.00 － 20.00 40.00\n2027年３月期 － 27.00\n2027年３月期（予想） － 43.00 70.00\n（注）直近に公表されている配当予想からの修正の有無：有\n３．2027年３月期の連結業績予想（2026年４月１日～2027年３月31日）\n（％表示は対前期増減率）\n親会社の所有者に 基本的１株当たり\n売上高 営業利益 税引前利益\n帰属する当期純利益 当期純利益\n百万円 ％ 百万円 ％ 百万円 ％ 百万円 ％ 円 銭\n通 期 8,400,000 4.4 710,000 200.3 720,000 173.7 540,000 184.9 231.26\n（注）直近に公表されている業績予想からの修正の有無：有\n※ 注記事項\n（１）当中間期における連結範囲の重要な変更：無\n（２）会計方針の変更・会計上の見積りの変更\n① ＩＦＲＳにより要求される会計方針の変更：有\n② ①以外の会計方針の変更 ：無\n③ 会計上の見積りの変更 ：無\n(注) 詳細は、添付資料Ｐ．9「（注記）」をご覧ください。\n（３）発行済株式数（普通株式）\n① 期末発行済株式数（自己株式を含む） 2027年３月期中間期 2,454,737,697株 2026年３月期 2,454,530,697株\n② 期末自己株式数 2027年３月期中間期 119,636,583株 2026年３月期 119,827,990株\n③ 期中平均株式数（中間期） 2027年３月期中間期 2,334,856,410株 2026年３月期中間期 2,334,596,503株\n※ 第２四半期（中間期）決算短信は公認会計士又は監査法人のレビューの対象外です\n※ 業績予想の適切な利用に関する説明、その他特記事項\n本資料に記載されている業績見通し等の将来に関する記述は、現在入手可能な情報と、当社が現時点で合理的である\nと判断する一定の前提に基づいており、実際の業績は見通しと大きく異なることがありえます。業績予想の前提となる\n仮定および業績見通しのご利用にあたっての注意事項等については、＜将来見通しに関するリスク情報＞をご覧くださ\nい。\n当社は2026年10月30日にマスコミ向けおよび証券アナリスト・機関投資家向け説明会を開催する予定です。決算説明\n資料および決算補足説明資料は同日に当社ホームページに掲載いたします。\nパナソニック ホールディングス㈱ (6752) 2027年３月期 第２四半期（中間期）決算短信\n添付資料の目次\n頁\n１．経営成績及び財政状態 ………………………………………………………………………………………………… ２\n（１）2026年度中間期（2026年４月１日～９月30日）の概況 ……………………………………………………… ２\n（２）2026年度通期の見通し …………………………………………………………………………………………… ２\n２．要約中間連結財政状態計算書 ………………………………………………………………………………………… ４\n３．要約中間連結損益計算書及び要約中間連結包括利益計算書 ……………………………………………………… ５\n４．要約中間連結持分変動計算書 ………………………………………………………………………………………… ７\n５．要約中間連結キャッシュ・フロー計算書 …………………………………………………………………………… ８\n６．注記 ……………………………………………………………………………………………………………………… ９\n７．セグメント情報 ………………………………………………………………………………………………………… 10\n- 1 -\nパナソニック ホールディングス㈱ (6752) 2027年３月期 第２四半期（中間期）決算短信\n経 営 成 績 及 び 財 政 状 態\n（１）2026年度中間期（2026年４月１日～９月30日）の概況\n経営成績及び財政状態については、本日（2026年10月30日）当社ホームページに掲載する「説明会\n資料（スライドのみ）」において記載しています。\nURL：https://holdings.panasonic/jp/corporate/investors/release.html\n※上記ホームページの2026年度第２四半期決算に記載しています。\n（２）2026年度通期の見通し\n現時点における連結業績見通しは、2026年７月30日の公表数値の売上高・営業利益・税引前利益・\n親会社の所有者に帰属する当期純利益を、下記のとおり上方修正します。詳細については、上述の\n「説明会資料（スライドのみ）」をご参照ください。\n連結業績見通し（2026年４月１日～2027年３月31日）\n親会社の\n基本的 （ご参考）\n所有者に\n売上高 営業利益 税引前利益 １株当たり 調整後\n帰属する\n当期純利益 営業利益\n当期純利益\n前回発表予想(Ａ) 7兆8,000億円 5,900億円 5,900億円 4,500億円 192.73円 6,500億円\n今回修正予想(Ｂ) 8兆4,000億円 7,100億円 7,200億円 5,400億円 231.26円 7,800億円\n増減額(Ｂ－Ａ) 6,000億円 1,200億円 1,300億円 900億円 1,300億円\n増減率(％) 7.7％ 20.3％ 22.0％ 20.0％ 20.0％\n(ご参考)前期実績\n8兆487億円 2,364億円 2,631億円 1,895億円 81.19円 4,474億円\n(2026年３月期通期)\n（注）「調整後営業利益」は、売上高から、売上原価と、販売費及び一般管理費を控除して算出して\nいます。\n- 2 -"
       }
     ],
     "8766": [
