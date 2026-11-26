@@ -1,5 +1,5 @@
 {
-  "updated_at_jst": "2026-11-26 17:34",
+  "updated_at_jst": "2026-11-26 23:59",
   "stocks": {
     "5803": {
       "date": "2026-11-26",
@@ -144,9 +144,9 @@
     },
     "usdjpy": {
       "date": "2026-11-26",
-      "close": 159.12,
+      "close": 159.21,
       "open": 159.12,
-      "high": 159.26,
+      "high": 159.33,
       "low": 158.95,
       "volume": 0.0,
       "prev_close": 159.26
@@ -180,12 +180,174 @@
     },
     "nikkei_futures": {
       "date": "2026-11-26",
-      "close": 57550.0,
+      "close": 57735.0,
       "open": 57310.0,
       "high": 58295.0,
       "low": 57220.0,
-      "volume": 8924.0,
+      "volume": 11891.0,
       "prev_close": 57345.0
+    },
+    "topix_etf": {
+      "date": "2026-11-26",
+      "close": 394.6,
+      "open": 396.9,
+      "high": 398.7,
+      "low": 393.6,
+      "volume": 17100680.0,
+      "prev_close": 394.7
+    },
+    "sector_1617_foods": {
+      "date": "2026-11-26",
+      "close": 46630.0,
+      "open": 47080.0,
+      "high": 47080.0,
+      "low": 46090.0,
+      "volume": 1132.0,
+      "prev_close": 47320.0
+    },
+    "sector_1618_energy": {
+      "date": "2026-11-26",
+      "close": 30240.0,
+      "open": 30340.0,
+      "high": 30380.0,
+      "low": 29715.0,
+      "volume": 226.0,
+      "prev_close": 30050.0
+    },
+    "sector_1619_construction": {
+      "date": "2026-11-26",
+      "close": 41080.0,
+      "open": 41870.0,
+      "high": 41990.0,
+      "low": 40900.0,
+      "volume": 277.0,
+      "prev_close": 41170.0
+    },
+    "sector_1620_materials_chemicals": {
+      "date": "2026-11-26",
+      "close": 36220.0,
+      "open": 36240.0,
+      "high": 36440.0,
+      "low": 35990.0,
+      "volume": 483.0,
+      "prev_close": 36000.0
+    },
+    "sector_1621_pharma": {
+      "date": "2026-11-26",
+      "close": 35140.0,
+      "open": 35600.0,
+      "high": 35600.0,
+      "low": 34760.0,
+      "volume": 2400.0,
+      "prev_close": 35600.0
+    },
+    "sector_1622_autos": {
+      "date": "2026-11-26",
+      "close": 36550.0,
+      "open": 37230.0,
+      "high": 37230.0,
+      "low": 36550.0,
+      "volume": 134.0,
+      "prev_close": 36900.0
+    },
+    "sector_1623_steel_nonferrous": {
+      "date": "2026-11-26",
+      "close": 40080.0,
+      "open": 39910.0,
+      "high": 40880.0,
+      "low": 39750.0,
+      "volume": 1657.0,
+      "prev_close": 39390.0
+    },
+    "sector_1624_machinery": {
+      "date": "2026-11-26",
+      "close": 67300.0,
+      "open": 67810.0,
+      "high": 68260.0,
+      "low": 67090.0,
+      "volume": 69.0,
+      "prev_close": 67020.0
+    },
+    "sector_1625_electronics": {
+      "date": "2026-11-26",
+      "close": 53010.0,
+      "open": 53120.0,
+      "high": 54170.0,
+      "low": 53010.0,
+      "volume": 384.0,
+      "prev_close": 52600.0
+    },
+    "sector_1626_it_services": {
+      "date": "2026-11-26",
+      "close": 47250.0,
+      "open": 47280.0,
+      "high": 47310.0,
+      "low": 46860.0,
+      "volume": 259.0,
+      "prev_close": 47050.0
+    },
+    "sector_1627_electric_gas": {
+      "date": "2026-11-26",
+      "close": 11770.0,
+      "open": 11865.0,
+      "high": 11885.0,
+      "low": 11715.0,
+      "volume": 1854.0,
+      "prev_close": 11785.0
+    },
+    "sector_1628_transport": {
+      "date": "2026-11-26",
+      "close": 23065.0,
+      "open": 23330.0,
+      "high": 23445.0,
+      "low": 23015.0,
+      "volume": 405.0,
+      "prev_close": 23290.0
+    },
+    "sector_1629_trading": {
+      "date": "2026-11-26",
+      "close": 264.2,
+      "open": 266.0,
+      "high": 267.9,
+      "low": 263.4,
+      "volume": 506140.0,
+      "prev_close": 267.8
+    },
+    "sector_1630_retail": {
+      "date": "2026-11-26",
+      "close": 41510.0,
+      "open": 41920.0,
+      "high": 42010.0,
+      "low": 41040.0,
+      "volume": 348.0,
+      "prev_close": 42010.0
+    },
+    "sector_1631_banks": {
+      "date": "2026-11-26",
+      "close": 35530.0,
+      "open": 35250.0,
+      "high": 36310.0,
+      "low": 35250.0,
+      "volume": 3803.0,
+      "prev_close": 35430.0
+    },
+    "sector_1632_financials": {
+      "date": "2026-11-26",
+      "close": 43160.0,
+      "open": 43540.0,
+      "high": 43800.0,
+      "low": 43130.0,
+      "volume": 440.0,
+      "prev_close": 43540.0
+    },
+    "sector_1633_real_estate": {
+      "date": "2026-11-26",
+      "close": 51400.0,
+      "open": 52400.0,
+      "high": 52400.0,
+      "low": 51200.0,
+      "volume": 207.0,
+      "prev_close": 52110.0
     },
     "jgb10y": {
       "date": "2026-11-25",
