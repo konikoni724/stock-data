@@ -1,5 +1,5 @@
 {
-  "updated_at_jst": "2026-11-26 23:59",
+  "updated_at_jst": "2026-11-27 07:55",
   "stocks": {
     "5803": {
       "date": "2026-11-26",
@@ -26,7 +26,7 @@
       "close": 1283.5,
       "open": 1263.5,
       "high": 1308.5,
-      "low": 1255.0,
+      "low": 1255.5,
       "volume": 24748200.0,
       "prev_close": 1233.5,
       "source_list": "watch"
@@ -134,20 +134,20 @@
   },
   "market": {
     "nikkei225": {
-      "date": "2026-11-26",
-      "close": 57499.16,
-      "open": 57429.54,
-      "high": 58251.93,
-      "low": 57288.1,
-      "volume": 0.0,
-      "prev_close": 57011.62
+      "date": "2026-11-25",
+      "close": 57011.62,
+      "open": 58383.49,
+      "high": 58472.56,
+      "low": 56502.97,
+      "volume": 199100000.0,
+      "prev_close": 58644.63
     },
     "usdjpy": {
       "date": "2026-11-26",
-      "close": 159.21,
-      "open": 159.12,
-      "high": 159.33,
-      "low": 158.95,
+      "close": 159.22,
+      "open": 159.23,
+      "high": 159.23,
+      "low": 159.21,
       "volume": 0.0,
       "prev_close": 159.26
     },
@@ -180,11 +180,11 @@
     },
     "nikkei_futures": {
       "date": "2026-11-26",
-      "close": 57735.0,
+      "close": 57665.0,
       "open": 57310.0,
       "high": 58295.0,
       "low": 57220.0,
-      "volume": 11891.0,
+      "volume": 13074.0,
       "prev_close": 57345.0
     },
     "topix_etf": {
