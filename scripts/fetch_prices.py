@@ -32,6 +32,25 @@ MARKET_TICKERS = {
     # 東証グロース市場250指数そのものはYahooに無いため、連動ETF（2516）で値動きを代用
     "growth250_etf": "2516.T",
     "nikkei_futures": "NIY=F",  # 日経平均先物（CME・円建て）。夜間の動きの目安
+    # 業種の流れ（TOPIX-17業種に連動するNEXT FUNDSのETFで代用）と、比べる基準のTOPIX（連動ETF 1306）
+    "topix_etf": "1306.T",
+    "sector_1617_foods": "1617.T",
+    "sector_1618_energy": "1618.T",
+    "sector_1619_construction": "1619.T",
+    "sector_1620_materials_chemicals": "1620.T",
+    "sector_1621_pharma": "1621.T",
+    "sector_1622_autos": "1622.T",
+    "sector_1623_steel_nonferrous": "1623.T",
+    "sector_1624_machinery": "1624.T",
+    "sector_1625_electronics": "1625.T",
+    "sector_1626_it_services": "1626.T",
+    "sector_1627_electric_gas": "1627.T",
+    "sector_1628_transport": "1628.T",
+    "sector_1629_trading": "1629.T",
+    "sector_1630_retail": "1630.T",
+    "sector_1631_banks": "1631.T",
+    "sector_1632_financials": "1632.T",
+    "sector_1633_real_estate": "1633.T",
 }
 JGB_URL = "https://www.mof.go.jp/jgbs/reference/interest_rate/jgbcm.csv"
 

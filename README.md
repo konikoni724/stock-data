@@ -10,7 +10,7 @@ Claude の予約レポート（寄り付き前・前引け後・大引け後）�
 | `tickers.txt` | ウォッチ銘柄の一覧。行を足す・消すだけで対象を変えられます |
 | `data/latest.json` | 最新の取得結果（更新時刻、各銘柄の最新値、市場指標、約定回数ランキング、エラー） |
 | `data/daily/コード.csv` | 各銘柄の日足（約1年分） |
-| `data/market/*.csv` | 日経平均・ドル円・SOX指数・米10年金利 |
+| `data/market/*.csv` | 日経平均・ドル円・SOX指数・米10年金利・TOPIX（ETF 1306で代用）・17業種（TOPIX-17業種ETF 1617〜1633で代用） |
 | `scripts/fetch_prices.py` | 取得プログラム |
 | `.github/workflows/fetch.yml` | 自動実行の設定（レポート係が直前に手動実行＋予備の予約実行） |
 
