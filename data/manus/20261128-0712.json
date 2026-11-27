@@ -1,0 +1,346 @@
+{
+  "generated_at": "2026-11-28T07:12:02+09:00",
+  "run_type": "scheduled",
+  "stocks": [
+    {
+      "code": "5803",
+      "name": "フジクラ",
+      "items": [
+        {
+          "type": "analyst",
+          "headline": "日系大手証券がフジクラの投資判断を中立に引き下げ、目標株価2,600円",
+          "summary": "強気から中立へ変更し、目標株価を7,400円から2,600円に引き下げ。",
+          "published": "2026-11-26",
+          "source_name": "IFIS株予報",
+          "url": "https://kabuyoho.ifis.co.jp/index.php?action=tp1&sa=consNewsDetail&nid=5803_20261126_rep_20261126_180002_3",
+          "tone": "悪材料"
+        },
+        {
+          "type": "news",
+          "headline": "フジクラ反落、野村證券が投資判断を格下げ",
+          "summary": "野村は目標株価を6,700円から2,520円に下げ、東南アジア向けDC光部品の高収益継続に慎重。",
+          "published": "2026-11-25",
+          "source_name": "株探（フィスコ配信）",
+          "url": "https://kabutan.jp/news/marketnews/?b=n202611250488",
+          "tone": "悪材料"
+        },
+        {
+          "type": "news",
+          "headline": "フジクラが14％安、野村は28年3月期の営業減益を予想",
+          "summary": "野村はDC光部品の高収益持続性や投資減速リスクを指摘し、28年3月期営業益を前期比8％減と予想。",
+          "published": "2026-11-25",
+          "source_name": "みんかぶ（MINKABU PRESS）",
+          "url": "https://minkabu.jp/news/4671689",
+          "tone": "悪材料"
+        }
+      ],
+      "fetch_failed": [
+        "直近4日以内にデータセンター向け光製品の新規受注・需要に関する確認可能な発表を特定できず。",
+        "業績予想修正で確認できた公式開示は2026-11-10付で指定期間外のため除外。"
+      ]
+    },
+    {
+      "code": "5801",
+      "name": "古河電工",
+      "items": [
+        {
+          "type": "analyst",
+          "headline": "日系大手証券、古河電工の強気評価を継続、目標株価3,800円",
+          "summary": "強気（1）を継続し、目標株価3,800円を提示。",
+          "published": "2026-11-26",
+          "source_name": "株予報（IFIS）",
+          "url": "https://kabuyoho.jp/consNewsDetail?nid=5801_20261126_rep_20261126_195504_17&cat=3",
+          "tone": "好材料"
+        },
+        {
+          "type": "news",
+          "headline": "古河電工は大幅反発、来期業績に安心感のある電線株と評価",
+          "summary": "フィスコは電線大手の中で同社の28年3月期増益率が最も高い見通しと紹介。",
+          "published": "2026-11-26",
+          "source_name": "株探（フィスコ配信）",
+          "url": "https://kabutan.jp/news/marketnews/?b=n202611260793",
+          "tone": "好材料"
+        }
+      ],
+      "fetch_failed": []
+    },
+    {
+      "code": "5802",
+      "name": "住友電工",
+      "items": [
+        {
+          "type": "analyst",
+          "headline": "日系大手証券が住友電工の強気評価を継続、目標株価2,600円",
+          "summary": "11月26日付で強気評価を維持し目標株価2,600円を提示。",
+          "published": "2026-11-26",
+          "source_name": "IFIS株予報",
+          "url": "https://kabuyoho.jp/sp/consNewsDetail?nid=5802_20261126_rep_20261126_195503_13&cat=3&bcode=5802",
+          "tone": "中立"
+        },
+        {
+          "type": "analyst",
+          "headline": "住友電工の27年3月期経常利益コンセンサスが前週比0.9%上昇",
+          "summary": "予想は5,211.5億円となり会社予想5,150億円を上回る。レーティング平均は4.7で変わらず。",
+          "published": "2026-11-26",
+          "source_name": "IFIS株予報",
+          "url": "https://kabuyoho.jp/sp/consNewsDetail?nid=5802_20261126_cons_20261126_224614_36&cat=2&bcode=5802",
+          "tone": "好材料"
+        }
+      ],
+      "fetch_failed": []
+    },
+    {
+      "code": "5016",
+      "name": "JX金属",
+      "items": [
+        {
+          "type": "news",
+          "headline": "JX金属、TSMCの2026 Excellent Performance Awardを受賞",
+          "summary": "TSMCの生産拡大を支える材料の安定供給と量産対応を評価され、同賞を3度目の受賞。",
+          "published": "2026-11-24",
+          "source_name": "JX金属（公式ニュースリリース）",
+          "url": "https://www.jx-nmm.com/newsrelease/2026/20261124_01.html",
+          "tone": "好材料"
+        }
+      ],
+      "fetch_failed": []
+    },
+    {
+      "code": "6723",
+      "name": "ルネサスエレクトロニクス",
+      "items": [],
+      "fetch_failed": []
+    },
+    {
+      "code": "7011",
+      "name": "三菱重工業",
+      "items": [
+        {
+          "type": "analyst",
+          "headline": "米系大手証券、三菱重工の強気評価を維持し目標株価を4,500円に引き下げ",
+          "summary": "11月25日付で買い評価を維持する一方、目標株価を5,600円から4,500円へ引き下げ。",
+          "published": "2026-11-26",
+          "source_name": "マネックス証券 銘柄スカウターライト（IFIS）",
+          "url": "https://scouter.monex.co.jp/news/detail/7011_20261125_rep_20261126_110502_1",
+          "tone": "悪材料"
+        },
+        {
+          "type": "industry",
+          "headline": "重工大手3社の防衛事業、26年9月中間期の売上収益は合計16％増",
+          "summary": "三菱重工の防衛・宇宙事業は17％増の4,896億円。ミサイル等の増産へ27年度以降2,500億円を投資する。",
+          "published": "2026-11-25",
+          "source_name": "共同通信（47NEWS）",
+          "url": "https://www.47news.jp/15285247.html",
+          "tone": "中立"
+        }
+      ],
+      "fetch_failed": []
+    },
+    {
+      "code": "7532",
+      "name": "パン・パシフィック・インターナショナルHD",
+      "items": [],
+      "fetch_failed": []
+    },
+    {
+      "code": "8306",
+      "name": "三菱UFJフィナンシャル・グループ",
+      "items": [
+        {
+          "type": "industry",
+          "headline": "FSB、MUFGのG-SIB区分をバケット2から1へ引き下げ",
+          "summary": "2026年リストで区分が低下し、2028年1月から追加自己資本バッファーが1.5%から1.0%へ低下。",
+          "published": "2026-11-25",
+          "source_name": "Financial Stability Board",
+          "url": "https://www.fsb.org/2026/11/2026-list-of-global-systemically-important-banks-g-sibs/",
+          "tone": "好材料"
+        },
+        {
+          "type": "industry",
+          "headline": "金融庁、G-SIB 2026年リスト公表を告知",
+          "summary": "FSBが11月25日に2026年G-SIBリストを公表。MUFGの区分変更を含む制度更新を確認。",
+          "published": "2026-11-26",
+          "source_name": "金融庁",
+          "url": "https://www.fsa.go.jp/inter/fsf/20261126/20261126.html",
+          "tone": "中立"
+        },
+        {
+          "type": "analyst",
+          "headline": "大和証券、MUFGの目標株価を4,200円から3,700円へ引き下げ",
+          "summary": "レーティング「やや強気」は維持した一方、目標株価を500円引き下げた。",
+          "published": "2026-11-25",
+          "source_name": "アイフィス株予報（Yahoo!ファイナンス掲載）",
+          "url": "https://finance.yahoo.co.jp/news/detail/c764731bee9c79011e16c4990da7b2ec28bdedd7",
+          "tone": "悪材料"
+        },
+        {
+          "type": "ir",
+          "headline": "Equity Group Holdings Plcとの業務協力に関する覚書締結",
+          "summary": "MUFG銀行がケニアの金融グループと協力し、日本・アジアと東中部アフリカをつなぐ事業展開を支援。",
+          "published": "2026-11-26",
+          "source_name": "三菱UFJフィナンシャル・グループ",
+          "url": "https://www.mufg.jp/dam/pressrelease/2026/pdf/news-20261126-001_ja.pdf",
+          "tone": "好材料"
+        }
+      ],
+      "fetch_failed": []
+    },
+    {
+      "code": "8766",
+      "name": "東京海上ホールディングス",
+      "items": [
+        {
+          "type": "news",
+          "headline": "独自：損保協、次期会長は東京海上から",
+          "summary": "損保協会の次期会長を東京海上日動から選ぶ方針。2027年6月の交代を見込む。",
+          "published": "2026-11-27",
+          "source_name": "時事通信",
+          "url": "https://sp.m.jiji.com/article/show/3921055",
+          "tone": "中立"
+        },
+        {
+          "type": "analyst",
+          "headline": "東京海上HD、米系大手証券が中立へ引き下げ・目標株価640円",
+          "summary": "11月24日付でレーティングを引き下げ。目標株価640円は据え置き。",
+          "published": "2026-11-24",
+          "source_name": "IFIS株予報",
+          "url": "https://kabuyoho.ifis.co.jp/index.php?action=tp1&sa=report_pbr&bcode=8766",
+          "tone": "悪材料"
+        },
+        {
+          "type": "other",
+          "headline": "企業の独自性を、成長の力に。東京海上グループのM&A",
+          "summary": "公式記事で連邦型経営とM&A後の自律性を説明。2035年にソリューション事業利益1,000億円を目指す。",
+          "published": "2026-11-27",
+          "source_name": "東京海上ホールディングス",
+          "url": "https://www.tokiomarinehd.com/news_insights/ni78.html",
+          "tone": "好材料"
+        }
+      ],
+      "fetch_failed": [
+        "レーティング変更を報じたTradingView/DZHのページは有料アクセス案内が表示されたため閲覧せず。https://es.tradingview.com/news/dzh_financial:8e2f3100c8457:0/"
+      ]
+    },
+    {
+      "code": "3436",
+      "name": "SUMCO",
+      "items": [],
+      "fetch_failed": [
+        "公式IR・適時開示一覧で期間内（2026-11-24〜11-28）に該当発表を確認できず。"
+      ]
+    },
+    {
+      "code": "6752",
+      "name": "パナソニックHD",
+      "items": [
+        {
+          "type": "news",
+          "headline": "パナソニックHD、AIデータセンター向け大型圧縮機を年産30万台体制へ",
+          "summary": "2030年めどに年産30万台体制を目指し、中国工場に初期年産1万台のラインを新設する報道。",
+          "published": "2026-11-24",
+          "source_name": "トレーダーズ・ウェブ（Yahoo!ファイナンス配信）",
+          "url": "https://finance.yahoo.co.jp/news/detail/5455624831a709eb749e183e58e0ba36ac187ab7",
+          "tone": "好材料"
+        }
+      ],
+      "fetch_failed": [
+        "公式投資家情報で指定期間内のIRを確認できず。日経電子版の関連報道は会員限定のため閲覧せず。"
+      ]
+    },
+    {
+      "code": "4755",
+      "name": "楽天グループ",
+      "items": [
+        {
+          "type": "news",
+          "headline": "楽天G、発行上限2000億円の社債発行を中止",
+          "summary": "楽天Gは「諸般の事情」で社債発行を中止し、訂正発行登録書を提出。",
+          "published": "2026-11-24",
+          "source_name": "ロイター",
+          "url": "https://www.reuters.com/jp/markets/bonds/BTV44T4HTZMQDDCLKBLBOXMKKA-2026-11-24/",
+          "tone": "悪材料"
+        },
+        {
+          "type": "ir",
+          "headline": "楽天証券、顧客情報漏えいの第2報を公表",
+          "summary": "個人情報約441万件などの漏えいを確認。取引パスワード等の漏えい・不正取引は未確認。",
+          "published": "2026-11-24",
+          "source_name": "楽天証券",
+          "url": "https://www.rakuten-sec.co.jp/web/info/info20261124-04.html",
+          "tone": "悪材料"
+        },
+        {
+          "type": "news",
+          "headline": "楽天証券の顧客情報漏えい、約441万件などと判明",
+          "summary": "Reutersも第2報を報道。商品別預かり資産情報は約168万件で、保有銘柄・取引情報は含まれない。",
+          "published": "2026-11-24",
+          "source_name": "ロイター",
+          "url": "https://www.reuters.com/jp/business/PJCGGRNKIJKT5HVKY7XJJDYNTE-2026-11-24",
+          "tone": "悪材料"
+        },
+        {
+          "type": "ir",
+          "headline": "楽天G、2029年満期9.75%シニア債の契約変更に必要な同意を取得",
+          "summary": "必要同意を取得し契約変更を実施。同意対価支払い後、変更が全債権者を拘束する。",
+          "published": "2026-11-24",
+          "source_name": "楽天グループ",
+          "url": "https://corp.rakuten.co.jp/news/press/2026/1124_11.html",
+          "tone": "中立"
+        }
+      ],
+      "fetch_failed": [
+        "日経電子版の社債発行見送り関連記事は会員限定のため全文閲覧せず。https://www.nikkei.com/article/DGXZQOUB243640U6A121C2000000/"
+      ]
+    },
+    {
+      "code": "5706",
+      "name": "三井金属",
+      "items": [
+        {
+          "type": "industry",
+          "headline": "銅建値が9カ月ぶりに200万円割れ、AI投資警戒とドル高で急落",
+          "summary": "11月25日、銅建値が10万円安の198万円/トンに。三井金属の亜鉛建値も4.5万円下落。",
+          "published": "2026-11-26",
+          "source_name": "BigGoファイナンス",
+          "url": "https://finance.biggo.jp/news/1053e33a-a69d-44be-8631-80f7124cb308",
+          "tone": "悪材料"
+        }
+      ],
+      "fetch_failed": [
+        "三井金属の目標株価変更に関する記事はログイン・VIP登録後の全文閲覧を要求するため、詳細を確認できず。"
+      ]
+    }
+  ],
+  "market": [
+    {
+      "headline": "日経平均が大幅続伸、AI関連株に買い戻し",
+      "summary": "11月27日の日経平均は2.11%高の5万8711円11銭。AI関連株中心に買われ、TOPIXも1.73%上昇した。",
+      "published": "2026-11-27",
+      "source_name": "Reuters Japan",
+      "url": "https://www.reuters.com/jp/markets/japan/OT44ZWEHMBJDVDZGHBSVX766FY-2026-11-27/"
+    },
+    {
+      "headline": "米株は反発、AI関連株高で週間上昇",
+      "summary": "11月27日の米主要3指数は上昇し、S&P 500は1.60%、NASDAQは2.31%高。AI関連株に買い戻し。",
+      "published": "2026-11-27",
+      "source_name": "Reuters",
+      "url": "https://www.reuters.com/business/wall-st-futures-surge-investors-return-holiday-2026-11-27/"
+    },
+    {
+      "headline": "米雇用統計を前に利上げ見通しと株式市場の変動に注目",
+      "summary": "ReutersはAI株の値動きと12月4日発表の米雇用統計がFRBの政策見通しに与える影響を報道。",
+      "published": "2026-11-27",
+      "source_name": "Reuters",
+      "url": "https://www.reuters.com/business/wall-st-week-ahead-sliding-stock-market-confronts-jobs-data-rate-view-next-tests-2026-11-27/"
+    }
+  ],
+  "upcoming": [
+    {
+      "date": "2026-12-04",
+      "event": "米国・11月雇用統計（Employment Situation）発表、東部時間8:30",
+      "source_name": "U.S. Bureau of Labor Statistics",
+      "url": "https://www.bls.gov/schedule/news_release/empsit.htm"
+    }
+  ],
+  "errors": []
+}
