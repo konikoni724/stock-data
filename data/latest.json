@@ -1,5 +1,5 @@
 {
-  "updated_at_jst": "2026-11-27 16:35",
+  "updated_at_jst": "2026-11-27 17:04",
   "stocks": {
     "5803": {
       "date": "2026-11-27",
@@ -144,9 +144,9 @@
     },
     "usdjpy": {
       "date": "2026-11-27",
-      "close": 159.34,
+      "close": 159.35,
       "open": 159.23,
-      "high": 159.38,
+      "high": 159.39,
       "low": 159.13,
       "volume": 0.0,
       "prev_close": 159.21
@@ -180,11 +180,11 @@
     },
     "nikkei_futures": {
       "date": "2026-11-27",
-      "close": 58660.0,
+      "close": 58635.0,
       "open": 57310.0,
       "high": 58850.0,
       "low": 57220.0,
-      "volume": 19286.0,
+      "volume": 19577.0,
       "prev_close": 57345.0
     },
     "topix_etf": {
