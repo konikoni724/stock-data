@@ -1,12 +1,12 @@
 {
-  "updated_at_jst": "2026-11-27 17:33",
+  "updated_at_jst": "2026-11-28 09:14",
   "stocks": {
     "5803": {
       "date": "2026-11-27",
       "close": 2199.5,
       "open": 2050.0,
       "high": 2203.0,
-      "low": 2035.0,
+      "low": 2035.5,
       "volume": 59778100.0,
       "prev_close": 2077.0,
       "source_list": "watch"
@@ -134,40 +134,40 @@
   },
   "market": {
     "nikkei225": {
-      "date": "2026-11-27",
-      "close": 58711.11,
-      "open": 57669.79,
-      "high": 58738.02,
-      "low": 57447.16,
-      "volume": 0.0,
-      "prev_close": 57499.16
+      "date": "2026-11-26",
+      "close": 57499.16,
+      "open": 57429.54,
+      "high": 58251.93,
+      "low": 57288.1,
+      "volume": 165100000.0,
+      "prev_close": 57011.62
     },
     "usdjpy": {
       "date": "2026-11-27",
-      "close": 159.43,
-      "open": 159.23,
-      "high": 159.44,
-      "low": 159.13,
+      "close": 159.28,
+      "open": 159.28,
+      "high": 159.59,
+      "low": 159.14,
       "volume": 0.0,
       "prev_close": 159.21
     },
     "sox": {
-      "date": "2026-11-25",
-      "close": 8774.86,
-      "open": 8302.93,
-      "high": 8781.01,
-      "low": 8129.24,
+      "date": "2026-11-27",
+      "close": 9186.71,
+      "open": 9036.29,
+      "high": 9213.64,
+      "low": 8789.31,
       "volume": 0.0,
-      "prev_close": 8832.5
+      "prev_close": 8774.86
     },
     "us10y": {
-      "date": "2026-11-25",
-      "close": 4.85,
-      "open": 4.84,
-      "high": 4.86,
-      "low": 4.8,
+      "date": "2026-11-27",
+      "close": 4.94,
+      "open": 4.9,
+      "high": 4.94,
+      "low": 4.88,
       "volume": 0.0,
-      "prev_close": 4.9
+      "prev_close": 4.85
     },
     "growth250_etf": {
       "date": "2026-11-27",
@@ -180,11 +180,11 @@
     },
     "nikkei_futures": {
       "date": "2026-11-27",
-      "close": 58690.0,
+      "close": 58970.0,
       "open": 57310.0,
-      "high": 58850.0,
+      "high": 59020.0,
       "low": 57220.0,
-      "volume": 20142.0,
+      "volume": 32010.0,
       "prev_close": 57345.0
     },
     "topix_etf": {
